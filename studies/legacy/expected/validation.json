@@ -1,0 +1,13 @@
+{
+  "post_hoc": true,
+  "seed": 20260911,
+  "bootstrap_replicates": 5000,
+  "boundary_checks": 2460,
+  "complete_curves_checked": 12312,
+  "saved_code_curves_compared": 4690,
+  "disagreements": [],
+  "total_export_rows": 111888,
+  "complete_rows": 111632,
+  "missing_rows": 256,
+  "similar_accuracy_pairs": 18
+}

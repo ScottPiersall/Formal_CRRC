@@ -1,0 +1,2282 @@
+[
+  {
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 260,
+    "parse_failures": 16,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.057971014492753624,
+    "parse_failure_rate_planned": 0.057971014492753624,
+    "parsed_yield_planned": 0.9420289855072463,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.057971014492753624,
+      "CI95": [
+        0.03260869565217391,
+        0.08695652173913043
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 260,
+      "estimate": 0.6269230769230769,
+      "CI95": [
+        0.5692307692307692,
+        0.6884615384615385
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5905797101449275,
+    "full_population_identification_bounds": [
+      0.5905797101449275,
+      0.6485507246376812
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 260,
+    "parse_failures": 16,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.057971014492753624,
+    "parse_failure_rate_planned": 0.057971014492753624,
+    "parsed_yield_planned": 0.9420289855072463,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.057971014492753624,
+      "CI95": [
+        0.03260869565217391,
+        0.08695652173913043
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 260,
+      "estimate": 0.7974358974358974,
+      "CI95": [
+        0.7572649572649572,
+        0.8367521367521367
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.751207729468599,
+    "full_population_identification_bounds": [
+      0.751207729468599,
+      0.8091787439613528
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 260,
+    "parse_failures": 16,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.057971014492753624,
+    "parse_failure_rate_planned": 0.057971014492753624,
+    "parsed_yield_planned": 0.9420289855072463,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.057971014492753624,
+      "CI95": [
+        0.03260869565217391,
+        0.08695652173913043
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 260,
+      "estimate": 0.6269230769230769,
+      "CI95": [
+        0.5692307692307692,
+        0.6884615384615385
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5905797101449275,
+    "full_population_identification_bounds": [
+      0.5905797101449275,
+      0.6485507246376812
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 261,
+    "parse_failures": 15,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.05434782608695652,
+    "parse_failure_rate_planned": 0.05434782608695652,
+    "parsed_yield_planned": 0.9456521739130435,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.05434782608695652,
+      "CI95": [
+        0.028985507246376812,
+        0.08333333333333333
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 261,
+      "estimate": 0.5287356321839081,
+      "CI95": [
+        0.4674329501915709,
+        0.5900383141762452
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5,
+    "full_population_identification_bounds": [
+      0.5,
+      0.5543478260869565
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 261,
+    "parse_failures": 15,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.05434782608695652,
+    "parse_failure_rate_planned": 0.05434782608695652,
+    "parsed_yield_planned": 0.9456521739130435,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.05434782608695652,
+      "CI95": [
+        0.028985507246376812,
+        0.08333333333333333
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 261,
+      "estimate": 0.7594721157939549,
+      "CI95": [
+        0.7181779480630056,
+        0.800340570455513
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.7181964573268921,
+    "full_population_identification_bounds": [
+      0.7181964573268921,
+      0.7725442834138486
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 261,
+    "parse_failures": 15,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.05434782608695652,
+    "parse_failure_rate_planned": 0.05434782608695652,
+    "parsed_yield_planned": 0.9456521739130435,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.05434782608695652,
+      "CI95": [
+        0.028985507246376812,
+        0.08333333333333333
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 261,
+      "estimate": 0.5287356321839081,
+      "CI95": [
+        0.4674329501915709,
+        0.5900383141762452
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5,
+    "full_population_identification_bounds": [
+      0.5,
+      0.5543478260869565
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 240,
+    "parse_failures": 36,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.13043478260869565,
+    "parse_failure_rate_planned": 0.13043478260869565,
+    "parsed_yield_planned": 0.8695652173913043,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.13043478260869565,
+      "CI95": [
+        0.09402173913043485,
+        0.17028985507246377
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 240,
+      "estimate": 0.16666666666666666,
+      "CI95": [
+        0.12083333333333333,
+        0.21666666666666667
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.14492753623188406,
+    "full_population_identification_bounds": [
+      0.14492753623188406,
+      0.2753623188405797
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 240,
+    "parse_failures": 36,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.13043478260869565,
+    "parse_failure_rate_planned": 0.13043478260869565,
+    "parsed_yield_planned": 0.8695652173913043,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.13043478260869565,
+      "CI95": [
+        0.09402173913043485,
+        0.17028985507246377
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 240,
+      "estimate": 0.5578703703703703,
+      "CI95": [
+        0.514351851851852,
+        0.601388888888889
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.4851046698872786,
+    "full_population_identification_bounds": [
+      0.4851046698872786,
+      0.6155394524959743
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 240,
+    "parse_failures": 36,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.13043478260869565,
+    "parse_failure_rate_planned": 0.13043478260869565,
+    "parsed_yield_planned": 0.8695652173913043,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.13043478260869565,
+      "CI95": [
+        0.09402173913043485,
+        0.17028985507246377
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 240,
+      "estimate": 0.16666666666666666,
+      "CI95": [
+        0.12083333333333333,
+        0.21666666666666667
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.14492753623188406,
+    "full_population_identification_bounds": [
+      0.14492753623188406,
+      0.2753623188405797
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 256,
+    "parse_failures": 20,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.07246376811594203,
+    "parse_failure_rate_planned": 0.07246376811594203,
+    "parsed_yield_planned": 0.927536231884058,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.07246376811594203,
+      "CI95": [
+        0.043478260869565216,
+        0.10507246376811594
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 256,
+      "estimate": 0.125,
+      "CI95": [
+        0.0859375,
+        0.1640625
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.11594202898550725,
+    "full_population_identification_bounds": [
+      0.11594202898550725,
+      0.18840579710144928
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 256,
+    "parse_failures": 20,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.07246376811594203,
+    "parse_failure_rate_planned": 0.07246376811594203,
+    "parsed_yield_planned": 0.927536231884058,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.07246376811594203,
+      "CI95": [
+        0.043478260869565216,
+        0.10507246376811594
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 256,
+      "estimate": 0.5520833333333333,
+      "CI95": [
+        0.5130208333333334,
+        0.5907118055555556
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5120772946859904,
+    "full_population_identification_bounds": [
+      0.5120772946859904,
+      0.5845410628019325
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 276,
+    "observed_generation_receipts": 276,
+    "parsed": 256,
+    "parse_failures": 20,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.07246376811594203,
+    "parse_failure_rate_planned": 0.07246376811594203,
+    "parsed_yield_planned": 0.927536231884058,
+    "parse_failure_task_CI95": {
+      "n": 276,
+      "estimate": 0.07246376811594203,
+      "CI95": [
+        0.043478260869565216,
+        0.10507246376811594
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 256,
+      "estimate": 0.125,
+      "CI95": [
+        0.0859375,
+        0.1640625
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.11594202898550725,
+    "full_population_identification_bounds": [
+      0.11594202898550725,
+      0.18840579710144928
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 29,
+    "parse_failures": 4,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.12121212121212122,
+    "parse_failure_rate_planned": 0.12121212121212122,
+    "parsed_yield_planned": 0.8787878787878788,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.12121212121212122,
+      "CI95": [
+        0.030303030303030304,
+        0.24242424242424243
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 29,
+      "estimate": 0.20689655172413793,
+      "CI95": [
+        0.06896551724137931,
+        0.3793103448275862
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.18181818181818182,
+    "full_population_identification_bounds": [
+      0.18181818181818182,
+      0.30303030303030304
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 29,
+    "parse_failures": 4,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.12121212121212122,
+    "parse_failure_rate_planned": 0.12121212121212122,
+    "parsed_yield_planned": 0.8787878787878788,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.12121212121212122,
+      "CI95": [
+        0.030303030303030304,
+        0.24242424242424243
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 29,
+      "estimate": 0.6743295019157087,
+      "CI95": [
+        0.5745210727969349,
+        0.7739463601532567
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5925925925925927,
+    "full_population_identification_bounds": [
+      0.5925925925925927,
+      0.7138047138047139
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 29,
+    "parse_failures": 4,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.12121212121212122,
+    "parse_failure_rate_planned": 0.12121212121212122,
+    "parsed_yield_planned": 0.8787878787878788,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.12121212121212122,
+      "CI95": [
+        0.030303030303030304,
+        0.24242424242424243
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 29,
+      "estimate": 0.20689655172413793,
+      "CI95": [
+        0.06896551724137931,
+        0.3793103448275862
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.18181818181818182,
+    "full_population_identification_bounds": [
+      0.18181818181818182,
+      0.30303030303030304
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 30,
+    "parse_failures": 3,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.09090909090909091,
+    "parse_failure_rate_planned": 0.09090909090909091,
+    "parsed_yield_planned": 0.9090909090909091,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.09090909090909091,
+      "CI95": [
+        0.0,
+        0.21212121212121213
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 30,
+      "estimate": 0.1,
+      "CI95": [
+        0.0,
+        0.23333333333333334
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.09090909090909091,
+    "full_population_identification_bounds": [
+      0.09090909090909091,
+      0.18181818181818182
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 30,
+    "parse_failures": 3,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.09090909090909091,
+    "parse_failure_rate_planned": 0.09090909090909091,
+    "parsed_yield_planned": 0.9090909090909091,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.09090909090909091,
+      "CI95": [
+        0.0,
+        0.21212121212121213
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 30,
+      "estimate": 0.6666666666666666,
+      "CI95": [
+        0.5777777777777778,
+        0.7518518518518519
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6060606060606061,
+    "full_population_identification_bounds": [
+      0.6060606060606061,
+      0.696969696969697
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 30,
+    "parse_failures": 3,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.09090909090909091,
+    "parse_failure_rate_planned": 0.09090909090909091,
+    "parsed_yield_planned": 0.9090909090909091,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.09090909090909091,
+      "CI95": [
+        0.0,
+        0.21212121212121213
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 30,
+      "estimate": 0.1,
+      "CI95": [
+        0.0,
+        0.23333333333333334
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.09090909090909091,
+    "full_population_identification_bounds": [
+      0.09090909090909091,
+      0.18181818181818182
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 29,
+    "parse_failures": 4,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.12121212121212122,
+    "parse_failure_rate_planned": 0.12121212121212122,
+    "parsed_yield_planned": 0.8787878787878788,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.12121212121212122,
+      "CI95": [
+        0.030303030303030304,
+        0.24242424242424243
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 29,
+      "estimate": 0.10344827586206896,
+      "CI95": [
+        0.0,
+        0.2413793103448276
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.09090909090909091,
+    "full_population_identification_bounds": [
+      0.09090909090909091,
+      0.21212121212121213
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 29,
+    "parse_failures": 4,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.12121212121212122,
+    "parse_failure_rate_planned": 0.12121212121212122,
+    "parsed_yield_planned": 0.8787878787878788,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.12121212121212122,
+      "CI95": [
+        0.030303030303030304,
+        0.24242424242424243
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 29,
+      "estimate": 0.6551724137931033,
+      "CI95": [
+        0.5593869731800767,
+        0.7509578544061303
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5757575757575758,
+    "full_population_identification_bounds": [
+      0.5757575757575758,
+      0.696969696969697
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 29,
+    "parse_failures": 4,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.12121212121212122,
+    "parse_failure_rate_planned": 0.12121212121212122,
+    "parsed_yield_planned": 0.8787878787878788,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.12121212121212122,
+      "CI95": [
+        0.030303030303030304,
+        0.24242424242424243
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 29,
+      "estimate": 0.10344827586206896,
+      "CI95": [
+        0.0,
+        0.2413793103448276
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.09090909090909091,
+    "full_population_identification_bounds": [
+      0.09090909090909091,
+      0.21212121212121213
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 33,
+    "parse_failures": 0,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.0,
+    "parse_failure_rate_planned": 0.0,
+    "parsed_yield_planned": 1.0,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 33,
+      "estimate": 0.24242424242424243,
+      "CI95": [
+        0.12121212121212122,
+        0.3939393939393939
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.24242424242424243,
+    "full_population_identification_bounds": [
+      0.24242424242424243,
+      0.24242424242424243
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 33,
+    "parse_failures": 0,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.0,
+    "parse_failure_rate_planned": 0.0,
+    "parsed_yield_planned": 1.0,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 33,
+      "estimate": 0.7306397306397308,
+      "CI95": [
+        0.6464646464646465,
+        0.8114478114478114
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.7306397306397306,
+    "full_population_identification_bounds": [
+      0.7306397306397306,
+      0.7306397306397308
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 33,
+    "observed_generation_receipts": 33,
+    "parsed": 33,
+    "parse_failures": 0,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.0,
+    "parse_failure_rate_planned": 0.0,
+    "parsed_yield_planned": 1.0,
+    "parse_failure_task_CI95": {
+      "n": 33,
+      "estimate": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 33,
+      "estimate": 0.24242424242424243,
+      "CI95": [
+        0.12121212121212122,
+        0.3939393939393939
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.24242424242424243,
+    "full_population_identification_bounds": [
+      0.24242424242424243,
+      0.24242424242424243
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 137,
+    "parse_failures": 7,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.04861111111111111,
+    "parse_failure_rate_planned": 0.04861111111111111,
+    "parsed_yield_planned": 0.9513888888888888,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.04861111111111111,
+      "CI95": [
+        0.013888888888888888,
+        0.08333333333333333
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 137,
+      "estimate": 0.5620437956204379,
+      "CI95": [
+        0.48175182481751827,
+        0.6496350364963503
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5347222222222222,
+    "full_population_identification_bounds": [
+      0.5347222222222222,
+      0.5833333333333334
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 137,
+    "parse_failures": 7,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.04861111111111111,
+    "parse_failure_rate_planned": 0.04861111111111111,
+    "parsed_yield_planned": 0.9513888888888888,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.04861111111111111,
+      "CI95": [
+        0.013888888888888888,
+        0.08333333333333333
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 137,
+      "estimate": 0.7331711273317113,
+      "CI95": [
+        0.6714922952149228,
+        0.7939983779399838
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6975308641975309,
+    "full_population_identification_bounds": [
+      0.6975308641975309,
+      0.746141975308642
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 137,
+    "parse_failures": 7,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.04861111111111111,
+    "parse_failure_rate_planned": 0.04861111111111111,
+    "parsed_yield_planned": 0.9513888888888888,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.04861111111111111,
+      "CI95": [
+        0.013888888888888888,
+        0.08333333333333333
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 137,
+      "estimate": 0.5620437956204379,
+      "CI95": [
+        0.48175182481751827,
+        0.6496350364963503
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.5347222222222222,
+    "full_population_identification_bounds": [
+      0.5347222222222222,
+      0.5833333333333334
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 138,
+    "parse_failures": 6,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.041666666666666664,
+    "parse_failure_rate_planned": 0.041666666666666664,
+    "parsed_yield_planned": 0.9583333333333334,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.041666666666666664,
+      "CI95": [
+        0.013888888888888888,
+        0.0763888888888889
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 138,
+      "estimate": 0.4855072463768116,
+      "CI95": [
+        0.39855072463768115,
+        0.572463768115942
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.4652777777777778,
+    "full_population_identification_bounds": [
+      0.4652777777777778,
+      0.5069444444444444
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 138,
+    "parse_failures": 6,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.041666666666666664,
+    "parse_failure_rate_planned": 0.041666666666666664,
+    "parsed_yield_planned": 0.9583333333333334,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.041666666666666664,
+      "CI95": [
+        0.013888888888888888,
+        0.0763888888888889
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 138,
+      "estimate": 0.6924315619967794,
+      "CI95": [
+        0.6295893719806763,
+        0.7536231884057971
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6635802469135803,
+    "full_population_identification_bounds": [
+      0.6635802469135803,
+      0.7052469135802468
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 138,
+    "parse_failures": 6,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.041666666666666664,
+    "parse_failure_rate_planned": 0.041666666666666664,
+    "parsed_yield_planned": 0.9583333333333334,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.041666666666666664,
+      "CI95": [
+        0.013888888888888888,
+        0.0763888888888889
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 138,
+      "estimate": 0.4855072463768116,
+      "CI95": [
+        0.39855072463768115,
+        0.572463768115942
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.4652777777777778,
+    "full_population_identification_bounds": [
+      0.4652777777777778,
+      0.5069444444444444
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 129,
+    "parse_failures": 15,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.10416666666666667,
+    "parse_failure_rate_planned": 0.10416666666666667,
+    "parsed_yield_planned": 0.8958333333333334,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.10416666666666667,
+      "CI95": [
+        0.05555555555555555,
+        0.1527777777777778
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 129,
+      "estimate": 0.031007751937984496,
+      "CI95": [
+        0.007751937984496124,
+        0.06201550387596899
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.027777777777777776,
+    "full_population_identification_bounds": [
+      0.027777777777777776,
+      0.13194444444444445
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 129,
+    "parse_failures": 15,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.10416666666666667,
+    "parse_failure_rate_planned": 0.10416666666666667,
+    "parsed_yield_planned": 0.8958333333333334,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.10416666666666667,
+      "CI95": [
+        0.05555555555555555,
+        0.1527777777777778
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 129,
+      "estimate": 0.36606373815676146,
+      "CI95": [
+        0.3169681309216193,
+        0.4160206718346254
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.32793209876543217,
+    "full_population_identification_bounds": [
+      0.32793209876543217,
+      0.4320987654320988
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 129,
+    "parse_failures": 15,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.10416666666666667,
+    "parse_failure_rate_planned": 0.10416666666666667,
+    "parsed_yield_planned": 0.8958333333333334,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.10416666666666667,
+      "CI95": [
+        0.05555555555555555,
+        0.1527777777777778
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 129,
+      "estimate": 0.031007751937984496,
+      "CI95": [
+        0.007751937984496124,
+        0.06201550387596899
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.027777777777777776,
+    "full_population_identification_bounds": [
+      0.027777777777777776,
+      0.13194444444444445
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 131,
+    "parse_failures": 13,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.09027777777777778,
+    "parse_failure_rate_planned": 0.09027777777777778,
+    "parsed_yield_planned": 0.9097222222222222,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.09027777777777778,
+      "CI95": [
+        0.04861111111111111,
+        0.1388888888888889
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 131,
+      "estimate": 0.061068702290076333,
+      "CI95": [
+        0.022900763358778626,
+        0.10687022900763359
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.05555555555555555,
+    "full_population_identification_bounds": [
+      0.05555555555555555,
+      0.14583333333333334
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 131,
+    "parse_failures": 13,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.09027777777777778,
+    "parse_failure_rate_planned": 0.09027777777777778,
+    "parsed_yield_planned": 0.9097222222222222,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.09027777777777778,
+      "CI95": [
+        0.04861111111111111,
+        0.1388888888888889
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 131,
+      "estimate": 0.4291772688719254,
+      "CI95": [
+        0.3782866836301951,
+        0.4817642069550467
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.3904320987654321,
+    "full_population_identification_bounds": [
+      0.3904320987654321,
+      0.4807098765432099
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 144,
+    "observed_generation_receipts": 144,
+    "parsed": 131,
+    "parse_failures": 13,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.09027777777777778,
+    "parse_failure_rate_planned": 0.09027777777777778,
+    "parsed_yield_planned": 0.9097222222222222,
+    "parse_failure_task_CI95": {
+      "n": 144,
+      "estimate": 0.09027777777777778,
+      "CI95": [
+        0.04861111111111111,
+        0.1388888888888889
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 131,
+      "estimate": 0.061068702290076333,
+      "CI95": [
+        0.022900763358778626,
+        0.10687022900763359
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.05555555555555555,
+    "full_population_identification_bounds": [
+      0.05555555555555555,
+      0.14583333333333334
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 94,
+    "parse_failures": 5,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.050505050505050504,
+    "parse_failure_rate_planned": 0.050505050505050504,
+    "parsed_yield_planned": 0.9494949494949495,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.050505050505050504,
+      "CI95": [
+        0.010101010101010102,
+        0.10101010101010101
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 94,
+      "estimate": 0.851063829787234,
+      "CI95": [
+        0.776595744680851,
+        0.925531914893617
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.8080808080808081,
+    "full_population_identification_bounds": [
+      0.8080808080808081,
+      0.8585858585858586
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 94,
+    "parse_failures": 5,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.050505050505050504,
+    "parse_failure_rate_planned": 0.050505050505050504,
+    "parsed_yield_planned": 0.9494949494949495,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.050505050505050504,
+      "CI95": [
+        0.010101010101010102,
+        0.10101010101010101
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 94,
+      "estimate": 0.9290780141843973,
+      "CI95": [
+        0.8853427895981089,
+        0.966903073286052
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.8821548821548821,
+    "full_population_identification_bounds": [
+      0.8821548821548821,
+      0.9326599326599325
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 94,
+    "parse_failures": 5,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.050505050505050504,
+    "parse_failure_rate_planned": 0.050505050505050504,
+    "parsed_yield_planned": 0.9494949494949495,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.050505050505050504,
+      "CI95": [
+        0.010101010101010102,
+        0.10101010101010101
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 94,
+      "estimate": 0.851063829787234,
+      "CI95": [
+        0.776595744680851,
+        0.925531914893617
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.8080808080808081,
+    "full_population_identification_bounds": [
+      0.8080808080808081,
+      0.8585858585858586
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 93,
+    "parse_failures": 6,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.06060606060606061,
+    "parse_failure_rate_planned": 0.06060606060606061,
+    "parsed_yield_planned": 0.9393939393939394,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.06060606060606061,
+      "CI95": [
+        0.020202020202020204,
+        0.1111111111111111
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 93,
+      "estimate": 0.7311827956989247,
+      "CI95": [
+        0.6451612903225806,
+        0.8172043010752689
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6868686868686869,
+    "full_population_identification_bounds": [
+      0.6868686868686869,
+      0.7474747474747475
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 93,
+    "parse_failures": 6,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.06060606060606061,
+    "parse_failure_rate_planned": 0.06060606060606061,
+    "parsed_yield_planned": 0.9393939393939394,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.06060606060606061,
+      "CI95": [
+        0.020202020202020204,
+        0.1111111111111111
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 93,
+      "estimate": 0.8888888888888888,
+      "CI95": [
+        0.8375149342891278,
+        0.9354838709677419
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.8350168350168351,
+    "full_population_identification_bounds": [
+      0.8350168350168351,
+      0.8956228956228958
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 93,
+    "parse_failures": 6,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.06060606060606061,
+    "parse_failure_rate_planned": 0.06060606060606061,
+    "parsed_yield_planned": 0.9393939393939394,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.06060606060606061,
+      "CI95": [
+        0.020202020202020204,
+        0.1111111111111111
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 93,
+      "estimate": 0.7311827956989247,
+      "CI95": [
+        0.6451612903225806,
+        0.8172043010752689
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6868686868686869,
+    "full_population_identification_bounds": [
+      0.6868686868686869,
+      0.7474747474747475
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 82,
+    "parse_failures": 17,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.1717171717171717,
+    "parse_failure_rate_planned": 0.1717171717171717,
+    "parsed_yield_planned": 0.8282828282828283,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.1717171717171717,
+      "CI95": [
+        0.10101010101010101,
+        0.25252525252525254
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 82,
+      "estimate": 0.4024390243902439,
+      "CI95": [
+        0.3048780487804878,
+        0.5121951219512195
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.3333333333333333,
+    "full_population_identification_bounds": [
+      0.3333333333333333,
+      0.5050505050505051
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 82,
+    "parse_failures": 17,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.1717171717171717,
+    "parse_failure_rate_planned": 0.1717171717171717,
+    "parsed_yield_planned": 0.8282828282828283,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.1717171717171717,
+      "CI95": [
+        0.10101010101010101,
+        0.25252525252525254
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 82,
+      "estimate": 0.8252032520325202,
+      "CI95": [
+        0.7696476964769648,
+        0.8739837398373983
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6835016835016835,
+    "full_population_identification_bounds": [
+      0.6835016835016835,
+      0.8552188552188554
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 82,
+    "parse_failures": 17,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.1717171717171717,
+    "parse_failure_rate_planned": 0.1717171717171717,
+    "parsed_yield_planned": 0.8282828282828283,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.1717171717171717,
+      "CI95": [
+        0.10101010101010101,
+        0.25252525252525254
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 82,
+      "estimate": 0.4024390243902439,
+      "CI95": [
+        0.3048780487804878,
+        0.5121951219512195
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.3333333333333333,
+    "full_population_identification_bounds": [
+      0.3333333333333333,
+      0.5050505050505051
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 92,
+    "parse_failures": 7,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.0707070707070707,
+    "parse_failure_rate_planned": 0.0707070707070707,
+    "parsed_yield_planned": 0.9292929292929293,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.0707070707070707,
+      "CI95": [
+        0.020202020202020204,
+        0.12121212121212122
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 92,
+      "estimate": 0.17391304347826086,
+      "CI95": [
+        0.09782608695652174,
+        0.25
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.16161616161616163,
+    "full_population_identification_bounds": [
+      0.16161616161616163,
+      0.23232323232323232
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 92,
+    "parse_failures": 7,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.0707070707070707,
+    "parse_failure_rate_planned": 0.0707070707070707,
+    "parsed_yield_planned": 0.9292929292929293,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.0707070707070707,
+      "CI95": [
+        0.020202020202020204,
+        0.12121212121212122
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 92,
+      "estimate": 0.6630434782608695,
+      "CI95": [
+        0.6026570048309179,
+        0.7222222222222223
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6161616161616161,
+    "full_population_identification_bounds": [
+      0.6161616161616161,
+      0.6868686868686869
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 99,
+    "observed_generation_receipts": 99,
+    "parsed": 92,
+    "parse_failures": 7,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.0707070707070707,
+    "parse_failure_rate_planned": 0.0707070707070707,
+    "parsed_yield_planned": 0.9292929292929293,
+    "parse_failure_task_CI95": {
+      "n": 99,
+      "estimate": 0.0707070707070707,
+      "CI95": [
+        0.020202020202020204,
+        0.12121212121212122
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 92,
+      "estimate": 0.17391304347826086,
+      "CI95": [
+        0.09782608695652174,
+        0.25
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.16161616161616163,
+    "full_population_identification_bounds": [
+      0.16161616161616163,
+      0.23232323232323232
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 166,
+    "parse_failures": 11,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.062146892655367235,
+    "parse_failure_rate_planned": 0.062146892655367235,
+    "parsed_yield_planned": 0.9378531073446328,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.062146892655367235,
+      "CI95": [
+        0.02824858757062147,
+        0.1016949152542373
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 166,
+      "estimate": 0.5,
+      "CI95": [
+        0.42771084337349397,
+        0.5783132530120482
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.4689265536723164,
+    "full_population_identification_bounds": [
+      0.4689265536723164,
+      0.5310734463276836
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 166,
+    "parse_failures": 11,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.062146892655367235,
+    "parse_failure_rate_planned": 0.062146892655367235,
+    "parsed_yield_planned": 0.9378531073446328,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.062146892655367235,
+      "CI95": [
+        0.02824858757062147,
+        0.1016949152542373
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 166,
+      "estimate": 0.7228915662650602,
+      "CI95": [
+        0.6686746987951808,
+        0.7751004016064258
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6779661016949152,
+    "full_population_identification_bounds": [
+      0.6779661016949152,
+      0.7401129943502824
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 166,
+    "parse_failures": 11,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.062146892655367235,
+    "parse_failure_rate_planned": 0.062146892655367235,
+    "parsed_yield_planned": 0.9378531073446328,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.062146892655367235,
+      "CI95": [
+        0.02824858757062147,
+        0.1016949152542373
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 166,
+      "estimate": 0.5,
+      "CI95": [
+        0.42771084337349397,
+        0.5783132530120482
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.4689265536723164,
+    "full_population_identification_bounds": [
+      0.4689265536723164,
+      0.5310734463276836
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 168,
+    "parse_failures": 9,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.05084745762711865,
+    "parse_failure_rate_planned": 0.05084745762711865,
+    "parsed_yield_planned": 0.9491525423728814,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.05084745762711865,
+      "CI95": [
+        0.022598870056497175,
+        0.0847457627118644
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 168,
+      "estimate": 0.4166666666666667,
+      "CI95": [
+        0.34523809523809523,
+        0.49404761904761907
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.3954802259887006,
+    "full_population_identification_bounds": [
+      0.3954802259887006,
+      0.4463276836158192
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 168,
+    "parse_failures": 9,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.05084745762711865,
+    "parse_failure_rate_planned": 0.05084745762711865,
+    "parsed_yield_planned": 0.9491525423728814,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.05084745762711865,
+      "CI95": [
+        0.022598870056497175,
+        0.0847457627118644
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 168,
+      "estimate": 0.6878306878306878,
+      "CI95": [
+        0.632936507936508,
+        0.7414021164021165
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.6528562460765851,
+    "full_population_identification_bounds": [
+      0.6528562460765851,
+      0.7037037037037036
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 168,
+    "parse_failures": 9,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.05084745762711865,
+    "parse_failure_rate_planned": 0.05084745762711865,
+    "parsed_yield_planned": 0.9491525423728814,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.05084745762711865,
+      "CI95": [
+        0.022598870056497175,
+        0.0847457627118644
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 168,
+      "estimate": 0.4166666666666667,
+      "CI95": [
+        0.34523809523809523,
+        0.49404761904761907
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.3954802259887006,
+    "full_population_identification_bounds": [
+      0.3954802259887006,
+      0.4463276836158192
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 158,
+    "parse_failures": 19,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.10734463276836158,
+    "parse_failure_rate_planned": 0.10734463276836158,
+    "parsed_yield_planned": 0.8926553672316384,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.10734463276836158,
+      "CI95": [
+        0.06751412429378541,
+        0.15819209039548024
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 158,
+      "estimate": 0.04430379746835443,
+      "CI95": [
+        0.012658227848101266,
+        0.0759493670886076
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.03954802259887006,
+    "full_population_identification_bounds": [
+      0.03954802259887006,
+      0.14689265536723164
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 158,
+    "parse_failures": 19,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.10734463276836158,
+    "parse_failure_rate_planned": 0.10734463276836158,
+    "parsed_yield_planned": 0.8926553672316384,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.10734463276836158,
+      "CI95": [
+        0.06751412429378541,
+        0.15819209039548024
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 158,
+      "estimate": 0.419127988748242,
+      "CI95": [
+        0.3719760900140647,
+        0.46835443037974683
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.3741368487131199,
+    "full_population_identification_bounds": [
+      0.3741368487131199,
+      0.4814814814814815
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 158,
+    "parse_failures": 19,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.10734463276836158,
+    "parse_failure_rate_planned": 0.10734463276836158,
+    "parsed_yield_planned": 0.8926553672316384,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.10734463276836158,
+      "CI95": [
+        0.06751412429378541,
+        0.15819209039548024
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 158,
+      "estimate": 0.04430379746835443,
+      "CI95": [
+        0.012658227848101266,
+        0.0759493670886076
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.03954802259887006,
+    "full_population_identification_bounds": [
+      0.03954802259887006,
+      0.14689265536723164
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 164,
+    "parse_failures": 13,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.07344632768361582,
+    "parse_failure_rate_planned": 0.07344632768361582,
+    "parsed_yield_planned": 0.9265536723163842,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.07344632768361582,
+      "CI95": [
+        0.03954802259887006,
+        0.11299435028248588
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "count_exact_match",
+    "parsed_only": {
+      "n": 164,
+      "estimate": 0.0975609756097561,
+      "CI95": [
+        0.054878048780487805,
+        0.14634146341463414
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.0903954802259887,
+    "full_population_identification_bounds": [
+      0.0903954802259887,
+      0.1638418079096045
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 164,
+    "parse_failures": 13,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.07344632768361582,
+    "parse_failure_rate_planned": 0.07344632768361582,
+    "parsed_yield_planned": 0.9265536723163842,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.07344632768361582,
+      "CI95": [
+        0.03954802259887006,
+        0.11299435028248588
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "accuracy",
+    "parsed_only": {
+      "n": 164,
+      "estimate": 0.4898373983739838,
+      "CI95": [
+        0.4417344173441735,
+        0.5386178861788617
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.45386064030131823,
+    "full_population_identification_bounds": [
+      0.45386064030131823,
+      0.5273069679849339
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  },
+  {
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "planned_tasks": 177,
+    "observed_generation_receipts": 177,
+    "parsed": 164,
+    "parse_failures": 13,
+    "unobserved": 0,
+    "parse_failure_rate_observed": 0.07344632768361582,
+    "parse_failure_rate_planned": 0.07344632768361582,
+    "parsed_yield_planned": 0.9265536723163842,
+    "parse_failure_task_CI95": {
+      "n": 177,
+      "estimate": 0.07344632768361582,
+      "CI95": [
+        0.03954802259887006,
+        0.11299435028248588
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "metric": "direct_all_nine",
+    "parsed_only": {
+      "n": 164,
+      "estimate": 0.0975609756097561,
+      "CI95": [
+        0.054878048780487805,
+        0.14634146341463414
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "observed_success_yield_planned": 0.0903954802259887,
+    "full_population_identification_bounds": [
+      0.0903954802259887,
+      0.1638418079096045
+    ],
+    "note": "direct all-nine equals count exact match by deterministic comparison; not independent evidence. No recoverability-score superiority claim."
+  }
+]

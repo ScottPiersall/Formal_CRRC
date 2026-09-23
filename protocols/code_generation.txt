@@ -1,0 +1,3 @@
+Complete the following Python function. Return the full Python code, including required standard-library imports, in one Python code block.
+
+{problem}

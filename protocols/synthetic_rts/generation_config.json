@@ -1,0 +1,59 @@
+{
+  "stage_d": {
+    "candidate_met": " A",
+    "candidate_not_met": " B",
+    "candidate_tokenization_rule": "prompt_continuation_difference",
+    "candidates": {
+      "candidate_met": " A",
+      "candidate_not_met": " B",
+      "isolated_met_token_ids": [
+        362
+      ],
+      "isolated_not_met_token_ids": [
+        425
+      ],
+      "met_token_ids": [
+        362
+      ],
+      "multi_token": false,
+      "not_met_token_ids": [
+        425
+      ],
+      "scoring_method": "sequence_loglikelihood",
+      "tokenization_rule": "prompt_continuation_difference"
+    },
+    "canonical_margin": "M_R = L_A - L_B",
+    "no_eos_probability": true,
+    "no_length_normalization": true,
+    "scoring_method": "sequence_loglikelihood"
+  },
+  "stage_r": {
+    "experiment_seed": 42,
+    "generation_parameter_source": "chosen for cross-study procedural comparability with the reasoning-anchor experiment; not claimed to be optimised for Qwen2.5",
+    "marker": "FINAL:",
+    "marker_stop_rule": "Sequence-aware stop on the complete marker string. Generation halts after the last token of the marker and before the next generated token, so the model never produces the A/B label used for the primary margin.",
+    "marker_tokenization": {
+      "contextual_token_ids": [
+        98848,
+        25
+      ],
+      "isolated_token_ids": [
+        98848,
+        25
+      ],
+      "marker": "FINAL:",
+      "marker_bytes_hex": "46494e414c3a",
+      "multi_token": true,
+      "n_tokens": 2
+    },
+    "min_p": 0.0,
+    "min_p_status": "supported",
+    "reasoning_token_budget": 8192,
+    "samples_per_row": 1,
+    "seed_modulus": 2147483647,
+    "seed_rule": "seed_r = int.from_bytes(sha256(f'{base_seed}|{artifact_id}|{strictness_index}'.encode('utf-8')).digest()[:8], 'big') % 2147483647. Same convention as the reasoning-anchor study. SHA-256 is used because Python's built-in hash() is process-randomised and would not reproduce.",
+    "temperature": 0.6,
+    "top_k": 20,
+    "top_p": 0.95
+  }
+}

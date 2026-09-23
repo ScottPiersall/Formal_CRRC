@@ -1,0 +1,26 @@
+{
+  "do_sample": false,
+  "engine": {
+    "dtype": "bfloat16",
+    "enable_chunked_prefill": true,
+    "enable_prefix_caching": false,
+    "enforce_eager": false,
+    "gpu_memory_utilization": 0.9,
+    "logprobs_mode": "raw_logprobs",
+    "max_model_len": 32768,
+    "max_num_batched_tokens": 512,
+    "max_num_seqs": 8,
+    "quantization": null,
+    "seed": 20260911,
+    "tensor_parallel_size": 1
+  },
+  "include_stop_str_in_output": true,
+  "max_tokens": 8192,
+  "min_p": 0,
+  "n": 1,
+  "repetition_penalty": 1,
+  "seed": 20260911,
+  "temperature": 0,
+  "top_k": -1,
+  "top_p": 1
+}

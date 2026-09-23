@@ -1,0 +1,4290 @@
+[
+  {
+    "key": "partial__original__bare__k0__accuracy",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k0__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k0__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k0__direct_sequence_correct",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k0__tce",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k0__oracle_min_errors",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k0__oracle_fsrr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k0__oracle_trr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k1__accuracy",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k1__direct_sequence_correct",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k1__tce",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k1__oracle_min_errors",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k1__oracle_fsrr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__bare__k1__oracle_trr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k0__accuracy",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k0__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k0__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k0__direct_sequence_correct",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k0__tce",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k0__oracle_min_errors",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k0__oracle_fsrr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k0__oracle_trr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k1__accuracy",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k1__direct_sequence_correct",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k1__tce",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k1__oracle_min_errors",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k1__oracle_fsrr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__original__whitespace_union__k1__oracle_trr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k0__accuracy",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k0__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k0__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k0__direct_sequence_correct",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k0__tce",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k0__oracle_min_errors",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k0__oracle_fsrr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k0__oracle_trr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k1__accuracy",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k1__direct_sequence_correct",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k1__tce",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k1__oracle_min_errors",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k1__oracle_fsrr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__bare__k1__oracle_trr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k0__accuracy",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k0__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k0__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k0__direct_sequence_correct",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k0__tce",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k0__oracle_min_errors",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k0__oracle_fsrr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k0__oracle_trr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k1__accuracy",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k1__direct_sequence_correct",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k1__tce",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k1__oracle_min_errors",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k1__oracle_fsrr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "partial__explicit__whitespace_union__k1__oracle_trr_all",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k0__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k0__fsrr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k0__trr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k0__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k0__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k0__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k0__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k0__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k1__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k1__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k1__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k1__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k1__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__bare__k1__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k0__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k0__fsrr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k0__trr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k0__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k0__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k0__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k0__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k0__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k1__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k1__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k1__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k1__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k1__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__original__whitespace_union__k1__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k0__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k0__fsrr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k0__trr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k0__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k0__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k0__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k0__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k0__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k1__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k1__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k1__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k1__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k1__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__bare__k1__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k0__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k0__fsrr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k0__trr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k0__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k0__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k0__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k0__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k0__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k1__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k1__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k1__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k1__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k1__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "nontrivial__explicit__whitespace_union__k1__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__original__bare__k0__accuracy",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k0__fsrr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__original__bare__k0__trr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__original__bare__k0__direct_sequence_correct",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k0__tce",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k0__oracle_min_errors",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k0__oracle_fsrr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k0__oracle_trr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k1__accuracy",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "all__original__bare__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "all__original__bare__k1__direct_sequence_correct",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k1__tce",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k1__oracle_min_errors",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k1__oracle_fsrr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__bare__k1__oracle_trr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k0__accuracy",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k0__fsrr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k0__trr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k0__direct_sequence_correct",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k0__tce",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k0__oracle_min_errors",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k0__oracle_fsrr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k0__oracle_trr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k1__accuracy",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k1__direct_sequence_correct",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k1__tce",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k1__oracle_min_errors",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k1__oracle_fsrr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__original__whitespace_union__k1__oracle_trr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k0__accuracy",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k0__fsrr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k0__trr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k0__direct_sequence_correct",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k0__tce",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k0__oracle_min_errors",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k0__oracle_fsrr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k0__oracle_trr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k1__accuracy",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k1__direct_sequence_correct",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k1__tce",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k1__oracle_min_errors",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k1__oracle_fsrr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__bare__k1__oracle_trr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k0__accuracy",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k0__fsrr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k0__trr",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/126",
+      "HumanEval/41",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k0__direct_sequence_correct",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k0__tce",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k0__oracle_min_errors",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k0__oracle_fsrr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k0__oracle_trr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k1__accuracy",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k1__fsrr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k1__trr",
+    "n": 3,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/126",
+      "HumanEval/54",
+      "HumanEval/73"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k1__direct_sequence_correct",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k1__tce",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k1__oracle_min_errors",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k1__oracle_fsrr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "all__explicit__whitespace_union__k1__oracle_trr_all",
+    "n": 14,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/12",
+      "HumanEval/126",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/41",
+      "HumanEval/53",
+      "HumanEval/54",
+      "HumanEval/70",
+      "HumanEval/73",
+      "HumanEval/79",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k0__accuracy",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k0__fsrr",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k0__trr",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k0__direct_sequence_correct",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k0__tce",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k0__oracle_min_errors",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k0__oracle_fsrr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k0__oracle_trr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k1__accuracy",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k1__direct_sequence_correct",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k1__tce",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k1__oracle_min_errors",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k1__oracle_fsrr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__bare__k1__oracle_trr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k0__accuracy",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k0__fsrr",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k0__trr",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k0__direct_sequence_correct",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k0__tce",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k0__oracle_min_errors",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k0__oracle_fsrr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k0__oracle_trr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k1__accuracy",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k1__direct_sequence_correct",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k1__tce",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k1__oracle_min_errors",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k1__oracle_fsrr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__original__whitespace_union__k1__oracle_trr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k0__accuracy",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k0__fsrr",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k0__trr",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k0__direct_sequence_correct",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k0__tce",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k0__oracle_min_errors",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k0__oracle_fsrr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k0__oracle_trr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k1__accuracy",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k1__direct_sequence_correct",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k1__tce",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k1__oracle_min_errors",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k1__oracle_fsrr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__bare__k1__oracle_trr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k0__accuracy",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k0__fsrr",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k0__trr",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k0__direct_sequence_correct",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k0__tce",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k0__oracle_min_errors",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k0__oracle_fsrr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k0__oracle_trr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k1__accuracy",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k1__direct_sequence_correct",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k1__tce",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k1__oracle_min_errors",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k1__oracle_fsrr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z0__explicit__whitespace_union__k1__oracle_trr_all",
+    "n": 4,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/114",
+      "HumanEval/41",
+      "HumanEval/70",
+      "HumanEval/79"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k0__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k0__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k0__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k0__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k0__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k0__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k1__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k1__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k1__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k1__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k1__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__bare__k1__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k0__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k0__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k0__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k0__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k0__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k0__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k1__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k1__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k1__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k1__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k1__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__original__whitespace_union__k1__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k0__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k0__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k0__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k0__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k0__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k0__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k1__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k1__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k1__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k1__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k1__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__bare__k1__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k0__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k0__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k0__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k0__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k0__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k0__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k1__accuracy",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k1__direct_sequence_correct",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k1__tce",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k1__oracle_min_errors",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k1__oracle_fsrr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  },
+  {
+    "key": "z8__explicit__whitespace_union__k1__oracle_trr_all",
+    "n": 7,
+    "replicates": 5000,
+    "seed": 20260912,
+    "task_ids": [
+      "HumanEval/12",
+      "HumanEval/150",
+      "HumanEval/161",
+      "HumanEval/40",
+      "HumanEval/53",
+      "HumanEval/8",
+      "HumanEval/90"
+    ]
+  }
+]

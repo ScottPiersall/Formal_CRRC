@@ -1,0 +1,158 @@
+{
+  "model": {
+    "chat_template_sha256": "3802169b2a02b81e6adb7ab4f64f91ff02db753c8c3a64a01c35192d3a61d8d7",
+    "config_sha256": "a1ee086a68d0cbfc87316da00ba4b8507bd1292978108e2496201a30a450f438",
+    "config_torch_dtype": "bfloat16",
+    "dtype": "bfloat16",
+    "model_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+    "quantization": "none",
+    "quantization_config_present": false,
+    "revision": "144afc2f379b542fdd4e85a1fcd5e1f79112d95d",
+    "short_name": "Qwen3-30B-A3B-Thinking",
+    "slug": "qwen3_30b_a3b_thinking_2507",
+    "tokenizer_revision": "144afc2f379b542fdd4e85a1fcd5e1f79112d95d"
+  },
+  "preflight": {
+    "candidates": {
+      "A": {
+        "contextual_token_ids": [
+          32
+        ],
+        "differs_from_isolated": false,
+        "isolated_token_ids": [
+          32
+        ],
+        "n_tokens": 1
+      },
+      "B": {
+        "contextual_token_ids": [
+          33
+        ],
+        "differs_from_isolated": false,
+        "isolated_token_ids": [
+          33
+        ],
+        "n_tokens": 1
+      }
+    },
+    "chat_template_sha256": "3802169b2a02b81e6adb7ab4f64f91ff02db753c8c3a64a01c35192d3a61d8d7",
+    "checks": {
+      "all_probes_reached_think_end": true,
+      "bf16_load_ok": true,
+      "candidates_resolve": true,
+      "dtype_is_bfloat16": true,
+      "generation_prompt_opens_thinking": true,
+      "no_quantization_config": true,
+      "no_quantized_files": true,
+      "separator_resolves": true,
+      "stage_d_scored": true,
+      "think_end_single_token": true
+    },
+    "config_model_type": "qwen3_moe",
+    "config_sha256": "a1ee086a68d0cbfc87316da00ba4b8507bd1292978108e2496201a30a450f438",
+    "config_torch_dtype": "bfloat16",
+    "environment": {
+      "captured_at": "2026-09-09T18:52:44+00:00",
+      "gpu": {
+        "available": true,
+        "cudnn_version": 92000,
+        "device_count": 1,
+        "devices": [
+          {
+            "capability": "9.0",
+            "index": 0,
+            "name": "NVIDIA H100 PCIe",
+            "total_memory_bytes": 85017624576
+          }
+        ],
+        "torch_cuda_version": "13.0",
+        "torch_version": "2.13.0+cu130"
+      },
+      "hostname": "COMPUTE_NODE",
+      "machine": "x86_64",
+      "packages": {
+        "accelerate": null,
+        "matplotlib": "3.11.1",
+        "numpy": "2.3.5",
+        "pandas": "3.0.5",
+        "pyarrow": "25.0.1",
+        "scipy": "1.17.1",
+        "tokenizers": "0.23.2",
+        "torch": "2.13.0",
+        "transformers": "5.16.1"
+      },
+      "platform": "Linux-4.18.0-553.123.1.el8_10.0.1.x86_64-x86_64-with-glibc2.28",
+      "python_implementation": "CPython",
+      "python_version": "3.11.16"
+    },
+    "finished_at": "2026-09-09T18:52:44+00:00",
+    "generation_prompt_suffix": "|im_end|>\n<|im_start|>assistant\n<think>\n",
+    "model_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+    "model_load_seconds": 195.31,
+    "post_think_separator": "\n\n",
+    "post_think_separator_bytes": "0a0a",
+    "post_think_separator_token_ids": [
+      271
+    ],
+    "problems": [],
+    "purpose": "pre-freeze model mechanics validation on synthetic prompts",
+    "quantization_config_present": false,
+    "requested_revision": "144afc2f379b542fdd4e85a1fcd5e1f79112d95d",
+    "slurm": {
+      "job_id": "800693",
+      "node": "COMPUTE_NODE"
+    },
+    "snapshot_path": "/REDACTED_LOCAL_PATH",
+    "snapshot_seconds": 0.01,
+    "started_at": "2026-09-09T18:48:35+00:00",
+    "status": "PASS",
+    "study": "FormalCRRC Reasoning-Capable External Anchor Study",
+    "synthetic_probes": [
+      {
+        "decision": 1,
+        "index": 0,
+        "logprob_A": -2.7159547805786133,
+        "logprob_B": -22.34095573425293,
+        "margin": 19.625000953674316,
+        "n_reasoning_tokens": 175,
+        "reasoning_preview": "We are to determine if 17 is a prime number.\n A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.\n\n Let's check for 17:\n - It is greater than 1.\n - Check divisors from 2 to the square root of 17 (which is about 4.12). So we check 2, 3, and 4.\n\n 17",
+        "seed": 1173379541,
+        "think_end_reached": true,
+        "truncated": false,
+        "vllm_finish_reason": "stop"
+      },
+      {
+        "decision": 1,
+        "index": 1,
+        "logprob_A": -2.8119726181030273,
+        "logprob_B": -15.936972618103027,
+        "margin": 13.125,
+        "n_reasoning_tokens": 1183,
+        "reasoning_preview": "First, the question is: \"Does the word 'strawberry' contain three letter r characters? Return A if it does. Return B if it does not.\"\n\nI need to look at the word \"strawberry\" and count how many times the letter 'r' appears.\n\nLet me write out the word: s-t-r-a-w-b-e-r-r-y.\n\nNow, I'll go through each ",
+        "seed": 570114232,
+        "think_end_reached": true,
+        "truncated": false,
+        "vllm_finish_reason": "stop"
+      },
+      {
+        "decision": 1,
+        "index": 2,
+        "logprob_A": -20.250062942504883,
+        "logprob_B": -21.875062942504883,
+        "margin": 1.625,
+        "n_reasoning_tokens": 788,
+        "reasoning_preview": "We are comparing the surface areas of the Baltic Sea and the Caspian Sea.\n\n The Baltic Sea is a marginal sea of the Atlantic Ocean, located in Northern Europe. Its surface area is approximately 1,600,000 square kilometers (km²) according to some sources, but note that the exact figure can vary. Howe",
+        "seed": 835839170,
+        "think_end_reached": true,
+        "truncated": false,
+        "vllm_finish_reason": "stop"
+      }
+    ],
+    "think_end_text": "</think>",
+    "think_end_token_id": 151668,
+    "think_end_token_ids": [
+      151668
+    ],
+    "uses_formalcrrc_data": false
+  }
+}

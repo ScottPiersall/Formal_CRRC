@@ -1,0 +1,137 @@
+[
+  {
+    "n": 33,
+    "estimate": 0.12794612794612795,
+    "SE": 0.05494641050628817,
+    "p": 0.0253,
+    "CI95": [
+      0.02251022124332336,
+      0.24239726499352815
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "judge": "qwen",
+    "metric": "accuracy",
+    "template": "original",
+    "readout": "bare",
+    "planned_partial_tasks": 33,
+    "complete_paired_tasks": 33,
+    "full_population_identification_bounds": [
+      0.12794612794612792,
+      0.12794612794612792
+    ],
+    "Holm_p": 0.1012
+  },
+  {
+    "n": 33,
+    "estimate": -0.21212121212121213,
+    "SE": 0.10442461175825925,
+    "p": 0.09228515625,
+    "CI95": [
+      -0.41991296442004095,
+      0.006325201439696365
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "gain": 3,
+    "loss": 10,
+    "discordant": 13,
+    "judge": "qwen",
+    "metric": "FSRR",
+    "template": "original",
+    "readout": "bare",
+    "planned_partial_tasks": 33,
+    "complete_paired_tasks": 33,
+    "full_population_identification_bounds": [
+      -0.21212121212121213,
+      -0.21212121212121213
+    ],
+    "Holm_p": 0.27685546875
+  },
+  {
+    "n": 33,
+    "estimate": 0.7878787878787878,
+    "SE": 0.21653948375691595,
+    "p": 0.0011,
+    "CI95": [
+      0.3407199208371516,
+      1.206355367719325
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "judge": "qwen",
+    "metric": "oracle_errors",
+    "template": "original",
+    "readout": "bare",
+    "planned_partial_tasks": 33,
+    "complete_paired_tasks": 33,
+    "full_population_identification_bounds": [
+      0.7878787878787878,
+      0.7878787878787878
+    ],
+    "Holm_p": 0.0066
+  },
+  {
+    "n": 33,
+    "estimate": 0.12121212121212122,
+    "SE": 0.03397379809867099,
+    "p": 0.0017,
+    "CI95": [
+      0.05610812701691015,
+      0.19599241739120157
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "judge": "mistral",
+    "metric": "accuracy",
+    "template": "original",
+    "readout": "bare",
+    "planned_partial_tasks": 33,
+    "complete_paired_tasks": 33,
+    "full_population_identification_bounds": [
+      0.12121212121212124,
+      0.12121212121212124
+    ],
+    "Holm_p": 0.008499999999999999
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "p": 1.0,
+    "CI95": null,
+    "status": "degenerate_observed_variance",
+    "gain": 0,
+    "loss": 0,
+    "discordant": 0,
+    "judge": "mistral",
+    "metric": "FSRR",
+    "template": "original",
+    "readout": "bare",
+    "planned_partial_tasks": 33,
+    "complete_paired_tasks": 33,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "Holm_p": 1.0
+  },
+  {
+    "n": 33,
+    "estimate": -0.030303030303030304,
+    "p": null,
+    "CI95": null,
+    "status": "degenerate_bootstrap_variance",
+    "degenerate_draws": 3666,
+    "judge": "mistral",
+    "metric": "oracle_errors",
+    "template": "original",
+    "readout": "bare",
+    "planned_partial_tasks": 33,
+    "complete_paired_tasks": 33,
+    "full_population_identification_bounds": [
+      -0.030303030303030304,
+      -0.030303030303030304
+    ],
+    "Holm_p": null
+  }
+]

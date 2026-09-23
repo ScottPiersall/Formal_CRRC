@@ -1,0 +1,234 @@
+{
+  "amendments": 0,
+  "analysis_code": {
+    "files": {
+      "scripts/analyze_rts_ablation.py": "b745c4e7bc37fb87c54e7e7af80e3c8273f61e1d550d57f2c791478347f576e8",
+      "scripts/figures_rts_ablation.py": "42368a40969214314bfb0bd918c2f09a03fb7d4e3572088cd30e2b4a5971ce70",
+      "scripts/freeze_rts_ablation_preregistration.py": "c7b459781c2487838808bbdf99a9c3a024051a070b4540de6b1af3f45e05140d",
+      "scripts/preflight_rts_ablation.py": "482b78b9fbb85d0db91cc67e2623ca7d4aa01e10565a20fe0841318af6841640",
+      "scripts/run_rts_ablation_inference.py": "37fc5eb976256281bca6918e9fd42f947f06bb5b2745066471c445e6422fba96",
+      "scripts/verify_rts_ablation_integrity.py": null,
+      "src/formalcrrc/config.py": "4558ccfdcdd55e2ffd7cd30dbd0b06d07fbbcf659dd1bbf5d8dbef7e209efa52",
+      "src/formalcrrc/day2.py": "5b61a03e18610a3cd646fad4028f89e0c3b95056297c33caf1c89782d087de32",
+      "src/formalcrrc/day3.py": "213fcd331a67d73b8ec5cdcd30dafa778da9b7d22107c8cd756b8a6ada713cc5",
+      "src/formalcrrc/predicates.py": "5c119021ffa69d2dc875bb931a249e5f12811fda791227bc0716cb075fc56b68",
+      "src/formalcrrc/prompts.py": "a5350ba6687fecb2d7526677bb31ad12373df58064e1096d1a15603a03308dd4",
+      "src/formalcrrc/provenance.py": "34e1c06f91514642b0bcc1beb946997ad275d2b69030f80d83b6e7df9920bd55",
+      "src/formalcrrc/rts_ablation.py": "aab7694a8564fd5fb8645f3e65552bb07f8f35fe731b0baa4821788b482df2d6",
+      "src/formalcrrc/rts_ablation_bootstrap.py": "ec4fcb12e3414c6c2eeee189bb634b5b0e2f18e3aab61d45c256c0e2f5902a53",
+      "src/formalcrrc/rts_ablation_config.py": "df020c365e4e73d1b3d48868d19967f70b60a9f9c987d903aad6537add2e21f8",
+      "src/formalcrrc/scoring.py": "e9dea77babcb60820ad679226d2d826265fe0d844948163296c71be56510c8d4"
+    },
+    "tree_sha256": "c16bb0d489422c7757fe7ea7c7f6d7f15493775c1aec3d7ad50bbaceab60612d"
+  },
+  "anchor_context": {
+    "model": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+    "status": "external context only. The anchor uses native thinking under a different model family, scale and training regime; this study uses elicited reason-then-score on Qwen2.5. The two protocols are not identical and no pooled significance test across these model/protocol regimes is performed.",
+    "tce": 0.401,
+    "trr": 1.0,
+    "unreachable_pct": 0.0
+  },
+  "baselines": {
+    "always_met_tce": 4.0,
+    "always_not_met_tce": 5.0,
+    "fixed_center_accuracy": 0.7530864197530864,
+    "fixed_center_tce": 2.2222222222222223,
+    "majority_accuracy": 0.5555555555555556,
+    "random_crossing_accuracy": 0.6707818930041153,
+    "random_crossing_tce": 2.962962962962963
+  },
+  "comparator": {
+    "accuracy": 0.7678326474622771,
+    "brier": 0.22683374650488405,
+    "checks": {
+      "per_artifact_rc_identical": true,
+      "per_artifact_reachability_identical": true,
+      "per_artifact_tce_identical": true
+    },
+    "expected": {
+      "tce": 3.373,
+      "trr": 0.4792,
+      "unreachable_pct": 52.08
+    },
+    "mean_reachable_count": 4.962962962962963,
+    "mean_tce": 3.373456790123457,
+    "n_artifacts": 324,
+    "n_nontrivial": 288,
+    "raw_scores_sha256": "10420978b17f61d2d6717d4ba1f2f7ab16ee4a445996bea3c2bfb7fc1630dbb6",
+    "source": "artifacts/day3/raw_scores/qwen2_5_14b_instruct.parquet, read only and re-verified byte-identical after the ablation",
+    "status": "PASS",
+    "trr": 0.4791666666666667,
+    "unreachable_pct": 52.08333333333333
+  },
+  "completeness": {
+    "curve_exclusion_rule": "A curve is excluded from curve-level TCE/TRR if and only if one or more of its nine strictness levels lacks a valid reason-then-score margin. No exclusion depends on the value of any margin or on model performance.",
+    "premature_label_flag": "premature_label_observed",
+    "premature_label_pattern": "(?m)^\\s*(?:\\*\\*)?[AB](?:\\*\\*)?\\s*[.)]?\\s*$",
+    "truncation_warning_flag": "REASONING_COMPLETENESS_WARNING",
+    "truncation_warning_fraction": 0.01
+  },
+  "conventions": {
+    "crossing": "j_hat = min{s : M(s) < 0}, else 9. M = 0 counts as 'criterion met'.",
+    "decision": "D(s) = 1[M(s) >= 0]",
+    "failure_rule": "For an unreachable nontrivial boundary j*, classify strict_inversion when some earlier threshold t < j* has M(t) < M(j*), and tie_only when no such strict inversion exists but some earlier threshold has M(t) = M(j*). Strict inversion takes precedence when both occur, because an actual ordering inversion blocks reachability independently of any tie. Exact stored values; no tolerance.",
+    "reachability": "M(j) < min_{t < j} M(t)  (strict prefix record low); crossings 0 and 9 always reachable",
+    "tie_policy": "Exact stored float64 comparison under the strict relation. No tolerance is introduced anywhere, including in the tie-versus-inversion decomposition."
+  },
+  "dataset": {
+    "n_artifacts": 324,
+    "n_nontrivial_curves": 288,
+    "n_rows": 2916,
+    "partition": "DAY3_TEST",
+    "seed": 45,
+    "validation": {
+      "checked_at": "2026-09-09T21:38:01+00:00",
+      "checks": {
+        "artifact_count": true,
+        "content_hash_matches_manifest": true,
+        "formal_truth_reconstructs": true,
+        "nine_levels_each": true,
+        "nontrivial_curve_count": true,
+        "one_hundred_eight_per_family": true,
+        "row_count": true,
+        "seed_is_45": true,
+        "thirty_six_at_each_crossing": true,
+        "true_crossing_reconstructs": true
+      },
+      "dataset_content_sha256": "9700960d6f3aa130fa259500aeadbdfa9f511bcc943dd5fdf3401330ee8009d6",
+      "dataset_file_sha256": "2160b662fa527498c6bd245e173f0ead9030a7d69633869233b76e5184647a34",
+      "dataset_path": "artifacts/day3/test_dataset.parquet",
+      "n_artifacts": 324,
+      "n_rows": 2916,
+      "status": "PASS"
+    }
+  },
+  "design": {
+    "condition_original": "immediate",
+    "condition_reasoning": "reason_then_score",
+    "intervention": "replacing immediate next-token A/B readout with an elicited reason-then-score protocol, holding model, revision, dataset, artifacts, formal thresholds and A/B semantics fixed",
+    "intervention_is_composite": "The protocol intervention jointly changes the evaluation instruction, the generation of an intermediate trace, the position at which A/B is scored, and the immediate-next-token versus conditional sequence-likelihood readout. The supported causal statement is the effect of the reason-then-score protocol, not the effect of reasoning itself.",
+    "protocol": "elicited_reason_then_score",
+    "protocol_rationale": "Qwen2.5-14B-Instruct has no thinking-only chat-template mechanism, so this ablation cannot use a native end-of-thinking boundary without inventing model behaviour that was never part of Qwen2.5. The model is instead given an explicit reasoning instruction and generates until a fixed preregistered final-answer marker. What is evaluated is therefore elicited reason-then-score, not native thinking, and the two must never be described as the same protocol."
+  },
+  "document": {
+    "path": "docs/PREREGISTRATION_REASON_THEN_SCORE_ABLATION.md"
+  },
+  "frozen_at": "2026-09-09T21:38:03+00:00",
+  "frozen_record": {
+    "combined_sha256": "e618f270e00b2b5f77a2d5e2f7cfbbadc5ed58874d67d8a471bf49a3a809e3d7",
+    "n_files": 173
+  },
+  "git": {
+    "available": true,
+    "clean": false,
+    "commit": "a51b4209db5d30e8f708d4a17a988da9ecee324f",
+    "dirty_paths": [
+      ".gitignore",
+      "LICENSE",
+      "artifacts/poststudy_baselines/baseline_by_partition.csv",
+      "artifacts/reason_then_score_ablation/",
+      "docs/PREREGISTRATION_REASON_THEN_SCORE_ABLATION.md",
+      "scripts/analyze_rts_ablation.py",
+      "scripts/figures_rts_ablation.py",
+      "scripts/freeze_rts_ablation_preregistration.py",
+      "scripts/preflight_rts_ablation.py",
+      "scripts/run_rts_ablation_inference.py",
+      "slurm/preflight_rts_ablation.sbatch",
+      "slurm/run_reasoning_anchor_inference.sbatch",
+      "src/formalcrrc/rts_ablation.py",
+      "src/formalcrrc/rts_ablation_bootstrap.py",
+      "src/formalcrrc/rts_ablation_config.py",
+      "tests/test_rts_ablation.py"
+    ]
+  },
+  "model": {
+    "chat_template_matches_day3": true,
+    "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+    "config_sha256": "0f2085dbbe2ee251bd6a6a0797d84a6ce34436044d629aa3cba793b43d311a9e",
+    "dtype": "bfloat16",
+    "model_id": "Qwen/Qwen2.5-14B-Instruct",
+    "quantization": "none",
+    "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "revision_source": "artifacts/day3/model_provenance.json (frozen)",
+    "short_name": "Qwen2.5-14B",
+    "slug": "qwen2_5_14b_instruct",
+    "tokenizer_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  },
+  "prompt": {
+    "added_bytes": 229,
+    "added_suffix_sha256": "fee2aa126e937aa6cd03a74e1243797455ad47e69550170ee2de6d5a2d7f91c4",
+    "construction": "RTS_PROMPT_TEMPLATE = formalcrrc.config.PROMPT_TEMPLATE + '\\n\\n' + REASONING_SCAFFOLD. Derived programmatically from the frozen Day-3 template; never retyped. The diff against Day 3 is therefore purely additive and the rubric and candidate-response bodies are untouched.",
+    "day3_template_sha256": "e5f3c5ba3dfd1ccaca0655307d8ad254598a17184c7ae40dfde63c1f660cae14",
+    "is_pure_suffix_extension": true,
+    "removed_lines": [],
+    "rts_template_sha256": "7d6ad3815c992b698050b9f2adf44aec81d77c09fc333b8e7374288e156ca957",
+    "scaffold": "Before giving the final label, reason about whether the stated criterion is met.\nDo not give the final A or B label until the reasoning is complete.\nWhen the reasoning is complete, write exactly:\nFINAL:\nand then give the label."
+  },
+  "stage_d": {
+    "candidate_met": " A",
+    "candidate_not_met": " B",
+    "candidate_tokenization_rule": "prompt_continuation_difference",
+    "candidates": {
+      "candidate_met": " A",
+      "candidate_not_met": " B",
+      "isolated_met_token_ids": [
+        362
+      ],
+      "isolated_not_met_token_ids": [
+        425
+      ],
+      "met_token_ids": [
+        362
+      ],
+      "multi_token": false,
+      "not_met_token_ids": [
+        425
+      ],
+      "scoring_method": "sequence_loglikelihood",
+      "tokenization_rule": "prompt_continuation_difference"
+    },
+    "canonical_margin": "M_R = L_A - L_B",
+    "no_eos_probability": true,
+    "no_length_normalization": true,
+    "scoring_method": "sequence_loglikelihood"
+  },
+  "stage_r": {
+    "experiment_seed": 42,
+    "generation_parameter_source": "chosen for cross-study procedural comparability with the reasoning-anchor experiment; not claimed to be optimised for Qwen2.5",
+    "marker": "FINAL:",
+    "marker_stop_rule": "Sequence-aware stop on the complete marker string. Generation halts after the last token of the marker and before the next generated token, so the model never produces the A/B label used for the primary margin.",
+    "marker_tokenization": {
+      "contextual_token_ids": [
+        98848,
+        25
+      ],
+      "isolated_token_ids": [
+        98848,
+        25
+      ],
+      "marker": "FINAL:",
+      "marker_bytes_hex": "46494e414c3a",
+      "multi_token": true,
+      "n_tokens": 2
+    },
+    "min_p": 0.0,
+    "min_p_status": "supported",
+    "reasoning_token_budget": 8192,
+    "samples_per_row": 1,
+    "seed_modulus": 2147483647,
+    "seed_rule": "seed_r = int.from_bytes(sha256(f'{base_seed}|{artifact_id}|{strictness_index}'.encode('utf-8')).digest()[:8], 'big') % 2147483647. Same convention as the reasoning-anchor study. SHA-256 is used because Python's built-in hash() is process-randomised and would not reproduce.",
+    "temperature": 0.6,
+    "top_k": 20,
+    "top_p": 0.95
+  },
+  "statistics": {
+    "bootstrap_ci": "percentile, 95%",
+    "bootstrap_replicates": 5000,
+    "bootstrap_scheme": "artifact-curve clustered resampling with replacement; all nine strictness levels of a curve stay together; for paired original-versus-reasoning comparisons the two conditions of one artifact are drawn jointly; family strata preserved for family analyses; no row-level bootstrap",
+    "bootstrap_seed": 42,
+    "clopper_pearson_level": 0.95,
+    "zero_count_rule": "If the reason-then-score unreachable count is zero over all nontrivial curves, report the observed count out of N together with an exact two-sided 95% Clopper-Pearson interval for the unreachable probability, and lead with its upper bound. A bootstrap interval of [0, 0] must not be presented as population uncertainty; it is retained in machine artifacts for completeness only."
+  },
+  "study": "FormalCRRC Qwen2.5 Reason-Then-Score Protocol Ablation",
+  "study_type": "post-study preregistered within-model protocol ablation"
+}

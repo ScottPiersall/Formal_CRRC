@@ -1,0 +1,235 @@
+{
+  "model": {
+    "chat_template_matches_day3": true,
+    "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+    "config_sha256": "0f2085dbbe2ee251bd6a6a0797d84a6ce34436044d629aa3cba793b43d311a9e",
+    "dtype": "bfloat16",
+    "model_id": "Qwen/Qwen2.5-14B-Instruct",
+    "quantization": "none",
+    "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "revision_source": "artifacts/day3/model_provenance.json (frozen)",
+    "short_name": "Qwen2.5-14B",
+    "slug": "qwen2_5_14b_instruct",
+    "tokenizer_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  },
+  "preflight": {
+    "candidates": {
+      "candidate_met": " A",
+      "candidate_not_met": " B",
+      "isolated_met_token_ids": [
+        362
+      ],
+      "isolated_not_met_token_ids": [
+        425
+      ],
+      "met_token_ids": [
+        362
+      ],
+      "multi_token": false,
+      "not_met_token_ids": [
+        425
+      ],
+      "scoring_method": "sequence_loglikelihood",
+      "tokenization_rule": "prompt_continuation_difference"
+    },
+    "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+    "checks": {
+      "all_probes_reached_marker": true,
+      "bf16_load_ok": true,
+      "candidates_resolve": true,
+      "chat_template_matches_day3": true,
+      "marker_resolves": true,
+      "min_p_supported": true,
+      "no_quantization_config": true,
+      "no_quantized_files": true,
+      "pinned_revision_matches_day3": true,
+      "prompt_diff_pure_suffix": true,
+      "stage_d_scored": true,
+      "stopping_is_exact": true
+    },
+    "config_sha256": "0f2085dbbe2ee251bd6a6a0797d84a6ce34436044d629aa3cba793b43d311a9e",
+    "config_torch_dtype": "bfloat16",
+    "day3_revision_recorded": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "environment": {
+      "captured_at": "2026-09-09T21:36:30+00:00",
+      "gpu": {
+        "available": true,
+        "cudnn_version": 92000,
+        "device_count": 1,
+        "devices": [
+          {
+            "capability": "9.0",
+            "index": 0,
+            "name": "NVIDIA H100 PCIe",
+            "total_memory_bytes": 85017624576
+          }
+        ],
+        "torch_cuda_version": "13.0",
+        "torch_version": "2.13.0+cu130"
+      },
+      "hostname": "COMPUTE_NODE",
+      "machine": "x86_64",
+      "packages": {
+        "accelerate": null,
+        "matplotlib": "3.11.1",
+        "numpy": "2.3.5",
+        "pandas": "3.0.5",
+        "pyarrow": "25.0.1",
+        "scipy": "1.17.1",
+        "tokenizers": "0.23.2",
+        "torch": "2.13.0",
+        "transformers": "5.16.1"
+      },
+      "platform": "Linux-4.18.0-553.123.1.el8_10.0.1.x86_64-x86_64-with-glibc2.28",
+      "python_implementation": "CPython",
+      "python_version": "3.11.16"
+    },
+    "finished_at": "2026-09-09T21:36:30+00:00",
+    "generation_prompt_suffix": " label.<|im_end|>\n<|im_start|>assistant\n",
+    "marker": {
+      "contextual_token_ids": [
+        98848,
+        25
+      ],
+      "isolated_token_ids": [
+        98848,
+        25
+      ],
+      "marker": "FINAL:",
+      "marker_bytes_hex": "46494e414c3a",
+      "multi_token": true,
+      "n_tokens": 2
+    },
+    "min_p_status": "supported",
+    "model_id": "Qwen/Qwen2.5-14B-Instruct",
+    "model_load_seconds": 298.65,
+    "problems": [],
+    "prompt_diff": {
+      "added_bytes": 229,
+      "added_lines": [
+        "",
+        "Before giving the final label, reason about whether the stated criterion is met.",
+        "Do not give the final A or B label until the reasoning is complete.",
+        "When the reasoning is complete, write exactly:",
+        "FINAL:",
+        "and then give the label."
+      ],
+      "added_suffix_sha256": "fee2aa126e937aa6cd03a74e1243797455ad47e69550170ee2de6d5a2d7f91c4",
+      "checks": {
+        "marker_present": true,
+        "nothing_removed": true,
+        "placeholders_preserved": true,
+        "pure_suffix_extension": true
+      },
+      "construction": "RTS = PROMPT_TEMPLATE + '\\n\\n' + REASONING_SCAFFOLD, built programmatically from the frozen Day-3 template",
+      "is_pure_suffix_extension": true,
+      "marker_present": true,
+      "original_template_sha256": "e5f3c5ba3dfd1ccaca0655307d8ad254598a17184c7ae40dfde63c1f660cae14",
+      "placeholders_preserved": true,
+      "removed_lines": [],
+      "rts_template_sha256": "7d6ad3815c992b698050b9f2adf44aec81d77c09fc333b8e7374288e156ca957",
+      "unified_diff": [
+        "--- day3_prompt_template",
+        "+++ reason_then_score_template",
+        "@@ -11,2 +11,8 @@",
+        " Return A if the criterion is met.",
+        " Return B if the criterion is not met.",
+        "+",
+        "+Before giving the final label, reason about whether the stated criterion is met.",
+        "+Do not give the final A or B label until the reasoning is complete.",
+        "+When the reasoning is complete, write exactly:",
+        "+FINAL:",
+        "+and then give the label."
+      ]
+    },
+    "purpose": "pre-freeze mechanics validation on synthetic prompts",
+    "requested_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "slurm": {
+      "job_id": "801261",
+      "node": "COMPUTE_NODE"
+    },
+    "snapshot_path": "/REDACTED_LOCAL_PATH",
+    "snapshot_seconds": 2.82,
+    "started_at": "2026-09-09T21:27:08+00:00",
+    "status": "PASS",
+    "study": "FormalCRRC Qwen2.5 Reason-Then-Score Protocol Ablation",
+    "synthetic_probes": [
+      {
+        "decision": 0,
+        "ends_exactly_at_marker": true,
+        "index": 0,
+        "logprob_A": -21.00176429748535,
+        "logprob_B": -0.001764646964147687,
+        "margin": -20.999999650521204,
+        "marker_reached": true,
+        "n_context_tokens": 359,
+        "n_generated_tokens": 257,
+        "no_label_after_marker": true,
+        "premature_label_observed": false,
+        "reasoning_preview": "visibility by 7**: We perform the division 91 ÷ 7 = 13. Since 13 is an integer, 91 is divisible by 7.\n\nSince 91 is divisible by 7 (and 13), it has divisors other than 1 and itself, which means it is not a prime number.\n\n",
+        "reasoning_truncated": false,
+        "retokenization_matches_generation": true,
+        "seed": 1173379541,
+        "stop_reason": "marker",
+        "token_ids A": [
+          362
+        ],
+        "token_ids B": [
+          425
+        ],
+        "vllm_finish_reason": "stop"
+      },
+      {
+        "decision": 1,
+        "ends_exactly_at_marker": true,
+        "index": 1,
+        "logprob_A": -0.0067558446899056435,
+        "logprob_B": -19.756755828857422,
+        "margin": 19.749999984167516,
+        "marker_reached": true,
+        "n_context_tokens": 217,
+        "n_generated_tokens": 115,
+        "no_label_after_marker": true,
+        "premature_label_observed": false,
+        "reasoning_preview": "ria\n8. Romania\n\nCounting these, we can see that the Danube flows through more than four countries. It passes through a total of eight countries.\n\nTherefore, the Danube does indeed flow through more than four countries.\n\n",
+        "reasoning_truncated": false,
+        "retokenization_matches_generation": true,
+        "seed": 570114232,
+        "stop_reason": "marker",
+        "token_ids A": [
+          362
+        ],
+        "token_ids B": [
+          425
+        ],
+        "vllm_finish_reason": "stop"
+      },
+      {
+        "decision": 0,
+        "ends_exactly_at_marker": true,
+        "index": 2,
+        "logprob_A": -20.06394386291504,
+        "logprob_B": -0.001444130903109908,
+        "margin": -20.06249973201193,
+        "marker_reached": true,
+        "n_context_tokens": 570,
+        "n_generated_tokens": 454,
+        "no_label_after_marker": true,
+        "premature_label_observed": false,
+        "reasoning_preview": "the result. Due to rounding, the result of the addition of 0.1 and 0.2 in IEEE-754 double precision will not be exactly 0.3.\n\nTherefore, the answer is not that 0.1 + 0.2 equals 0.3 exactly in IEEE-754 double precision.\n\n",
+        "reasoning_truncated": false,
+        "retokenization_matches_generation": true,
+        "seed": 835839170,
+        "stop_reason": "marker",
+        "token_ids A": [
+          362
+        ],
+        "token_ids B": [
+          425
+        ],
+        "vllm_finish_reason": "stop"
+      }
+    ],
+    "uses_formalcrrc_data": false
+  }
+}

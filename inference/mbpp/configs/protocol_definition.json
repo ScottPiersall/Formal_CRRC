@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "scope": "Prospective formal study; definition chosen after permanently excluded development smoke",
+  "decision": "Keep the existing RTS request and retain every technically valid scoring context, including marker-only outputs",
+  "operational_RTS": "Append the unchanged corrected_RTS_v2 scaffold, generate to the first natural FINAL: boundary, then apply the same conditional scoring implementation as immediate",
+  "estimand_interpretation": "Within-task contrast of requested protocols on a fixed candidate/test population; not the causal effect of performing explicit reasoning",
+  "visible_prefix_metric": {
+    "marker": "FINAL:",
+    "rule": "bool(text_before_first_literal_marker.strip())",
+    "whitespace": "Python str.strip semantics, U+200B counts as non-whitespace",
+    "valid_scored_context_denominator": true,
+    "marker_only_rule": "Natural valid FINAL boundary and no non-whitespace text before it; preserve any extra returned IDs separately",
+    "missing_marker_value": null,
+    "nonempty_is_not_reasoning_quality": true
+  },
+  "retention": {
+    "valid_marker_only": "keep in primary analysis",
+    "valid_nonempty_prefix": "keep in primary analysis",
+    "invalid_boundary_or_missing_score": "technical missing; retain planned denominator and failure reason",
+    "protocol_failure_regeneration": false,
+    "prefix_conditioned_primary": false
+  },
+  "reporting": {
+    "groups": [
+      "judge",
+      "template"
+    ],
+    "cluster": "task; nine thresholds stay together",
+    "task_rows": "For each task/judge/template, planned=9, requests observed, valid scoring contexts, marker-only count, visible-prefix count and missing reasons",
+    "rates": "Report marker-only / valid contexts and marker-only / all planned contexts together with valid / planned; second rate is observed yield, not a missingness assumption",
+    "inference": "Descriptive secondary; no added unadjusted significance tests; no causal claims from post-output subsets",
+    "old_smoke_diagnostic": "Post hoc descriptive, not retroactive preregistration or changed engineering acceptance"
+  },
+  "cost": {
+    "primary": "All returned output tokens including marker and extra returned IDs; count and scoring probes separate",
+    "visible_prefix": "Characters and whitespace-split words before first marker; not a claim of reasoning quality",
+    "prefix_token_attribution": "Do not retokenize to claim exact reasoning-only cost; tokens crossing a text boundary require an explicit convention",
+    "marker_only_throughput": "Not a substantive-reasoning throughput benchmark"
+  },
+  "templates_sha256": "780e8544f2bfbbbecbe31a46ba5fe4f68c3a014a89a3f87e2458dce1f385faeb",
+  "existing_scoring_core_sha256": "a39beed953cb066130e3ff1b68144c78359bec3027176335f2baab8bd6cc64a8",
+  "old_smoke_acceptance_unchanged": true,
+  "formal_Stage_A_frozen": false,
+  "formal_Stage_B_frozen": false
+}

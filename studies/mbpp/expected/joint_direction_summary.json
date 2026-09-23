@@ -1,0 +1,20 @@
+[
+  {
+    "judge": "qwen",
+    "accuracy_estimate": 0.12794612794612795,
+    "FSRR_estimate": -0.21212121212121213,
+    "both_Holm_significant": false,
+    "accuracy_up_FSRR_down": true,
+    "required_direction": false,
+    "joint_power_guarantee": false
+  },
+  {
+    "judge": "mistral",
+    "accuracy_estimate": 0.12121212121212122,
+    "FSRR_estimate": 0.0,
+    "both_Holm_significant": false,
+    "accuracy_up_FSRR_down": false,
+    "required_direction": false,
+    "joint_power_guarantee": false
+  }
+]

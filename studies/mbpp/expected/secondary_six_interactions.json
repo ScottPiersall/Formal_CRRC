@@ -1,0 +1,104 @@
+[
+  {
+    "n": 33,
+    "estimate": -0.09090909090909091,
+    "SE": 0.02979013193465722,
+    "p": 0.0049,
+    "CI95": [
+      -0.148506976910567,
+      -0.02807451436759635
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "interaction": "template",
+    "metric": "accuracy",
+    "readout": "bare",
+    "population": "partial_all_eight_cells_complete",
+    "Holm_p": 0.0196
+  },
+  {
+    "n": 33,
+    "estimate": -0.13636363636363635,
+    "SE": 0.06626081698687841,
+    "p": 0.0495,
+    "CI95": [
+      -0.26156411080614145,
+      0.006351969454255646
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "interaction": "template",
+    "metric": "FSRR",
+    "readout": "bare",
+    "population": "partial_all_eight_cells_complete",
+    "Holm_p": 0.14850000000000002
+  },
+  {
+    "n": 33,
+    "estimate": 0.19696969696969696,
+    "SE": 0.12676667068698114,
+    "p": 0.1319,
+    "CI95": [
+      -0.08572216128596588,
+      0.43268591692060254
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "interaction": "template",
+    "metric": "oracle_errors",
+    "readout": "bare",
+    "population": "partial_all_eight_cells_complete",
+    "Holm_p": 0.2638
+  },
+  {
+    "n": 33,
+    "estimate": -0.016835016835016838,
+    "SE": 0.0471605886458971,
+    "p": 0.7234,
+    "CI95": [
+      -0.12542553971022022,
+      0.06813204069955302
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "interaction": "judge",
+    "metric": "accuracy",
+    "readout": "bare",
+    "population": "partial_all_eight_cells_complete",
+    "Holm_p": 0.7234
+  },
+  {
+    "n": 33,
+    "estimate": 0.2878787878787879,
+    "SE": 0.07226812131946558,
+    "p": 0.0005,
+    "CI95": [
+      0.1294234252914466,
+      0.4260029641462711
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "interaction": "judge",
+    "metric": "FSRR",
+    "readout": "bare",
+    "population": "partial_all_eight_cells_complete",
+    "Holm_p": 0.0025
+  },
+  {
+    "n": 33,
+    "estimate": -0.803030303030303,
+    "SE": 0.17669551196500913,
+    "p": 0.0002,
+    "CI95": [
+      -1.207863049970189,
+      -0.4826211380759052
+    ],
+    "status": "ok",
+    "replicates": 9999,
+    "interaction": "judge",
+    "metric": "oracle_errors",
+    "readout": "bare",
+    "population": "partial_all_eight_cells_complete",
+    "Holm_p": 0.0012000000000000001
+  }
+]

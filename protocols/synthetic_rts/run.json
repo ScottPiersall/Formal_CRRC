@@ -1,0 +1,83 @@
+{
+  "condition": "reason_then_score",
+  "dtype": "bfloat16",
+  "environment": {
+    "captured_at": "2026-09-09T21:50:15+00:00",
+    "gpu": {
+      "available": true,
+      "cudnn_version": 92000,
+      "device_count": 1,
+      "devices": [
+        {
+          "capability": "9.0",
+          "index": 0,
+          "name": "NVIDIA H100 PCIe",
+          "total_memory_bytes": 85017624576
+        }
+      ],
+      "torch_cuda_version": "13.0",
+      "torch_version": "2.13.0+cu130"
+    },
+    "hostname": "COMPUTE_NODE",
+    "machine": "x86_64",
+    "packages": {
+      "accelerate": null,
+      "matplotlib": "3.11.1",
+      "numpy": "2.3.5",
+      "pandas": "3.0.5",
+      "pyarrow": "25.0.1",
+      "scipy": "1.17.1",
+      "tokenizers": "0.23.2",
+      "torch": "2.13.0",
+      "transformers": "5.16.1"
+    },
+    "platform": "Linux-4.18.0-553.123.1.el8_10.0.1.x86_64-x86_64-with-glibc2.28",
+    "python_implementation": "CPython",
+    "python_version": "3.11.16"
+  },
+  "experiment": "FormalCRRC Qwen2.5 Reason-Then-Score Protocol Ablation",
+  "finished_at": "2026-09-09T21:50:15+00:00",
+  "marker": "FINAL:",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "premature_label_rate": 0.0,
+  "preregistration_sha256": "43e9175b3717f493b58657e2d88e22d145bb769fd4a3ea51f054880acc6a40b2",
+  "protocol": "elicited_reason_then_score",
+  "quantization": "none",
+  "raw_rows_sha256": "bcf590c30d1478edf7ac632d099f39b655d31804b51432dad1b14e916ec7c421",
+  "retries": [],
+  "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "rows_attempted": 2916,
+  "rows_marker_reached": 2916,
+  "rows_premature_label": 0,
+  "rows_requested": 2916,
+  "rows_scored": 2916,
+  "rows_truncated": 0,
+  "slurm": {
+    "job_id": "801275",
+    "node": "COMPUTE_NODE",
+    "partition": "normal"
+  },
+  "source_manifest": {
+    "files": {
+      "scripts/analyze_rts_ablation.py": "b745c4e7bc37fb87c54e7e7af80e3c8273f61e1d550d57f2c791478347f576e8",
+      "scripts/figures_rts_ablation.py": "42368a40969214314bfb0bd918c2f09a03fb7d4e3572088cd30e2b4a5971ce70",
+      "scripts/freeze_rts_ablation_preregistration.py": "c7b459781c2487838808bbdf99a9c3a024051a070b4540de6b1af3f45e05140d",
+      "scripts/preflight_rts_ablation.py": "482b78b9fbb85d0db91cc67e2623ca7d4aa01e10565a20fe0841318af6841640",
+      "scripts/run_rts_ablation_inference.py": "37fc5eb976256281bca6918e9fd42f947f06bb5b2745066471c445e6422fba96",
+      "scripts/verify_rts_ablation_integrity.py": null,
+      "src/formalcrrc/config.py": "4558ccfdcdd55e2ffd7cd30dbd0b06d07fbbcf659dd1bbf5d8dbef7e209efa52",
+      "src/formalcrrc/day2.py": "5b61a03e18610a3cd646fad4028f89e0c3b95056297c33caf1c89782d087de32",
+      "src/formalcrrc/day3.py": "213fcd331a67d73b8ec5cdcd30dafa778da9b7d22107c8cd756b8a6ada713cc5",
+      "src/formalcrrc/predicates.py": "5c119021ffa69d2dc875bb931a249e5f12811fda791227bc0716cb075fc56b68",
+      "src/formalcrrc/prompts.py": "a5350ba6687fecb2d7526677bb31ad12373df58064e1096d1a15603a03308dd4",
+      "src/formalcrrc/provenance.py": "34e1c06f91514642b0bcc1beb946997ad275d2b69030f80d83b6e7df9920bd55",
+      "src/formalcrrc/rts_ablation.py": "aab7694a8564fd5fb8645f3e65552bb07f8f35fe731b0baa4821788b482df2d6",
+      "src/formalcrrc/rts_ablation_bootstrap.py": "ec4fcb12e3414c6c2eeee189bb634b5b0e2f18e3aab61d45c256c0e2f5902a53",
+      "src/formalcrrc/rts_ablation_config.py": "df020c365e4e73d1b3d48868d19967f70b60a9f9c987d903aad6537add2e21f8",
+      "src/formalcrrc/scoring.py": "e9dea77babcb60820ad679226d2d826265fe0d844948163296c71be56510c8d4"
+    },
+    "tree_sha256": "c16bb0d489422c7757fe7ea7c7f6d7f15493775c1aec3d7ad50bbaceab60612d"
+  },
+  "tokenizer_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "truncation_rate": 0.0
+}

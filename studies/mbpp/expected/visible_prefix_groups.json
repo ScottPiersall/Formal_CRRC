@@ -1,0 +1,106 @@
+[
+  {
+    "judge": "qwen",
+    "template": "original",
+    "planned": 2484,
+    "observed_requests": 2484,
+    "valid_scored_contexts": 2474,
+    "marker_only": 0,
+    "visible_prefix": 2474,
+    "valid_over_planned": 0.9959742351046699,
+    "marker_only_over_valid": 0.0,
+    "marker_only_over_planned": 0.0,
+    "marker_only_over_valid_task_bootstrap_CI95": [
+      0.0,
+      0.0
+    ],
+    "marker_only_over_planned_task_CI95": {
+      "n": 276,
+      "estimate": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "extra_significance_tests": 0
+  },
+  {
+    "judge": "qwen",
+    "template": "explicit",
+    "planned": 2484,
+    "observed_requests": 2484,
+    "valid_scored_contexts": 2481,
+    "marker_only": 0,
+    "visible_prefix": 2481,
+    "valid_over_planned": 0.998792270531401,
+    "marker_only_over_valid": 0.0,
+    "marker_only_over_planned": 0.0,
+    "marker_only_over_valid_task_bootstrap_CI95": [
+      0.0,
+      0.0
+    ],
+    "marker_only_over_planned_task_CI95": {
+      "n": 276,
+      "estimate": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "extra_significance_tests": 0
+  },
+  {
+    "judge": "mistral",
+    "template": "original",
+    "planned": 2484,
+    "observed_requests": 2484,
+    "valid_scored_contexts": 2484,
+    "marker_only": 2484,
+    "visible_prefix": 0,
+    "valid_over_planned": 1.0,
+    "marker_only_over_valid": 1.0,
+    "marker_only_over_planned": 1.0,
+    "marker_only_over_valid_task_bootstrap_CI95": [
+      1.0,
+      1.0
+    ],
+    "marker_only_over_planned_task_CI95": {
+      "n": 276,
+      "estimate": 1.0,
+      "CI95": [
+        1.0,
+        1.0
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "extra_significance_tests": 0
+  },
+  {
+    "judge": "mistral",
+    "template": "explicit",
+    "planned": 2484,
+    "observed_requests": 2484,
+    "valid_scored_contexts": 2484,
+    "marker_only": 2484,
+    "visible_prefix": 0,
+    "valid_over_planned": 1.0,
+    "marker_only_over_valid": 1.0,
+    "marker_only_over_planned": 1.0,
+    "marker_only_over_valid_task_bootstrap_CI95": [
+      1.0,
+      1.0
+    ],
+    "marker_only_over_planned_task_CI95": {
+      "n": 276,
+      "estimate": 1.0,
+      "CI95": [
+        1.0,
+        1.0
+      ],
+      "CI_type": "marginal task-percentile bootstrap, descriptive"
+    },
+    "extra_significance_tests": 0
+  }
+]

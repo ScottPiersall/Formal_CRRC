@@ -1,0 +1,3946 @@
+[
+  {
+    "n": 272,
+    "estimate": 0.033088235294117654,
+    "CI95": [
+      -0.004084967320261431,
+      0.07066993464052289
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 272,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.028180354267310796,
+      0.03220611916264091
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": -0.08620689655172414,
+    "CI95": [
+      -0.16091954022988506,
+      -0.011494252873563218
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": 15,
+    "FSRR_loss": 30,
+    "full_population_identification_bounds": [
+      -0.096045197740113,
+      -0.07909604519774012
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.125,
+    "CI95": [
+      0.05514705882352941,
+      0.1948529411764706
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 272,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.11956521739130435,
+      0.13043478260869565
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.15441176470588236,
+    "CI95": [
+      0.11029411764705882,
+      0.20220588235294118
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 272,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.14855072463768115,
+      0.15579710144927536
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.03431372549019609,
+    "CI95": [
+      -0.0032679738562091452,
+      0.0727124183006536
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 272,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.029388083735909835,
+      0.033413848631239945
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": -0.08620689655172414,
+    "CI95": [
+      -0.16091954022988506,
+      -0.011494252873563218
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": 15,
+    "FSRR_loss": 30,
+    "full_population_identification_bounds": [
+      -0.096045197740113,
+      -0.07909604519774012
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.125,
+    "CI95": [
+      0.05514705882352941,
+      0.1948529411764706
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 272,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.11956521739130435,
+      0.13043478260869565
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.15073529411764705,
+    "CI95": [
+      0.10661764705882353,
+      0.19852941176470587
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 272,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.14492753623188406,
+      0.15217391304347827
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.027169505271695055,
+    "CI95": [
+      -0.010137875101378742,
+      0.0640713706407137
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 274,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.026972624798711764,
+      0.028180354267310796
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": -0.4742857142857143,
+    "CI95": [
+      -0.5485714285714286,
+      -0.4
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": 0,
+    "FSRR_loss": 83,
+    "full_population_identification_bounds": [
+      -0.480225988700565,
+      -0.4689265536723164
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.3686131386861314,
+    "CI95": [
+      0.2956204379562044,
+      0.4489051094890511
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 274,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.36594202898550726,
+      0.37318840579710144
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.10583941605839416,
+    "CI95": [
+      0.0364963503649635,
+      0.17153284671532848
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 274,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.10144927536231885,
+      0.10869565217391304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.02554744525547446,
+    "CI95": [
+      -0.011759935117599348,
+      0.06244931062449312
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 274,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.025362318840579715,
+      0.02657004830917875
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": -0.4742857142857143,
+    "CI95": [
+      -0.5485714285714286,
+      -0.4
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": 0,
+    "FSRR_loss": 83,
+    "full_population_identification_bounds": [
+      -0.480225988700565,
+      -0.4689265536723164
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.36496350364963503,
+    "CI95": [
+      0.291970802919708,
+      0.4416058394160584
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 274,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.36231884057971014,
+      0.3695652173913043
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.10583941605839416,
+    "CI95": [
+      0.0364963503649635,
+      0.17153284671532848
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 274,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.10144927536231885,
+      0.10869565217391304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.04830917874396136,
+    "CI95": [
+      0.023752012882447677,
+      0.07286634460547506
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.04830917874396136,
+      0.04830917874396136
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": -0.0036231884057971015,
+    "CI95": [
+      -0.010869565217391304,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.0036231884057971015,
+      -0.0036231884057971015
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.2717391304347826,
+    "CI95": [
+      0.21739130434782608,
+      0.32608695652173914
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.2717391304347826,
+      0.2717391304347826
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.04428341384863124,
+    "CI95": [
+      0.030193236714975855,
+      0.057991143317229994
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.04428341384863124,
+      0.04428341384863124
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": -0.0036231884057971015,
+    "CI95": [
+      -0.010869565217391304,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.0036231884057971015,
+      -0.0036231884057971015
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.15579710144927536,
+    "CI95": [
+      0.11231884057971014,
+      0.19927536231884058
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.15579710144927536,
+      0.15579710144927536
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.0032206119162640893,
+    "CI95": [
+      -0.006441223832528181,
+      0.01288244766505636
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0032206119162640893,
+      0.0032206119162640893
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": -0.07909604519774012,
+    "CI95": [
+      -0.14689265536723164,
+      -0.01694915254237288
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": 10,
+    "FSRR_loss": 24,
+    "full_population_identification_bounds": [
+      -0.07909604519774012,
+      -0.07909604519774012
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.06521739130434782,
+    "CI95": [
+      0.018115942028985508,
+      0.11249999999999737
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.06521739130434782,
+      0.06521739130434782
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": -0.018115942028985508,
+    "CI95": [
+      -0.03985507246376811,
+      0.0036231884057971015
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.018115942028985508,
+      -0.018115942028985508
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.010869565217391302,
+    "CI95": [
+      0.0012077294685990335,
+      0.0213365539452496
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.010869565217391304,
+      0.010869565217391304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": -0.06779661016949153,
+    "CI95": [
+      -0.12457627118644059,
+      -0.011299435028248588
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": 8,
+    "FSRR_loss": 20,
+    "full_population_identification_bounds": [
+      -0.06779661016949153,
+      -0.06779661016949153
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.057971014492753624,
+    "CI95": [
+      0.014492753623188406,
+      0.10163043478260607
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.057971014492753624,
+      0.057971014492753624
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 276,
+    "estimate": -0.021739130434782608,
+    "CI95": [
+      -0.043478260869565216,
+      -0.0036231884057971015
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "common_complete_tasks": 276,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.021739130434782608,
+      -0.021739130434782608
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12794612794612795,
+    "CI95": [
+      0.020202020202020214,
+      0.2323232323232323
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.12794612794612795,
+      0.12794612794612795
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": -0.21212121212121213,
+    "CI95": [
+      -0.39545454545454495,
+      -0.030303030303030304
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": 3,
+    "FSRR_loss": 10,
+    "full_population_identification_bounds": [
+      -0.21212121212121213,
+      -0.21212121212121213
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.7878787878787878,
+    "CI95": [
+      0.36363636363636365,
+      1.1818181818181819
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.7878787878787878,
+      0.7878787878787878
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12121212121212122,
+    "CI95": [
+      0.030303030303030304,
+      0.24242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.12121212121212122
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12794612794612795,
+    "CI95": [
+      0.020202020202020214,
+      0.2323232323232323
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.12794612794612795,
+      0.12794612794612795
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": -0.21212121212121213,
+    "CI95": [
+      -0.39545454545454495,
+      -0.030303030303030304
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": 3,
+    "FSRR_loss": 10,
+    "full_population_identification_bounds": [
+      -0.21212121212121213,
+      -0.21212121212121213
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.7878787878787878,
+    "CI95": [
+      0.36363636363636365,
+      1.1818181818181819
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.7878787878787878,
+      0.7878787878787878
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12121212121212122,
+    "CI95": [
+      0.030303030303030304,
+      0.24242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.12121212121212122
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.047138047138047146,
+    "CI95": [
+      -0.0303030303030303,
+      0.13131313131313133
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.04713804713804715,
+      0.04713804713804715
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": -0.42424242424242425,
+    "CI95": [
+      -0.6060606060606061,
+      -0.24242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": 0,
+    "FSRR_loss": 14,
+    "full_population_identification_bounds": [
+      -0.42424242424242425,
+      -0.42424242424242425
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.9696969696969697,
+    "CI95": [
+      0.5757575757575758,
+      1.393939393939394
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.9696969696969697,
+      0.9696969696969697
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.030303030303030304,
+    "CI95": [
+      -0.09090909090909091,
+      0.15151515151515152
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.030303030303030304,
+      0.030303030303030304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.047138047138047146,
+    "CI95": [
+      -0.033670033670033656,
+      0.13131313131313133
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.047138047138047146,
+      0.047138047138047146
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": -0.42424242424242425,
+    "CI95": [
+      -0.6060606060606061,
+      -0.24242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": 0,
+    "FSRR_loss": 14,
+    "full_population_identification_bounds": [
+      -0.42424242424242425,
+      -0.42424242424242425
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.9393939393939394,
+    "CI95": [
+      0.5757575757575758,
+      1.3636363636363635
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.9393939393939394,
+      0.9393939393939394
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.030303030303030304,
+    "CI95": [
+      -0.09090909090909091,
+      0.15151515151515152
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.030303030303030304,
+      0.030303030303030304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12121212121212122,
+    "CI95": [
+      0.057239057239057235,
+      0.18855218855218855
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.12121212121212122
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": -0.030303030303030304,
+    "CI95": [
+      -0.09090909090909091,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.030303030303030304,
+      -0.030303030303030304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.03367003367003367,
+    "CI95": [
+      3.3643121958338078e-18,
+      0.06397306397306397
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.03367003367003367,
+      0.03367003367003367
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": -0.030303030303030304,
+    "CI95": [
+      -0.09090909090909091,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.030303030303030304,
+      -0.030303030303030304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.020202020202020204,
+    "CI95": [
+      -0.00673400673400673,
+      0.06060606060606061
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.020202020202020204,
+      0.020202020202020204
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": -0.06060606060606061,
+    "CI95": [
+      -0.15151515151515152,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": 0,
+    "FSRR_loss": 2,
+    "full_population_identification_bounds": [
+      -0.06060606060606061,
+      -0.06060606060606061
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.18181818181818182,
+    "CI95": [
+      -0.030303030303030304,
+      0.42424242424242425
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.18181818181818182,
+      0.18181818181818182
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.030303030303030304,
+    "CI95": [
+      0.0,
+      0.09090909090909091
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.030303030303030304,
+      0.030303030303030304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.03030303030303031,
+    "CI95": [
+      -0.00673400673400673,
+      0.0740740740740741
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.03030303030303031,
+      0.03030303030303031
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": -0.06060606060606061,
+    "CI95": [
+      -0.15151515151515152,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": 0,
+    "FSRR_loss": 2,
+    "full_population_identification_bounds": [
+      -0.06060606060606061,
+      -0.06060606060606061
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.18181818181818182,
+    "CI95": [
+      -0.030303030303030304,
+      0.42424242424242425
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.18181818181818182,
+      0.18181818181818182
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.030303030303030304,
+    "CI95": [
+      0.0,
+      0.09090909090909091
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "common_complete_tasks": 33,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.030303030303030304,
+      0.030303030303030304
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 141,
+    "estimate": -0.0874704491725768,
+    "CI95": [
+      -0.1284475965327029,
+      -0.048857368006304164
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 141,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.09182098765432097,
+      -0.08641975308641975
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 141,
+    "estimate": -0.05673758865248227,
+    "CI95": [
+      -0.1347517730496454,
+      0.02127659574468085
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 141,
+    "FSRR_gain": 12,
+    "FSRR_loss": 20,
+    "full_population_identification_bounds": [
+      -0.06944444444444445,
+      -0.04861111111111111
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.05673758865248227,
+    "CI95": [
+      -0.02127659574468085,
+      0.1347517730496454
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 141,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.04861111111111111,
+      0.06944444444444445
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.1773049645390071,
+    "CI95": [
+      0.11347517730496454,
+      0.24113475177304963
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 141,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.1736111111111111,
+      0.18055555555555555
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 141,
+    "estimate": -0.09062253743104805,
+    "CI95": [
+      -0.13159968479117415,
+      -0.05200945626477539
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 141,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.09490740740740738,
+      -0.08950617283950615
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 141,
+    "estimate": -0.05673758865248227,
+    "CI95": [
+      -0.1347517730496454,
+      0.02127659574468085
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 141,
+    "FSRR_gain": 12,
+    "FSRR_loss": 20,
+    "full_population_identification_bounds": [
+      -0.06944444444444445,
+      -0.04861111111111111
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.05673758865248227,
+    "CI95": [
+      -0.02127659574468085,
+      0.1347517730496454
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 141,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.04861111111111111,
+      0.06944444444444445
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.1702127659574468,
+    "CI95": [
+      0.11347517730496454,
+      0.23404255319148937
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 141,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.16666666666666666,
+      0.1736111111111111
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 142,
+    "estimate": -0.12519561815336464,
+    "CI95": [
+      -0.16823161189358374,
+      -0.08294209702660407
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 142,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.1234567901234568,
+      -0.12114197530864196
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 142,
+    "estimate": -0.4859154929577465,
+    "CI95": [
+      -0.5704225352112676,
+      -0.4084507042253521
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 142,
+    "FSRR_gain": 0,
+    "FSRR_loss": 69,
+    "full_population_identification_bounds": [
+      -0.4930555555555556,
+      -0.4791666666666667
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.4859154929577465,
+    "CI95": [
+      0.4084507042253521,
+      0.5704225352112676
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 142,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.4791666666666667,
+      0.4930555555555556
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 142,
+    "estimate": -0.16901408450704225,
+    "CI95": [
+      -0.24647887323943662,
+      -0.09154929577464789
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 142,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.1736111111111111,
+      -0.1597222222222222
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 142,
+    "estimate": -0.12832550860719874,
+    "CI95": [
+      -0.17214397496087636,
+      -0.08607198748043818
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 142,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.12654320987654322,
+      -0.12422839506172839
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 142,
+    "estimate": -0.4859154929577465,
+    "CI95": [
+      -0.5704225352112676,
+      -0.4084507042253521
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 142,
+    "FSRR_gain": 0,
+    "FSRR_loss": 69,
+    "full_population_identification_bounds": [
+      -0.4930555555555556,
+      -0.4791666666666667
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.4859154929577465,
+    "CI95": [
+      0.4084507042253521,
+      0.5704225352112676
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 142,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.4791666666666667,
+      0.4930555555555556
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 142,
+    "estimate": -0.16901408450704225,
+    "CI95": [
+      -0.24647887323943662,
+      -0.09154929577464789
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 142,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.1736111111111111,
+      -0.1597222222222222
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": -0.023919753086419752,
+    "CI95": [
+      -0.06018518518518518,
+      0.008487654320987657
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.023919753086419755,
+      -0.023919753086419755
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.038580246913580245,
+    "CI95": [
+      0.015432098765432096,
+      0.0617283950617284
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.038580246913580245,
+      0.038580246913580245
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.006172839506172842,
+    "CI95": [
+      -0.010030864197530862,
+      0.020833333333333336
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.006172839506172839,
+      0.006172839506172839
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": -0.08333333333333333,
+    "CI95": [
+      -0.1597222222222222,
+      -0.006944444444444444
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": 10,
+    "FSRR_loss": 22,
+    "full_population_identification_bounds": [
+      -0.08333333333333333,
+      -0.08333333333333333
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.08333333333333333,
+    "CI95": [
+      0.006944444444444444,
+      0.1597222222222222
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.08333333333333333,
+      0.08333333333333333
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.022376543209876542,
+    "CI95": [
+      0.008487654320987654,
+      0.03780864197530864
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.022376543209876545,
+      0.022376543209876545
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": -0.06944444444444445,
+    "CI95": [
+      -0.1388888888888889,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": 8,
+    "FSRR_loss": 18,
+    "full_population_identification_bounds": [
+      -0.06944444444444445,
+      -0.06944444444444445
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.06944444444444445,
+    "CI95": [
+      0.0,
+      0.1388888888888889
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.06944444444444445,
+      0.06944444444444445
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "common_complete_tasks": 144,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 98,
+    "estimate": 0.1746031746031746,
+    "CI95": [
+      0.11224489795918367,
+      0.24603174603174602
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 98,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.16947250280583614,
+      0.1728395061728395
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "common_complete_tasks": 0,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": null,
+    "significance_test": null
+  },
+  {
+    "n": 98,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 98,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 98,
+    "estimate": 0.1326530612244898,
+    "CI95": [
+      0.05102040816326531,
+      0.21428571428571427
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 98,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.13131313131313133
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 98,
+    "estimate": 0.1825396825396825,
+    "CI95": [
+      0.1179138321995465,
+      0.25510204081632654
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 98,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.17732884399551063,
+      0.18069584736251404
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "common_complete_tasks": 0,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": null,
+    "significance_test": null
+  },
+  {
+    "n": 98,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 98,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 98,
+    "estimate": 0.1326530612244898,
+    "CI95": [
+      0.05102040816326531,
+      0.21428571428571427
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 98,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.13131313131313133
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.23905723905723908,
+    "CI95": [
+      0.18961840628507295,
+      0.29074074074073997
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.23905723905723908,
+      0.23905723905723908
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "common_complete_tasks": 0,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": null,
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.5252525252525253,
+    "CI95": [
+      0.42424242424242425,
+      0.6262626262626263
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.5252525252525253,
+      0.5252525252525253
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.23905723905723908,
+    "CI95": [
+      0.18961840628507295,
+      0.29074074074073997
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.23905723905723908,
+      0.23905723905723908
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "common_complete_tasks": 0,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": null,
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.5252525252525253,
+    "CI95": [
+      0.42424242424242425,
+      0.6262626262626263
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.5252525252525253,
+      0.5252525252525253
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.12906846240179573,
+    "CI95": [
+      0.10325476992143662,
+      0.1571268237934905
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.12906846240179576,
+      0.12906846240179576
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "common_complete_tasks": 0,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": null,
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.7575757575757576,
+    "CI95": [
+      0.6767676767676768,
+      0.8383838383838383
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.7575757575757576,
+      0.7575757575757576
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.056116722783389465,
+    "CI95": [
+      0.041526374859708205,
+      0.07182940516273852
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.056116722783389465,
+      0.056116722783389465
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "common_complete_tasks": 0,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": null,
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.43434343434343436,
+    "CI95": [
+      0.3434343434343434,
+      0.5252525252525253
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.43434343434343436,
+      0.43434343434343436
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": -0.006734006734006737,
+    "CI95": [
+      -0.01571268237934905,
+      0.0011223344556677878
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.006734006734006737,
+      -0.006734006734006737
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "common_complete_tasks": 0,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": null,
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": -0.06060606060606061,
+    "CI95": [
+      -0.12121212121212122,
+      -0.010101010101010102
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.06060606060606061,
+      -0.06060606060606061
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": -0.012345679012345682,
+    "CI95": [
+      -0.022446689113355782,
+      -0.0044893378226711555
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.012345679012345682,
+      -0.012345679012345682
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "common_complete_tasks": 0,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": null,
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 99,
+    "estimate": -0.0707070707070707,
+    "CI95": [
+      -0.12121212121212122,
+      -0.030303030303030304
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "common_complete_tasks": 99,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.0707070707070707,
+      -0.0707070707070707
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": -0.04661558109833971,
+    "CI95": [
+      -0.08684546615581099,
+      -0.0057471264367815935
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.050847457627118633,
+      -0.046453232893910845
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": -0.08620689655172414,
+    "CI95": [
+      -0.16091954022988506,
+      -0.011494252873563218
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": 15,
+    "FSRR_loss": 30,
+    "full_population_identification_bounds": [
+      -0.096045197740113,
+      -0.07909604519774012
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.19540229885057472,
+    "CI95": [
+      0.09195402298850575,
+      0.3103448275862069
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.1864406779661017,
+      0.2033898305084746
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.16666666666666666,
+    "CI95": [
+      0.11494252873563218,
+      0.22413793103448276
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.1638418079096045,
+      0.1694915254237288
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": -0.04916985951468709,
+    "CI95": [
+      -0.0900383141762452,
+      -0.008301404853128974
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.053358443188951644,
+      -0.04896421845574386
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": -0.08620689655172414,
+    "CI95": [
+      -0.16091954022988506,
+      -0.011494252873563218
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": 15,
+    "FSRR_loss": 30,
+    "full_population_identification_bounds": [
+      -0.096045197740113,
+      -0.07909604519774012
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.19540229885057472,
+    "CI95": [
+      0.09195402298850575,
+      0.3103448275862069
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.1864406779661017,
+      0.2033898305084746
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.16091954022988506,
+    "CI95": [
+      0.10919540229885058,
+      0.21839080459770116
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 174,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.15819209039548024,
+      0.1638418079096045
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": -0.0926984126984127,
+    "CI95": [
+      -0.1320952380952381,
+      -0.05333333333333333
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.09165097300690521,
+      -0.08976773383553045
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": -0.4742857142857143,
+    "CI95": [
+      -0.5485714285714286,
+      -0.4
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": 0,
+    "FSRR_loss": 83,
+    "full_population_identification_bounds": [
+      -0.480225988700565,
+      -0.4689265536723164
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.5771428571428572,
+    "CI95": [
+      0.4742857142857143,
+      0.6857142857142857
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.5706214689265536,
+      0.5819209039548022
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": -0.13142857142857142,
+    "CI95": [
+      -0.2,
+      -0.06285714285714286
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.13559322033898305,
+      -0.12429378531073447
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": -0.09523809523809522,
+    "CI95": [
+      -0.1352380952380952,
+      -0.055841269841270295
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.09416195856873824,
+      -0.09227871939736346
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": -0.4742857142857143,
+    "CI95": [
+      -0.5485714285714286,
+      -0.4
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": 0,
+    "FSRR_loss": 83,
+    "full_population_identification_bounds": [
+      -0.480225988700565,
+      -0.4689265536723164
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.5714285714285714,
+    "CI95": [
+      0.4685714285714286,
+      0.68
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.5649717514124294,
+      0.576271186440678
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 175,
+    "estimate": -0.13142857142857142,
+    "CI95": [
+      -0.2,
+      -0.06285714285714286
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 175,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.13559322033898305,
+      -0.12429378531073447
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.003138731952291277,
+    "CI95": [
+      -0.030131826741996225,
+      0.035153797865662265
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0031387319522912733,
+      0.0031387319522912733
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": -0.005649717514124294,
+    "CI95": [
+      -0.01694915254237288,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.005649717514124294,
+      -0.005649717514124294
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.037664783427495296,
+    "CI95": [
+      0.01820464532328939,
+      0.057752667922159454
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.03766478342749529,
+      0.03766478342749529
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": 0,
+    "FSRR_loss": 0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": -0.005649717514124294,
+    "CI95": [
+      -0.01694915254237288,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      -0.005649717514124294,
+      -0.005649717514124294
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.00878844946641557,
+    "CI95": [
+      -0.005649717514124293,
+      0.022598870056497175
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.008788449466415568,
+      0.008788449466415568
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": -0.07909604519774012,
+    "CI95": [
+      -0.14689265536723164,
+      -0.01694915254237288
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": 10,
+    "FSRR_loss": 24,
+    "full_population_identification_bounds": [
+      -0.07909604519774012,
+      -0.07909604519774012
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.1016949152542373,
+    "CI95": [
+      0.02824858757062147,
+      0.1807909604519774
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.1016949152542373,
+      0.1016949152542373
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.005649717514124294,
+    "CI95": [
+      0.0,
+      0.01694915254237288
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.005649717514124294,
+      0.005649717514124294
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.023854362837413684,
+    "CI95": [
+      0.01004394224733208,
+      0.038920276208411805
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "accuracy",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.023854362837413684,
+      0.023854362837413684
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": -0.06779661016949153,
+    "CI95": [
+      -0.12457627118644059,
+      -0.011299435028248588
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "FSRR",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": 8,
+    "FSRR_loss": 20,
+    "full_population_identification_bounds": [
+      -0.06779661016949153,
+      -0.06779661016949153
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0903954802259887,
+    "CI95": [
+      0.022598870056497175,
+      0.1638418079096045
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "oracle_errors",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.0903954802259887,
+      0.0903954802259887
+    ],
+    "significance_test": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.005649717514124294,
+    "CI95": [
+      0.0,
+      0.01694915254237288
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "metric": "direct_all_nine",
+    "direction": "RTS minus immediate",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "common_complete_tasks": 177,
+    "FSRR_gain": null,
+    "FSRR_loss": null,
+    "full_population_identification_bounds": [
+      0.005649717514124294,
+      0.005649717514124294
+    ],
+    "significance_test": null
+  }
+]

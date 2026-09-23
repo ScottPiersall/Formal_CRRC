@@ -1,0 +1,227 @@
+{
+  "status": "anonymous_unified_protocol_index",
+  "notes": [
+    "package_sha256 authenticates the shipped anonymous copy.",
+    "original_frozen_sha256 is retained when available from the source protocol index.",
+    "A false hash-match flag indicates sanitization or source-line-ending normalization, not a change to saved numerical evidence."
+  ],
+  "files": [
+    {
+      "file": "code_explicit.txt",
+      "package_sha256": "d131ced21369eb0ebeb9411737fd0a3a1a3331f285c8530ca56b7eaf63a5b612",
+      "source_note": "templates.json#explicit",
+      "original_frozen_sha256": "d131ced21369eb0ebeb9411737fd0a3a1a3331f285c8530ca56b7eaf63a5b612",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_generation.txt",
+      "package_sha256": "31729d2cd48bece48d59794648d20d2bc219f7db658f3329b6efa5a3b303a382",
+      "source_note": "templates.json#generation",
+      "original_frozen_sha256": "31729d2cd48bece48d59794648d20d2bc219f7db658f3329b6efa5a3b303a382",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_original.txt",
+      "package_sha256": "44f22c42420828eab10e0ac8687c8752793e71f4905e4175d5545eb98a4836da",
+      "source_note": "templates.json#original",
+      "original_frozen_sha256": "44f22c42420828eab10e0ac8687c8752793e71f4905e4175d5545eb98a4836da",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_panel/five_model_protocol.json",
+      "package_sha256": "b731dc1012a38e4dc62b704833dc5a6f854ec86bc8122fa753a615089c01f86d",
+      "source_note": "FormalCRRC/artifacts/code_extension_v3_five_models/protocol.json",
+      "original_frozen_sha256": "b731dc1012a38e4dc62b704833dc5a6f854ec86bc8122fa753a615089c01f86d",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_panel/pilot_protocol.json",
+      "package_sha256": "359333b546d48e7121274b15bf0c6d3d6e00b6e08c577eb394d5364839b0c803",
+      "source_note": "FormalCRRC/artifacts/code_extension_v2/pilot_protocol.json",
+      "original_frozen_sha256": "359333b546d48e7121274b15bf0c6d3d6e00b6e08c577eb394d5364839b0c803",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_panel/qwen3_continuation_protocol.json",
+      "package_sha256": "fdcecb3b7e784ad3b88b151e54f291c654b95d02161848c5deddabe1c39ab8c2",
+      "source_note": "FormalCRRC/artifacts/code_extension_v4_q3_continuation/protocol.json",
+      "original_frozen_sha256": "fdcecb3b7e784ad3b88b151e54f291c654b95d02161848c5deddabe1c39ab8c2",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_panel/task_selection.json",
+      "package_sha256": "c73f6477948d411826a2dcab1cbe601063acd922d6eacbde0b61caf676ffa021",
+      "source_note": "FormalCRRC/artifacts/code_extension_v2/task_selection.json",
+      "original_frozen_sha256": "c73f6477948d411826a2dcab1cbe601063acd922d6eacbde0b61caf676ffa021",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_rts_v2_scaffold.txt",
+      "package_sha256": "9d0ce1b7af2e500337a6f1e2e7253dcff1985c577e9ef4cdc7efd188a40d25ff",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/scaffold_v2.txt",
+      "original_frozen_sha256": "9d0ce1b7af2e500337a6f1e2e7253dcff1985c577e9ef4cdc7efd188a40d25ff",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_v2/chat_rendering.json",
+      "package_sha256": "0edb0772ad555be1a20db9f140fe6f2ec3ad4cf473db8d85521d97539a9e614a",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/chat_rendering.json",
+      "original_frozen_sha256": "0edb0772ad555be1a20db9f140fe6f2ec3ad4cf473db8d85521d97539a9e614a",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_v2/freeze.json",
+      "package_sha256": "54759c7d5a0335fe5b5839b07448f72b99667070511d2b9cd5353004c29fcfe8",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/freeze.json",
+      "original_frozen_sha256": "58c12d0a6052beec24cb7d96e6ac7f564a27e4d3cb43abf114e85997c8e4b568",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "code_v2/generation_config.json",
+      "package_sha256": "90792638d659b0dd4768ff07800ca8cf38596dfcc1a5c1fa1b593799d59b2766",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/generation_config.json",
+      "original_frozen_sha256": "90792638d659b0dd4768ff07800ca8cf38596dfcc1a5c1fa1b593799d59b2766",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_v2/main_freeze.json",
+      "package_sha256": "75aa695a9e908b18dd71e82205563f40b4d977852e0486c7f62084c653df7856",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/main_freeze.json",
+      "original_frozen_sha256": "9b773f241f8d553d160fa885614a665845eadcc091f300e05c0e966bfb3a5123",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "code_v2/model.json",
+      "package_sha256": "2c33b4527b0ba8a892a976662023c7e61e4637cde2e1bf08f36263f2086dbb13",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/model.json",
+      "original_frozen_sha256": "9c75306851e59ff65a4d01e7a4dc5627143d0c60297fdf3bc4596af74b86e243",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "code_v2/protocol.py",
+      "package_sha256": "72ed52d6fc8f3712f7b30ef24d066ae8885d96399a0f1e4ea2eb84da52771c12",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/src/protocol.py",
+      "original_frozen_sha256": "72ed52d6fc8f3712f7b30ef24d066ae8885d96399a0f1e4ea2eb84da52771c12",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "code_v2/run_inference.py",
+      "package_sha256": "cdcb2cc951b3d80dc957eea9dd246d001328866ebf97a14ea9e5c7a585b0b2d7",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/src/run_inference.py",
+      "original_frozen_sha256": "538f173062c9186d62714a4da285ceefaadfc57f5aa71b8b965e50983b60d3a6",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "qwen3_synthetic/model_provenance.json",
+      "package_sha256": "e2ad6651e468adada106b7893fc792688c95c571cf950d9c63ace85cf756e3a8",
+      "source_note": "FormalCRRC/artifacts/reasoning_anchor/model_provenance.json",
+      "original_frozen_sha256": "07a5fbacda41433075dfc30c556a34e3a2820368665b5a3f2f2b8b38ee92c560",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "qwen3_synthetic/preregistration.json",
+      "package_sha256": "e88fc093e1a2b6fc505a30716e88704708b7eedc8aee5141108aa012dff0abd9",
+      "source_note": "FormalCRRC/artifacts/reasoning_anchor/preregistration.json",
+      "original_frozen_sha256": "e88fc093e1a2b6fc505a30716e88704708b7eedc8aee5141108aa012dff0abd9",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "source/code_extension.py",
+      "package_sha256": "c2c6e5ab6b7277247f1022b3eddc73b60d18d7719724b8286f98db39ab70609a",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/reused_source/formalcrrc/code_extension.py",
+      "original_frozen_sha256": "61a6223a5db68d1903dc8addf0f3836b2228495dd7cdd3a2a227621edf344d7b",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "source/code_extension_answer_tokens.py",
+      "package_sha256": "724c723c7a1d445a678d208895556810f72f5c945681cd9e3679c00ade51787b",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/reused_source/formalcrrc/code_extension_answer_tokens.py",
+      "original_frozen_sha256": "724c723c7a1d445a678d208895556810f72f5c945681cd9e3679c00ade51787b",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "source/code_extension_inference.py",
+      "package_sha256": "19f0169bcd87180241a4207d7e5ff8daa14d2d820715a3e481d51f3b21658f03",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/reused_source/formalcrrc/code_extension_inference.py",
+      "original_frozen_sha256": "19f0169bcd87180241a4207d7e5ff8daa14d2d820715a3e481d51f3b21658f03",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "source/code_extension_validation.py",
+      "package_sha256": "dafab04df9434e030c5a0ff5e95624126215bd84062fe2542971122e068e6e4b",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/reused_source/formalcrrc/code_extension_validation.py",
+      "original_frozen_sha256": "dafab04df9434e030c5a0ff5e95624126215bd84062fe2542971122e068e6e4b",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "source/code_pilot.py",
+      "package_sha256": "d53ac40a90503bcf911e0f9bda0e735f35f8bc9ec390c9c38ccbe48ddab3065d",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/reused_source/formalcrrc/code_pilot.py",
+      "original_frozen_sha256": "69e1589aae0a9736ed8f829ade63d8db363d662afd39a67b9a62582edaf2cfae",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "source/code_pilot_sandbox.py",
+      "package_sha256": "ecb47f62827878854650e82053277c9371e1f85b7f6180bf549f80cbefb41909",
+      "source_note": "FormalCRRC/artifacts/code_protocol_followup_v2/preregistration/reused_source/formalcrrc/code_pilot_sandbox.py",
+      "original_frozen_sha256": "ecb47f62827878854650e82053277c9371e1f85b7f6180bf549f80cbefb41909",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "synthetic_rts/generation_config.json",
+      "package_sha256": "021679ca6156a2f2afae58694c0642c2cc7fe5394a13ce92e6c204b466c8d312",
+      "source_note": "FormalCRRC/analysis/posthoc_synthetic_qwen25_rts_fsrr_v2/inputs/artifacts/reason_then_score_ablation/generation_config.json",
+      "original_frozen_sha256": "021679ca6156a2f2afae58694c0642c2cc7fe5394a13ce92e6c204b466c8d312",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "synthetic_rts/model_provenance.json",
+      "package_sha256": "8a2d4ec3316e3195ea087e166d9389c98a2efa2b666fac7db2fc7d2bf8915374",
+      "source_note": "FormalCRRC/analysis/posthoc_synthetic_qwen25_rts_fsrr_v2/inputs/artifacts/reason_then_score_ablation/model_provenance.json",
+      "original_frozen_sha256": "f83b50d55903faa42533ca45ddad6b7ce8057e0cd4cc4b6add3b815c85706c58",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "synthetic_rts/preflight.json",
+      "package_sha256": "668cea8535cef1de2772e7b33d13075d653dca8498b96ae73df19e7c4446b0f9",
+      "source_note": "FormalCRRC/analysis/posthoc_synthetic_qwen25_rts_fsrr_v2/inputs/artifacts/reason_then_score_ablation/preflight.json",
+      "original_frozen_sha256": "6fa7c7ff3cd292d172daf86765ec1e79ca6dd88ba7fc524d191498a135993537",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "synthetic_rts/preregistration.json",
+      "package_sha256": "43e9175b3717f493b58657e2d88e22d145bb769fd4a3ea51f054880acc6a40b2",
+      "source_note": "FormalCRRC/analysis/posthoc_synthetic_qwen25_rts_fsrr_v2/inputs/artifacts/reason_then_score_ablation/preregistration.json",
+      "original_frozen_sha256": "43e9175b3717f493b58657e2d88e22d145bb769fd4a3ea51f054880acc6a40b2",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "synthetic_rts/run.json",
+      "package_sha256": "b0ed2047da611876a836359a25c77fd42286c8dc48e6eeb3fdde81e512ae01db",
+      "source_note": "FormalCRRC/analysis/posthoc_synthetic_qwen25_rts_fsrr_v2/inputs/artifacts/reason_then_score_ablation/run.json",
+      "original_frozen_sha256": "670d2fe50cbc56948e694cfe755badadaa0543bfac130da8b9d757d710acbdd2",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "synthetic_rts_scaffold.txt",
+      "package_sha256": "fee2aa126e937aa6cd03a74e1243797455ad47e69550170ee2de6d5a2d7f91c4",
+      "source_note": "synthetic_rts/preregistration.json#prompt.scaffold plus two recorded initial LF bytes",
+      "original_frozen_sha256": "fee2aa126e937aa6cd03a74e1243797455ad47e69550170ee2de6d5a2d7f91c4",
+      "matches_original_frozen_hash": true
+    },
+    {
+      "file": "synthetic_s3/model_provenance.json",
+      "package_sha256": "89540bab4cffedf84335803cfc77b511587f0386541ecd72293dd9bb819a15b6",
+      "source_note": "FormalCRRC/artifacts/day3/model_provenance.json",
+      "original_frozen_sha256": "9be4bdb6d1ea106371350578a003e4a9a0ccf1b2c6963446def73fa7c9928dd8",
+      "matches_original_frozen_hash": false
+    },
+    {
+      "file": "templates.json",
+      "package_sha256": "ff70a4dd66c66312a89c6bb6c8368e135edd839e45c96b277531d3d26a5b95d4",
+      "source_note": "FormalCRRC/artifacts/table8_independent_replication_v1/preregistration/templates.json",
+      "original_frozen_sha256": "ff70a4dd66c66312a89c6bb6c8368e135edd839e45c96b277531d3d26a5b95d4",
+      "matches_original_frozen_hash": true
+    }
+  ]
+}

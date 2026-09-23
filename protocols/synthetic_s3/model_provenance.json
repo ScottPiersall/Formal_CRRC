@@ -1,0 +1,270 @@
+{
+  "created_at": "2026-09-07T19:11:40+00:00",
+  "dtype_requested": "bfloat16",
+  "environment": {
+    "captured_at": "2026-09-07T19:11:40+00:00",
+    "gpu": {
+      "available": true,
+      "cudnn_version": 92000,
+      "device_count": 1,
+      "devices": [
+        {
+          "capability": "9.0",
+          "index": 0,
+          "name": "NVIDIA H100 PCIe",
+          "total_memory_bytes": 85017624576
+        }
+      ],
+      "torch_cuda_version": "13.0",
+      "torch_version": "2.13.0+cu130"
+    },
+    "hostname": "COMPUTE_NODE",
+    "machine": "x86_64",
+    "packages": {
+      "accelerate": null,
+      "matplotlib": "3.11.1",
+      "numpy": "2.3.5",
+      "pandas": "3.0.5",
+      "pyarrow": "25.0.1",
+      "scipy": "1.17.1",
+      "tokenizers": "0.23.2",
+      "torch": "2.13.0",
+      "transformers": "5.16.1"
+    },
+    "platform": "Linux-4.18.0-553.123.1.el8_10.0.1.x86_64-x86_64-with-glibc2.28",
+    "python_implementation": "CPython",
+    "python_version": "3.11.16"
+  },
+  "experiment": "FormalCRRC Day 3",
+  "models": {
+    "Qwen/Qwen2.5-14B-Instruct": {
+      "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+      "checked_at": "2026-09-07T19:08:16+00:00",
+      "continuity": {
+        "chat_template_matches_day1": true,
+        "dtype_matches_day1": true,
+        "label_tokenization_matches_day1": true,
+        "revision_matches_day1": true,
+        "revision_matches_day2": true,
+        "scoring_method_matches_day1": true
+      },
+      "day1_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "day2_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "dtype": "torch.bfloat16",
+      "label_tokenization": {
+        "differs_from_naive_encoding": false,
+        "label_met": "A",
+        "label_not_met": "B",
+        "met_token_ids": [
+          32
+        ],
+        "naive_met_token_ids": [
+          32
+        ],
+        "naive_not_met_token_ids": [
+          33
+        ],
+        "not_met_token_ids": [
+          33
+        ],
+        "scoring_method": "single_token_next_logit",
+        "single_token_equivalence": true
+      },
+      "model_id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "revision_source": "artifacts/day1/model_provenance.json (immutable)",
+      "slug": "qwen2_5_14b_instruct",
+      "smoke_test": {
+        "day1_raw_score_met": 37.0,
+        "day1_raw_score_not_met": 13.75,
+        "is_study_prompt": false,
+        "margin": 23.25,
+        "prompt": "Name one primary colour.",
+        "raw_score_met": 37.0,
+        "raw_score_not_met": 13.75,
+        "reproduces_day1_scores": true,
+        "scoring_method": "single_token_next_logit"
+      },
+      "status": "AVAILABLE",
+      "tokenizer_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "torch_version": "2.13.0+cu130",
+      "transformers_version": "5.16.1"
+    },
+    "google/gemma-2-9b-it": {
+      "chat_template_sha256": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+      "checked_at": "2026-09-07T19:10:51+00:00",
+      "continuity": {
+        "chat_template_matches_day1": true,
+        "dtype_matches_day1": true,
+        "label_tokenization_matches_day1": true,
+        "revision_matches_day1": true,
+        "revision_matches_day2": true,
+        "scoring_method_matches_day1": true
+      },
+      "day1_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "day2_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "dtype": "torch.bfloat16",
+      "label_tokenization": {
+        "differs_from_naive_encoding": false,
+        "label_met": "A",
+        "label_not_met": "B",
+        "met_token_ids": [
+          235280
+        ],
+        "naive_met_token_ids": [
+          235280
+        ],
+        "naive_not_met_token_ids": [
+          235305
+        ],
+        "not_met_token_ids": [
+          235305
+        ],
+        "scoring_method": "single_token_next_logit",
+        "single_token_equivalence": true
+      },
+      "model_id": "google/gemma-2-9b-it",
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "revision_source": "artifacts/day1/model_provenance.json (immutable)",
+      "slug": "gemma_2_9b_it",
+      "smoke_test": {
+        "day1_raw_score_met": 10.9375,
+        "day1_raw_score_not_met": 6.15625,
+        "is_study_prompt": false,
+        "margin": 4.78125,
+        "prompt": "Name one primary colour.",
+        "raw_score_met": 10.9375,
+        "raw_score_not_met": 6.15625,
+        "reproduces_day1_scores": true,
+        "scoring_method": "single_token_next_logit"
+      },
+      "status": "AVAILABLE",
+      "tokenizer_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+      "torch_version": "2.13.0+cu130",
+      "transformers_version": "5.16.1"
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "chat_template_sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+      "checked_at": "2026-09-07T19:09:47+00:00",
+      "continuity": {
+        "chat_template_matches_day1": true,
+        "dtype_matches_day1": true,
+        "label_tokenization_matches_day1": true,
+        "revision_matches_day1": true,
+        "revision_matches_day2": true,
+        "scoring_method_matches_day1": true
+      },
+      "day1_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "day2_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "dtype": "torch.bfloat16",
+      "label_tokenization": {
+        "differs_from_naive_encoding": false,
+        "label_met": "A",
+        "label_not_met": "B",
+        "met_token_ids": [
+          32
+        ],
+        "naive_met_token_ids": [
+          32
+        ],
+        "naive_not_met_token_ids": [
+          33
+        ],
+        "not_met_token_ids": [
+          33
+        ],
+        "scoring_method": "single_token_next_logit",
+        "single_token_equivalence": true
+      },
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "revision_source": "artifacts/day1/model_provenance.json (immutable)",
+      "slug": "llama3_1_8b_instruct",
+      "smoke_test": {
+        "day1_raw_score_met": 21.5,
+        "day1_raw_score_not_met": 15.3125,
+        "is_study_prompt": false,
+        "margin": 6.1875,
+        "prompt": "Name one primary colour.",
+        "raw_score_met": 21.5,
+        "raw_score_not_met": 15.3125,
+        "reproduces_day1_scores": true,
+        "scoring_method": "single_token_next_logit"
+      },
+      "status": "AVAILABLE",
+      "tokenizer_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "torch_version": "2.13.0+cu130",
+      "transformers_version": "5.16.1"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3": {
+      "chat_template_sha256": "e16746b40344d6c5b5265988e0328a0bf7277be86f1c335156eae07e29c82826",
+      "checked_at": "2026-09-07T19:10:28+00:00",
+      "continuity": {
+        "chat_template_matches_day1": true,
+        "dtype_matches_day1": true,
+        "label_tokenization_matches_day1": true,
+        "revision_matches_day1": true,
+        "revision_matches_day2": true,
+        "scoring_method_matches_day1": true
+      },
+      "day1_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "day2_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "dtype": "torch.bfloat16",
+      "label_tokenization": {
+        "differs_from_naive_encoding": true,
+        "label_met": "A",
+        "label_not_met": "B",
+        "met_token_ids": [
+          29509
+        ],
+        "naive_met_token_ids": [
+          1098
+        ],
+        "naive_not_met_token_ids": [
+          1133
+        ],
+        "not_met_token_ids": [
+          29528
+        ],
+        "scoring_method": "single_token_next_logit",
+        "single_token_equivalence": true
+      },
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "revision_source": "artifacts/day1/model_provenance.json (immutable)",
+      "slug": "mistral_7b_instruct_v0_3",
+      "smoke_test": {
+        "day1_raw_score_met": 6.84375,
+        "day1_raw_score_not_met": -2.296875,
+        "is_study_prompt": false,
+        "margin": 9.140625,
+        "prompt": "Name one primary colour.",
+        "raw_score_met": 6.84375,
+        "raw_score_not_met": -2.296875,
+        "reproduces_day1_scores": true,
+        "scoring_method": "single_token_next_logit"
+      },
+      "status": "AVAILABLE",
+      "tokenizer_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "torch_version": "2.13.0+cu130",
+      "transformers_version": "5.16.1"
+    }
+  },
+  "panel_policy": "Exactly the Day-1/Day-2 four-model panel at exactly the Day-1 revisions, read from the immutable Day-1 provenance record. No upgrade, no branch re-resolution, no substitution, no quantisation.",
+  "panel_status": {
+    "Qwen/Qwen2.5-14B-Instruct": "AVAILABLE",
+    "google/gemma-2-9b-it": "AVAILABLE",
+    "meta-llama/Llama-3.1-8B-Instruct": "AVAILABLE",
+    "mistralai/Mistral-7B-Instruct-v0.3": "AVAILABLE"
+  },
+  "preregistered_panel": [
+    "Qwen/Qwen2.5-14B-Instruct",
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "google/gemma-2-9b-it"
+  ],
+  "prompt_template_matches_prior": true,
+  "prompt_template_sha256": "e5f3c5ba3dfd1ccaca0655307d8ad254598a17184c7ae40dfde63c1f660cae14",
+  "smoke_prompt": "Name one primary colour.",
+  "smoke_prompt_is_study_prompt": false
+}

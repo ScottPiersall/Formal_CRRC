@@ -1,0 +1,119 @@
+{
+  "analysis": {
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 20260911,
+    "bootstrap_unit": "task, all nine thresholds together; model/template/form contrasts paired by task",
+    "limitations": "Four immediate-readout models and one native reason-then-score model; no isolated causal effect of reasoning. One reasoning sample per row: task bootstrap does not estimate repeated-reasoning variability. Prior two models alone have the ten-task float32 audit.",
+    "metrics": [
+      "accuracy",
+      "strict_accuracy",
+      "trr",
+      "fsrr",
+      "tce",
+      "oracle_min_errors",
+      "k0_correct",
+      "strict_trr",
+      "strict_fsrr"
+    ],
+    "missing": "Report all expected 80-task denominators, complete/failed/missing curves; per-model all-valid and five-model common-complete analyses separately; no hidden intersection.",
+    "subsets": [
+      "all z=0..8",
+      "nontrivial z=0..7",
+      "partial z=1..7"
+    ]
+  },
+  "answer_forms": [
+    "A",
+    " A",
+    "\nA",
+    "B",
+    " B",
+    "\nB"
+  ],
+  "answer_tokenization": "Resolve full-context continuations using verified v2 resolver. Preserve actual supplied prompt IDs if a trailing whitespace BPE merge makes full re-encoding unstable: stable sentinel continuation must decode to an allowed form behind actual context IDs. Never use isolated label tokenization as a score index. Deduplicate paths and reject A/B collisions or strict prefix overlap.",
+  "budget": "Continue within existing v2 authorization and its remaining budget. No new eight-hour grant. Conservative additional reservation cap 3 GPU h; actual prior GPU use 6824 s separately recorded.",
+  "created_at": "2026-09-11T01:28:27+00:00",
+  "data": "Exactly v2 80 main and 3 smoke tasks, same generated Mistral candidates, eight tests, expected values and verified truth. No generation, repair, task replacement, new generator or new precision audit.",
+  "design": {
+    "main_tasks": 80,
+    "new_main_contexts": 4320,
+    "new_main_score_records": 8640,
+    "new_smoke_contexts": 162,
+    "new_smoke_score_records": 324,
+    "partial_main_tasks": 23,
+    "qwen3_main_reasoning_requests": 1440,
+    "smoke_tasks": 3,
+    "templates": [
+      "original",
+      "explicit"
+    ],
+    "thresholds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "dtype": "bfloat16",
+  "immediate_backend": "Transformers sdpa, same environment and weight dtype as v2; no TF32; single token raw logits or exact sequence conditional likelihood",
+  "models": {
+    "gemma": {
+      "model_id": "google/gemma-2-9b-it",
+      "protocol": "immediate_readout",
+      "reused": false,
+      "revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819"
+    },
+    "llama": {
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "protocol": "immediate_readout",
+      "reused": false,
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+    },
+    "mistral": {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "protocol": "immediate_readout",
+      "reused": true,
+      "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71"
+    },
+    "qwen": {
+      "model_id": "Qwen/Qwen2.5-14B-Instruct",
+      "protocol": "immediate_readout",
+      "reused": true,
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    },
+    "qwen3": {
+      "model_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+      "protocol": "native_reason_then_score",
+      "reused": false,
+      "revision": "144afc2f379b542fdd4e85a1fcd5e1f79112d95d"
+    }
+  },
+  "ordering": "By split(smoke first), task_id, template, k; Q3 chunks of 54 contexts; different k always has its own reasoning and seed.",
+  "quantization": null,
+  "qwen3": {
+    "engine": "vllm 0.28.0, unquantized bf16, per-row seeds, stop_token_ids, include_stop_str_in_output=True",
+    "forward_reporting": "Report generation requests, output tokens, teacher-forced path requests/positions and actual measured forwards separately. vLLM physical forward calls unavailable without engine instrumentation are null, never substituted by logical scores.",
+    "history_review": "Reuses historical native reason-then-score settings, row_seed SHA256 design, split_reasoning, build_decision_context and sequence likelihood. Historical runner conditionally appended think-end on generic stop; this extension explicitly rejects that fallback.",
+    "min_p": 0,
+    "n": 1,
+    "native_stop": "</think>",
+    "natural_end_rule": "Original completion.token_ids must end in the native think-end ID, within 8192 generated tokens, and finish_reason must be stop. Preserve exact raw output. Never append an absent marker, never force-close or resample a semantic failure.",
+    "post_think_separator": "\n\n",
+    "reasoning_token_budget": 8192,
+    "score_rule": "Same completed native trace and separator for both score forms. Re-resolve label continuations against actual final context IDs. Teacher-force each distinct path and read full-vocabulary prompt_logprobs. Extra one-token decode required by vLLM likelihood API is counted separately from reasoning and never used for a judgment.",
+    "seed_rule": "int.from_bytes(sha256(f'42|code_extension_v3_five_models|{task_id}|{variant}|{k}'.encode()).digest()[:8], 'big') % 2147483647; explicit complete map in inputs.json",
+    "temperature": 0.6,
+    "top_k": 20,
+    "top_p": 0.95
+  },
+  "retries": "Completed scores and saved traces immutable and skipped. Truncated/wrong-boundary traces are terminal missing scores; never resample. Infrastructure failures may resume the same fixed row/seed at most twice after the initial attempt, retaining attempts. Scoring recovery reuses any saved natural trace. No automatic scientific/validation-error retry.",
+  "smoke_gate": "All three smoke tasks per model before main. CPU data/tokenizer/metric checks first. Estimate remaining time from actual smoke incl 50% margin and load; defer if beyond authorized available allocation. Save incomplete curves and every denominator.",
+  "status": "Prospectively fixed new-model expansion; not part of original v2 preregistration",
+  "study": "Code acceptance five-model extension after observed v2 results",
+  "union": "Full-vocabulary conditional log-probabilities per path; sum distinct sequence probabilities by label. Save every path and component. No outcome-based form selection. Bare and union share forward work and (Q3) one reasoning trace."
+}

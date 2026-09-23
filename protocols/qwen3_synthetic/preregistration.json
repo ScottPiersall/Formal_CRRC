@@ -1,0 +1,202 @@
+{
+  "amendments": 0,
+  "analysis_code": {
+    "files": {
+      "scripts/analyze_reasoning_anchor.py": "c092f87003dfb93271c7546db6ae57d4e39a28b218c77ec1a200c88d3bcdcfe1",
+      "scripts/figures_reasoning_anchor.py": "63cfb397fe9ec96c07a179df10f3fa744bc6e57ed3aa09f4bd9de0d2aac6cda1",
+      "scripts/freeze_reasoning_anchor_preregistration.py": "d1223b0a055edf95f97aee5610182e875171a4ca848a68f6cf8073612f0a888d",
+      "scripts/preflight_reasoning_anchor.py": "d200f17fa2e69c3772fe901535a743d6ab016d310447c5bba25b7c501914b2c2",
+      "scripts/run_reasoning_anchor_inference.py": "277e05d9e252817a61709452d7689726623e377fb19ace00473cf261e5a6d72a",
+      "scripts/verify_reasoning_anchor_integrity.py": "5c784db4610f672408f8db760f18f39af1945f9c6ed43c46d83457fc7e0ad84b",
+      "src/formalcrrc/config.py": "4558ccfdcdd55e2ffd7cd30dbd0b06d07fbbcf659dd1bbf5d8dbef7e209efa52",
+      "src/formalcrrc/day2.py": "5b61a03e18610a3cd646fad4028f89e0c3b95056297c33caf1c89782d087de32",
+      "src/formalcrrc/day3.py": "213fcd331a67d73b8ec5cdcd30dafa778da9b7d22107c8cd756b8a6ada713cc5",
+      "src/formalcrrc/predicates.py": "5c119021ffa69d2dc875bb931a249e5f12811fda791227bc0716cb075fc56b68",
+      "src/formalcrrc/prompts.py": "a5350ba6687fecb2d7526677bb31ad12373df58064e1096d1a15603a03308dd4",
+      "src/formalcrrc/provenance.py": "34e1c06f91514642b0bcc1beb946997ad275d2b69030f80d83b6e7df9920bd55",
+      "src/formalcrrc/reasoning_anchor.py": "368c403797cd3b9a5773a39640266415c5145d7934cefee6a9dbacf9df5da9e8",
+      "src/formalcrrc/reasoning_anchor_bootstrap.py": "79ae152621be229553a21547bbeb8f05fdae622214e38d24603cf677ebfee9a8",
+      "src/formalcrrc/reasoning_anchor_config.py": "25000305fe2f843891a4a6a2f1641ce0fc4b2f6a929b63f32e2cc696a75c8d3e",
+      "src/formalcrrc/scoring.py": "e9dea77babcb60820ad679226d2d826265fe0d844948163296c71be56510c8d4"
+    },
+    "tree_sha256": "b4f8ce9abe8acb1c68e20dfd895668b5a05eec96d71477830758e53ab42cabcf"
+  },
+  "anchor_description": "reasoning-capable open-weight external anchor",
+  "baselines": {
+    "always_met_tce": 4.0,
+    "always_not_met_tce": 5.0,
+    "fixed_center_accuracy": 0.7530864197530864,
+    "fixed_center_tce": 2.2222222222222223,
+    "majority_accuracy": 0.5555555555555556,
+    "random_crossing_accuracy": 0.6707818930041153,
+    "random_crossing_tce": 2.962962962962963
+  },
+  "completeness": {
+    "curve_exclusion_rule": "A curve is excluded from curve-level TCE/TRR if and only if one or more of its nine strictness levels lacks a valid primary margin (reasoning truncated, or scoring failed). No exclusion depends on the value of any margin or on model performance.",
+    "truncation_warning_flag": "REASONING_COMPLETENESS_WARNING",
+    "truncation_warning_fraction": 0.01
+  },
+  "dataset": {
+    "n_artifacts": 324,
+    "n_nontrivial_curves": 288,
+    "n_rows": 2916,
+    "n_strictness_levels": 9,
+    "partition": "DAY3_TEST",
+    "prompt_template_sha256": "e5f3c5ba3dfd1ccaca0655307d8ad254598a17184c7ae40dfde63c1f660cae14",
+    "seed": 45,
+    "validation": {
+      "checked_at": "2026-09-09T18:54:48+00:00",
+      "checks": {
+        "artifact_count": true,
+        "content_hash_matches_manifest": true,
+        "formal_truth_reconstructs": true,
+        "nine_levels_each": true,
+        "nontrivial_curve_count": true,
+        "one_hundred_eight_per_family": true,
+        "partition_is_day3_test": true,
+        "row_count": true,
+        "seed_is_45": true,
+        "thirty_six_at_each_crossing": true,
+        "true_crossing_reconstructs": true
+      },
+      "dataset_content_sha256": "9700960d6f3aa130fa259500aeadbdfa9f511bcc943dd5fdf3401330ee8009d6",
+      "dataset_file_sha256": "2160b662fa527498c6bd245e173f0ead9030a7d69633869233b76e5184647a34",
+      "dataset_path": "artifacts/day3/test_dataset.parquet",
+      "n_artifacts": 324,
+      "n_nontrivial_curves": 288,
+      "n_rows": 2916,
+      "status": "PASS"
+    }
+  },
+  "day3_comparison": {
+    "status": "descriptive only; the anchor uses a reason-then-score protocol rather than the original immediate next-token procedure, so no pooled hypothesis test treating the five models as exchangeable is performed",
+    "tce": {
+      "Gemma-2-9B": 3.361,
+      "Llama-3.1-8B": 4.904,
+      "Mistral-7B": 2.938,
+      "Qwen2.5-14B": 3.373
+    },
+    "unreachable_pct": {
+      "Gemma-2-9B": 39.58,
+      "Llama-3.1-8B": 72.92,
+      "Mistral-7B": 66.67,
+      "Qwen2.5-14B": 52.08
+    },
+    "unreachable_range": [
+      39.58,
+      72.92
+    ]
+  },
+  "document": {
+    "path": "docs/PREREGISTRATION_REASONING_ANCHOR.md"
+  },
+  "frozen_at": "2026-09-09T18:54:49+00:00",
+  "frozen_record": {
+    "combined_sha256": "4938e3dd1c67853801d018a2f0a4c778571f8a7f1596decea4c26fd74a404188",
+    "n_files": 147
+  },
+  "git": {
+    "available": true,
+    "clean": false,
+    "commit": "fda8017f2bda4b34681597cee9baa3ebf5b06d21",
+    "dirty_paths": [
+      ".gitignore",
+      "LICENSE",
+      "artifacts/poststudy_baselines/baseline_by_partition.csv",
+      "artifacts/reasoning_anchor/",
+      "docs/PREREGISTRATION_REASONING_ANCHOR.md",
+      "scripts/analyze_reasoning_anchor.py",
+      "scripts/figures_reasoning_anchor.py",
+      "scripts/freeze_reasoning_anchor_preregistration.py",
+      "scripts/preflight_reasoning_anchor.py",
+      "scripts/run_reasoning_anchor_inference.py",
+      "scripts/verify_reasoning_anchor_integrity.py",
+      "scripts/write_results_reasoning_anchor.py",
+      "slurm/preflight_reasoning_anchor.sbatch",
+      "slurm/run_reasoning_anchor_inference.sbatch",
+      "src/formalcrrc/reasoning_anchor.py",
+      "src/formalcrrc/reasoning_anchor_bootstrap.py",
+      "src/formalcrrc/reasoning_anchor_config.py",
+      "tests/test_reasoning_anchor.py"
+    ]
+  },
+  "model": {
+    "chat_template_sha256": "3802169b2a02b81e6adb7ab4f64f91ff02db753c8c3a64a01c35192d3a61d8d7",
+    "config_sha256": "a1ee086a68d0cbfc87316da00ba4b8507bd1292978108e2496201a30a450f438",
+    "config_torch_dtype": "bfloat16",
+    "dtype": "bfloat16",
+    "model_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+    "quantization": "none",
+    "quantization_config_present": false,
+    "revision": "144afc2f379b542fdd4e85a1fcd5e1f79112d95d",
+    "short_name": "Qwen3-30B-A3B-Thinking",
+    "slug": "qwen3_30b_a3b_thinking_2507",
+    "tokenizer_revision": "144afc2f379b542fdd4e85a1fcd5e1f79112d95d"
+  },
+  "protocol": {
+    "crossing_convention": "j_hat = min{s : M(s) < 0}, else 9. M = 0 counts as 'criterion met'.",
+    "decision_convention": "D(s) = 1[M(s) >= 0]",
+    "name": "reason_then_score",
+    "rationale": "The Day-3 panel was scored at the immediate response boundary, M = S_A - S_B on the first generated token. This anchor's native chat template opens a thinking block in the generation prompt, so the first generated token begins its reasoning rather than its judgment. Scoring A/B there would measure the start of reasoning, not the final decision.",
+    "reachability_condition": "M(j) < min_{t < j} M(t)  (strict prefix record low); crossings 0 and 9 always reachable",
+    "stage_d": {
+      "candidate_met": "A",
+      "candidate_not_met": "B",
+      "candidate_tokenization_rule": "prompt_continuation_difference",
+      "candidates": {
+        "A": {
+          "contextual_token_ids": [
+            32
+          ],
+          "differs_from_isolated": false,
+          "isolated_token_ids": [
+            32
+          ],
+          "n_tokens": 1
+        },
+        "B": {
+          "contextual_token_ids": [
+            33
+          ],
+          "differs_from_isolated": false,
+          "isolated_token_ids": [
+            33
+          ],
+          "n_tokens": 1
+        }
+      },
+      "canonical_margin": "M = L_A - L_B",
+      "post_think_separator": "\n\n",
+      "post_think_separator_bytes": "0x0a 0x0a",
+      "post_think_separator_hex": "0a0a",
+      "post_think_separator_source": "Qwen3 native chat template, assistant branch: the completed assistant turn is rendered as the thinking-open delimiter, a newline, the reasoning content stripped of leading and trailing newlines, a newline, the thinking-close delimiter, then exactly two newlines, then the answer.",
+      "post_think_separator_token_ids": [
+        271
+      ],
+      "scoring_method": "sequence_loglikelihood"
+    },
+    "stage_r": {
+      "experiment_seed": 42,
+      "generation_prompt_opens_thinking": true,
+      "min_p": 0.0,
+      "reasoning_token_budget": 8192,
+      "samples_per_row": 1,
+      "seed_modulus": 2147483647,
+      "seed_rule": "seed_r = int.from_bytes(sha256(f'{base_seed}|{artifact_id}|{strictness_index}'.encode('utf-8')).digest()[:8], 'big') % 2147483647. SHA-256 is used because Python's built-in hash() is process-randomised and would not reproduce across runs. The reduction modulus is 2**31 - 1, the largest signed 32-bit prime, which keeps the seed inside the range every sampler accepts.",
+      "temperature": 0.6,
+      "think_end_text": "</think>",
+      "think_end_token_id": 151668,
+      "top_k": 20,
+      "top_p": 0.95
+    },
+    "tie_policy": "Exact stored float64 comparison under the strict relation. No tolerance is introduced. Tie frequencies are recorded descriptively and the rule is not changed after observing them."
+  },
+  "statistics": {
+    "bootstrap_ci": "percentile, 95%",
+    "bootstrap_replicates": 5000,
+    "bootstrap_scheme": "artifact-curve clustered resampling with replacement; all nine strictness levels of a curve stay together; family strata preserved for family-stratified analyses; no row-level bootstrap",
+    "bootstrap_seed": 42
+  },
+  "study": "FormalCRRC Reasoning-Capable External Anchor Study",
+  "study_type": "post-study preregistered external-validity / reasoning-capable anchor experiment"
+}

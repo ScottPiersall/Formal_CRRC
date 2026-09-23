@@ -1,0 +1,7 @@
+
+
+Before giving the final label, reason about whether the stated criterion is met.
+Do not give the final A or B label until the reasoning is complete.
+When the reasoning is complete, write exactly:
+FINAL:
+and then give the label.

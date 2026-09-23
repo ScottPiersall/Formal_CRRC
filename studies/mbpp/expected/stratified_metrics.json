@@ -1,0 +1,7570 @@
+[
+  {
+    "n": 276,
+    "estimate": 0.7081320450885669,
+    "CI95": [
+      0.6654589371980677,
+      0.7479871175523349
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7081320450885668,
+      0.7081320450885668
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.519774011299435,
+    "CI95": [
+      0.4463276836158192,
+      0.5932203389830508
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.519774011299435,
+      0.519774011299435
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.33695652173913043,
+    "CI95": [
+      0.2753623188405797,
+      0.40217391304347827
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.33695652173913043,
+      0.33695652173913043
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.2536231884057971,
+    "CI95": [
+      0.2028985507246377,
+      0.30434782608695654
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.2536231884057971,
+      0.2536231884057971
+    ],
+    "note": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.7381535947712418,
+    "CI95": [
+      0.698937908496732,
+      0.7761437908496732
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 272,
+    "point_coverage": 0.99597423510467,
+    "full_population_identification_bounds": [
+      0.7363123993558777,
+      0.7403381642512078
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.43103448275862066,
+    "CI95": [
+      0.3563218390804598,
+      0.5057471264367817
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.99597423510467,
+    "full_population_identification_bounds": [
+      0.423728813559322,
+      0.4406779661016949
+    ],
+    "note": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.4632352941176471,
+    "CI95": [
+      0.3786764705882353,
+      0.5551470588235294
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 272,
+    "point_coverage": 0.99597423510467,
+    "full_population_identification_bounds": [
+      0.45652173913043476,
+      0.4673913043478261
+    ],
+    "note": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.40808823529411764,
+    "CI95": [
+      0.3492647058823529,
+      0.46691176470588236
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 272,
+    "point_coverage": 0.99597423510467,
+    "full_population_identification_bounds": [
+      0.40217391304347827,
+      0.40942028985507245
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.7069243156199678,
+    "CI95": [
+      0.6646537842190016,
+      0.7471819645732689
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7069243156199678,
+      0.7069243156199678
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.519774011299435,
+    "CI95": [
+      0.4463276836158192,
+      0.5932203389830508
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.519774011299435,
+      0.519774011299435
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.33695652173913043,
+    "CI95": [
+      0.2753623188405797,
+      0.40217391304347827
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.33695652173913043,
+      0.33695652173913043
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.2536231884057971,
+    "CI95": [
+      0.2028985507246377,
+      0.30434782608695654
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.2536231884057971,
+      0.2536231884057971
+    ],
+    "note": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.7381535947712418,
+    "CI95": [
+      0.698937908496732,
+      0.7761437908496732
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 272,
+    "point_coverage": 0.99597423510467,
+    "full_population_identification_bounds": [
+      0.7363123993558777,
+      0.7403381642512078
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.43103448275862066,
+    "CI95": [
+      0.3563218390804598,
+      0.5057471264367817
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.99597423510467,
+    "full_population_identification_bounds": [
+      0.423728813559322,
+      0.4406779661016949
+    ],
+    "note": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.4632352941176471,
+    "CI95": [
+      0.3786764705882353,
+      0.5551470588235294
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 272,
+    "point_coverage": 0.99597423510467,
+    "full_population_identification_bounds": [
+      0.45652173913043476,
+      0.4673913043478261
+    ],
+    "note": null
+  },
+  {
+    "n": 272,
+    "estimate": 0.40441176470588236,
+    "CI95": [
+      0.34558823529411764,
+      0.4632352941176471
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 272,
+    "point_coverage": 0.99597423510467,
+    "full_population_identification_bounds": [
+      0.39855072463768115,
+      0.4057971014492754
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.7298711755233495,
+    "CI95": [
+      0.6904186795491143,
+      0.7669082125603864
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7298711755233493,
+      0.7298711755233493
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.96045197740113,
+    "CI95": [
+      0.9322033898305084,
+      0.9887005649717514
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.96045197740113,
+      0.96045197740113
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.03985507246376811,
+    "CI95": [
+      0.010869565217391304,
+      0.07608695652173914
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.03985507246376811,
+      0.03985507246376811
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.3804347826086957,
+    "CI95": [
+      0.322463768115942,
+      0.4384057971014493
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3804347826086957,
+      0.3804347826086957
+    ],
+    "note": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.7562854825628549,
+    "CI95": [
+      0.7177615571776156,
+      0.7923965936739658
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 274,
+    "point_coverage": 0.9987922705314011,
+    "full_population_identification_bounds": [
+      0.7568438003220612,
+      0.7580515297906603
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.4857142857142857,
+    "CI95": [
+      0.4114285714285714,
+      0.56
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9987922705314011,
+    "full_population_identification_bounds": [
+      0.480225988700565,
+      0.4915254237288136
+    ],
+    "note": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.40875912408759124,
+    "CI95": [
+      0.33211678832116787,
+      0.4927007299270073
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 274,
+    "point_coverage": 0.9987922705314011,
+    "full_population_identification_bounds": [
+      0.4057971014492754,
+      0.41304347826086957
+    ],
+    "note": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.4854014598540146,
+    "CI95": [
+      0.42700729927007297,
+      0.5437956204379562
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 274,
+    "point_coverage": 0.9987922705314011,
+    "full_population_identification_bounds": [
+      0.48188405797101447,
+      0.4891304347826087
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.7314814814814814,
+    "CI95": [
+      0.6920289855072463,
+      0.7681159420289855
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7314814814814815,
+      0.7314814814814815
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.96045197740113,
+    "CI95": [
+      0.9322033898305084,
+      0.9887005649717514
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.96045197740113,
+      0.96045197740113
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.03985507246376811,
+    "CI95": [
+      0.010869565217391304,
+      0.07608695652173914
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.03985507246376811,
+      0.03985507246376811
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.3804347826086957,
+    "CI95": [
+      0.322463768115942,
+      0.4384057971014493
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3804347826086957,
+      0.3804347826086957
+    ],
+    "note": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.7562854825628549,
+    "CI95": [
+      0.7177615571776156,
+      0.7923965936739658
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 274,
+    "point_coverage": 0.9987922705314011,
+    "full_population_identification_bounds": [
+      0.7568438003220612,
+      0.7580515297906603
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.4857142857142857,
+    "CI95": [
+      0.4114285714285714,
+      0.56
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9987922705314011,
+    "full_population_identification_bounds": [
+      0.480225988700565,
+      0.4915254237288136
+    ],
+    "note": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.4051094890510949,
+    "CI95": [
+      0.3284671532846715,
+      0.48905109489051096
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 274,
+    "point_coverage": 0.9987922705314011,
+    "full_population_identification_bounds": [
+      0.40217391304347827,
+      0.40942028985507245
+    ],
+    "note": null
+  },
+  {
+    "n": 274,
+    "estimate": 0.4854014598540146,
+    "CI95": [
+      0.42700729927007297,
+      0.5437956204379562
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 274,
+    "point_coverage": 0.9987922705314011,
+    "full_population_identification_bounds": [
+      0.48188405797101447,
+      0.4891304347826087
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.42592592592592593,
+    "CI95": [
+      0.3796296296296296,
+      0.47181964573268914
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.42592592592592593,
+      0.42592592592592593
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.822463768115942,
+    "CI95": [
+      0.7246376811594203,
+      0.9239130434782609
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.822463768115942,
+      0.822463768115942
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.07246376811594203,
+    "CI95": [
+      0.043478260869565216,
+      0.10507246376811594
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.07246376811594203,
+      0.07246376811594203
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.4742351046698873,
+    "CI95": [
+      0.4243156199677939,
+      0.5249798711755231
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.4742351046698873,
+      0.4742351046698873
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.8188405797101449,
+    "CI95": [
+      0.7210144927536232,
+      0.9202898550724637
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8188405797101449,
+      0.8188405797101449
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.3442028985507246,
+    "CI95": [
+      0.2898550724637681,
+      0.39855072463768115
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3442028985507246,
+      0.3442028985507246
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.429951690821256,
+    "CI95": [
+      0.3800322061191626,
+      0.47906602254428343
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.429951690821256,
+      0.429951690821256
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.822463768115942,
+    "CI95": [
+      0.7246376811594203,
+      0.9239130434782609
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.822463768115942,
+      0.822463768115942
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.18840579710144928,
+    "CI95": [
+      0.14492753623188406,
+      0.23550724637681159
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.18840579710144928,
+      0.18840579710144928
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.4742351046698874,
+    "CI95": [
+      0.4243156199677939,
+      0.5253623188405797
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.4742351046698873,
+      0.4742351046698873
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.8188405797101449,
+    "CI95": [
+      0.7210144927536232,
+      0.9202898550724637
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8188405797101449,
+      0.8188405797101449
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.3442028985507246,
+    "CI95": [
+      0.2898550724637681,
+      0.39855072463768115
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3442028985507246,
+      0.3442028985507246
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.49235104669887275,
+    "CI95": [
+      0.44323671497584544,
+      0.5418679549114331
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.49235104669887275,
+      0.49235104669887275
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.21468926553672316,
+    "CI95": [
+      0.15819209039548024,
+      0.2768361581920904
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.21468926553672316,
+      0.21468926553672316
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.5362318840579711,
+    "CI95": [
+      0.47101449275362317,
+      0.605072463768116
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5362318840579711,
+      0.5362318840579711
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.3333333333333333,
+    "CI95": [
+      0.27898550724637683,
+      0.38768115942028986
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.49557165861513686,
+    "CI95": [
+      0.4472624798711755,
+      0.5438808373590981
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.49557165861513686,
+      0.49557165861513686
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.13559322033898305,
+    "CI95": [
+      0.0847457627118644,
+      0.1864406779661017
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.13559322033898305,
+      0.13559322033898305
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.6014492753623188,
+    "CI95": [
+      0.532608695652174,
+      0.6739130434782609
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6014492753623188,
+      0.6014492753623188
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.31521739130434784,
+    "CI95": [
+      0.2608695652173913,
+      0.3695652173913043
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.31521739130434784,
+      0.31521739130434784
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.49033816425120774,
+    "CI95": [
+      0.4412238325281804,
+      0.5394524959742352
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.49033816425120774,
+      0.49033816425120774
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.21468926553672316,
+    "CI95": [
+      0.15819209039548024,
+      0.2768361581920904
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.21468926553672316,
+      0.21468926553672316
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.5362318840579711,
+    "CI95": [
+      0.47101449275362317,
+      0.605072463768116
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5362318840579711,
+      0.5362318840579711
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.3333333333333333,
+    "CI95": [
+      0.27898550724637683,
+      0.38768115942028986
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.501207729468599,
+    "CI95": [
+      0.4533011272141707,
+      0.5487117552334944
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.501207729468599,
+      0.501207729468599
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.14689265536723164,
+    "CI95": [
+      0.096045197740113,
+      0.1977401129943503
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 276,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.14689265536723164,
+      0.14689265536723164
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.5942028985507246,
+    "CI95": [
+      0.5253623188405797,
+      0.6666666666666666
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5942028985507246,
+      0.5942028985507246
+    ],
+    "note": null
+  },
+  {
+    "n": 276,
+    "estimate": 0.3115942028985507,
+    "CI95": [
+      0.2572463768115942,
+      0.36594202898550726
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "all",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 276,
+    "eligible_tasks": 276,
+    "complete_metric_tasks": 276,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3115942028985507,
+      0.3115942028985507
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.5286195286195287,
+    "CI95": [
+      0.44781144781144777,
+      0.6060606060606061
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5286195286195285,
+      0.5286195286195285
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.48484848484848486,
+    "CI95": [
+      0.30303030303030304,
+      0.6666666666666666
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.48484848484848486,
+      0.48484848484848486
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.7575757575757576,
+    "CI95": [
+      0.45454545454545453,
+      1.0909090909090908
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7575757575757576,
+      0.7575757575757576
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.6565656565656565,
+    "CI95": [
+      0.5723905723905724,
+      0.7373737373737373
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6565656565656566,
+      0.6565656565656566
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.2727272727272727,
+    "CI95": [
+      0.12121212121212122,
+      0.42424242424242425
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.2727272727272727,
+      0.2727272727272727
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 1.5454545454545454,
+    "CI95": [
+      1.0909090909090908,
+      2.0303030303030303
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.5454545454545454,
+      1.5454545454545454
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12121212121212122,
+    "CI95": [
+      0.030303030303030304,
+      0.24242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.12121212121212122
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.5286195286195287,
+    "CI95": [
+      0.44781144781144777,
+      0.6060606060606061
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5286195286195285,
+      0.5286195286195285
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.48484848484848486,
+    "CI95": [
+      0.30303030303030304,
+      0.6666666666666666
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.48484848484848486,
+      0.48484848484848486
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.7575757575757576,
+    "CI95": [
+      0.45454545454545453,
+      1.0909090909090908
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7575757575757576,
+      0.7575757575757576
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.6565656565656565,
+    "CI95": [
+      0.5723905723905724,
+      0.7373737373737373
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6565656565656566,
+      0.6565656565656566
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.2727272727272727,
+    "CI95": [
+      0.12121212121212122,
+      0.42424242424242425
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.2727272727272727,
+      0.2727272727272727
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 1.5454545454545454,
+    "CI95": [
+      1.0909090909090908,
+      2.0303030303030303
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.5454545454545454,
+      1.5454545454545454
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12121212121212122,
+    "CI95": [
+      0.030303030303030304,
+      0.24242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.12121212121212122
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.6599326599326598,
+    "CI95": [
+      0.5757575757575758,
+      0.7407407407407408
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6599326599326599,
+      0.6599326599326599
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.7878787878787878,
+    "CI95": [
+      0.6363636363636364,
+      0.9090909090909091
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7878787878787878,
+      0.7878787878787878
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.3333333333333333,
+    "CI95": [
+      0.12121212121212122,
+      0.6060606060606061
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.09090909090909091,
+    "CI95": [
+      0.0,
+      0.21212121212121213
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.09090909090909091,
+      0.09090909090909091
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.707070707070707,
+    "CI95": [
+      0.6296296296296295,
+      0.7811447811447811
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7070707070707071,
+      0.7070707070707071
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.36363636363636365,
+    "CI95": [
+      0.21212121212121213,
+      0.5454545454545454
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.36363636363636365,
+      0.36363636363636365
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 1.303030303030303,
+    "CI95": [
+      0.9090909090909091,
+      1.696969696969697
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.303030303030303,
+      1.303030303030303
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12121212121212122,
+    "CI95": [
+      0.030303030303030304,
+      0.24242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.12121212121212122
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.6599326599326598,
+    "CI95": [
+      0.5757575757575758,
+      0.7407407407407408
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6599326599326599,
+      0.6599326599326599
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.7878787878787878,
+    "CI95": [
+      0.6363636363636364,
+      0.9090909090909091
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7878787878787878,
+      0.7878787878787878
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.3333333333333333,
+    "CI95": [
+      0.12121212121212122,
+      0.6060606060606061
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.09090909090909091,
+    "CI95": [
+      0.0,
+      0.21212121212121213
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.09090909090909091,
+      0.09090909090909091
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.707070707070707,
+    "CI95": [
+      0.6296296296296295,
+      0.7811447811447811
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7070707070707071,
+      0.7070707070707071
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.36363636363636365,
+    "CI95": [
+      0.21212121212121213,
+      0.5454545454545454
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.36363636363636365,
+      0.36363636363636365
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 1.2727272727272727,
+    "CI95": [
+      0.8787878787878788,
+      1.6666666666666667
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.2727272727272727,
+      1.2727272727272727
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.12121212121212122,
+    "CI95": [
+      0.030303030303030304,
+      0.24242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.12121212121212122,
+      0.12121212121212122
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.39730639730639733,
+    "CI95": [
+      0.31986531986531985,
+      0.47811447811447816
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.3973063973063973,
+      0.3973063973063973
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 2.515151515151515,
+    "CI95": [
+      2.1818181818181817,
+      2.8484848484848486
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      2.515151515151515,
+      2.515151515151515
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.5185185185185185,
+    "CI95": [
+      0.4377104377104377,
+      0.6026936026936027
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5185185185185185,
+      0.5185185185185185
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 2.484848484848485,
+    "CI95": [
+      2.1515151515151514,
+      2.8181818181818183
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      2.484848484848485,
+      2.484848484848485
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.48148148148148145,
+    "CI95": [
+      0.3939393939393939,
+      0.5723905723905724
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.4814814814814815,
+      0.4814814814814815
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 2.515151515151515,
+    "CI95": [
+      2.1818181818181817,
+      2.8484848484848486
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      2.515151515151515,
+      2.515151515151515
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.5151515151515152,
+    "CI95": [
+      0.4343434343434343,
+      0.5993265993265994
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5151515151515151,
+      0.5151515151515151
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 2.484848484848485,
+    "CI95": [
+      2.1515151515151514,
+      2.8181818181818183
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      2.484848484848485,
+      2.484848484848485
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.5791245791245792,
+    "CI95": [
+      0.4949494949494949,
+      0.6632996632996633
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5791245791245792,
+      0.5791245791245792
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.36363636363636365,
+    "CI95": [
+      0.21212121212121213,
+      0.5454545454545454
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.36363636363636365,
+      0.36363636363636365
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.9090909090909091,
+    "CI95": [
+      0.6363636363636364,
+      1.2121212121212122
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9090909090909091,
+      0.9090909090909091
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.5993265993265994,
+    "CI95": [
+      0.5151515151515151,
+      0.6835016835016835
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5993265993265994,
+      0.5993265993265994
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.30303030303030304,
+    "CI95": [
+      0.15151515151515152,
+      0.45454545454545453
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.30303030303030304,
+      0.30303030303030304
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 1.0909090909090908,
+    "CI95": [
+      0.7575757575757576,
+      1.4242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.0909090909090908,
+      1.0909090909090908
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.030303030303030304,
+    "CI95": [
+      0.0,
+      0.09090909090909091
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.030303030303030304,
+      0.030303030303030304
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.5723905723905724,
+    "CI95": [
+      0.4882154882154882,
+      0.6565656565656565
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5723905723905724,
+      0.5723905723905724
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.36363636363636365,
+    "CI95": [
+      0.21212121212121213,
+      0.5454545454545454
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.36363636363636365,
+      0.36363636363636365
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.9090909090909091,
+    "CI95": [
+      0.6363636363636364,
+      1.2121212121212122
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9090909090909091,
+      0.9090909090909091
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.6026936026936027,
+    "CI95": [
+      0.5185185185185185,
+      0.6868686868686869
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6026936026936027,
+      0.6026936026936027
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.30303030303030304,
+    "CI95": [
+      0.15151515151515152,
+      0.45454545454545453
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.30303030303030304,
+      0.30303030303030304
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 1.0909090909090908,
+    "CI95": [
+      0.7575757575757576,
+      1.4242424242424243
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.0909090909090908,
+      1.0909090909090908
+    ],
+    "note": null
+  },
+  {
+    "n": 33,
+    "estimate": 0.030303030303030304,
+    "CI95": [
+      0.0,
+      0.09090909090909091
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "partial",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 33,
+    "eligible_tasks": 33,
+    "complete_metric_tasks": 33,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.030303030303030304,
+      0.030303030303030304
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.7106481481481483,
+    "CI95": [
+      0.6574074074074073,
+      0.7615740740740741
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7106481481481481,
+      0.7106481481481481
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.5277777777777778,
+    "CI95": [
+      0.4444444444444444,
+      0.6111111111111112
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5277777777777778,
+      0.5277777777777778
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.4722222222222222,
+    "CI95": [
+      0.3888888888888889,
+      0.5555555555555556
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.4722222222222222,
+      0.4722222222222222
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.619385342789598,
+    "CI95": [
+      0.5610717100078803,
+      0.676910953506698
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 141,
+    "point_coverage": 0.9945987654320988,
+    "full_population_identification_bounds": [
+      0.6188271604938271,
+      0.6242283950617283
+    ],
+    "note": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.46808510638297873,
+    "CI95": [
+      0.3829787234042553,
+      0.5464539007092147
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 141,
+    "point_coverage": 0.9945987654320988,
+    "full_population_identification_bounds": [
+      0.4583333333333333,
+      0.4791666666666667
+    ],
+    "note": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.5319148936170213,
+    "CI95": [
+      0.45354609929078027,
+      0.6170212765957447
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 141,
+    "point_coverage": 0.9945987654320988,
+    "full_population_identification_bounds": [
+      0.5208333333333334,
+      0.5416666666666666
+    ],
+    "note": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.1773049645390071,
+    "CI95": [
+      0.11347517730496454,
+      0.24113475177304963
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 141,
+    "point_coverage": 0.9945987654320988,
+    "full_population_identification_bounds": [
+      0.1736111111111111,
+      0.18055555555555555
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.7137345679012346,
+    "CI95": [
+      0.6612654320987654,
+      0.7638888888888888
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7137345679012346,
+      0.7137345679012346
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.5277777777777778,
+    "CI95": [
+      0.4444444444444444,
+      0.6111111111111112
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5277777777777778,
+      0.5277777777777778
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.4722222222222222,
+    "CI95": [
+      0.3888888888888889,
+      0.5555555555555556
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.4722222222222222,
+      0.4722222222222222
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.619385342789598,
+    "CI95": [
+      0.5610717100078803,
+      0.676910953506698
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 141,
+    "point_coverage": 0.9945987654320988,
+    "full_population_identification_bounds": [
+      0.6188271604938271,
+      0.6242283950617283
+    ],
+    "note": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.46808510638297873,
+    "CI95": [
+      0.3829787234042553,
+      0.5464539007092147
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 141,
+    "point_coverage": 0.9945987654320988,
+    "full_population_identification_bounds": [
+      0.4583333333333333,
+      0.4791666666666667
+    ],
+    "note": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.5319148936170213,
+    "CI95": [
+      0.45354609929078027,
+      0.6170212765957447
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 141,
+    "point_coverage": 0.9945987654320988,
+    "full_population_identification_bounds": [
+      0.5208333333333334,
+      0.5416666666666666
+    ],
+    "note": null
+  },
+  {
+    "n": 141,
+    "estimate": 0.1702127659574468,
+    "CI95": [
+      0.11347517730496454,
+      0.23404255319148937
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 141,
+    "point_coverage": 0.9945987654320988,
+    "full_population_identification_bounds": [
+      0.16666666666666666,
+      0.1736111111111111
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.7916666666666667,
+    "CI95": [
+      0.7399691358024691,
+      0.841820987654321
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7916666666666666,
+      0.7916666666666666
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.6041666666666666,
+    "CI95": [
+      0.5208333333333334,
+      0.6805555555555556
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6041666666666666,
+      0.6041666666666666
+    ],
+    "note": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.6658841940532082,
+    "CI95": [
+      0.6064162754303599,
+      0.7237871674491393
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 142,
+    "point_coverage": 0.9976851851851851,
+    "full_population_identification_bounds": [
+      0.6682098765432098,
+      0.6705246913580247
+    ],
+    "note": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.5140845070422535,
+    "CI95": [
+      0.4295774647887324,
+      0.5915492957746479
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 142,
+    "point_coverage": 0.9976851851851851,
+    "full_population_identification_bounds": [
+      0.5069444444444444,
+      0.5208333333333334
+    ],
+    "note": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.4859154929577465,
+    "CI95": [
+      0.4084507042253521,
+      0.5704225352112676
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 142,
+    "point_coverage": 0.9976851851851851,
+    "full_population_identification_bounds": [
+      0.4791666666666667,
+      0.4930555555555556
+    ],
+    "note": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.43661971830985913,
+    "CI95": [
+      0.3591549295774648,
+      0.5140845070422535
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 142,
+    "point_coverage": 0.9976851851851851,
+    "full_population_identification_bounds": [
+      0.4305555555555556,
+      0.4444444444444444
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.7947530864197531,
+    "CI95": [
+      0.7430555555555556,
+      0.8449074074074073
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7947530864197531,
+      0.7947530864197531
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.6041666666666666,
+    "CI95": [
+      0.5208333333333334,
+      0.6805555555555556
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6041666666666666,
+      0.6041666666666666
+    ],
+    "note": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.6658841940532082,
+    "CI95": [
+      0.6064162754303599,
+      0.7237871674491393
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 142,
+    "point_coverage": 0.9976851851851851,
+    "full_population_identification_bounds": [
+      0.6682098765432098,
+      0.6705246913580247
+    ],
+    "note": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.5140845070422535,
+    "CI95": [
+      0.4295774647887324,
+      0.5915492957746479
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 142,
+    "point_coverage": 0.9976851851851851,
+    "full_population_identification_bounds": [
+      0.5069444444444444,
+      0.5208333333333334
+    ],
+    "note": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.4859154929577465,
+    "CI95": [
+      0.4084507042253521,
+      0.5704225352112676
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 142,
+    "point_coverage": 0.9976851851851851,
+    "full_population_identification_bounds": [
+      0.4791666666666667,
+      0.4930555555555556
+    ],
+    "note": null
+  },
+  {
+    "n": 142,
+    "estimate": 0.43661971830985913,
+    "CI95": [
+      0.3591549295774648,
+      0.5140845070422535
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 142,
+    "point_coverage": 0.9976851851851851,
+    "full_population_identification_bounds": [
+      0.4305555555555556,
+      0.4444444444444444
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.12962962962962962,
+    "CI95": [
+      0.09799382716049382,
+      0.16512345679012347
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.12962962962962962,
+      0.12962962962962962
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.10570987654320989,
+    "CI95": [
+      0.09259259259259262,
+      0.1219135802469136
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.10570987654320987,
+      0.10570987654320987
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.06790123456790123,
+    "CI95": [
+      0.05092592592592593,
+      0.08719135802469136
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.06790123456790123,
+      0.06790123456790123
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.1064814814814815,
+    "CI95": [
+      0.091820987654321,
+      0.12345679012345682
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.10648148148148147,
+      0.10648148148148147
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 1.0,
+    "CI95": [
+      1.0,
+      1.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.1373456790123457,
+    "CI95": [
+      0.12037037037037039,
+      0.15895061728395066
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.13734567901234565,
+      0.13734567901234565
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.18055555555555555,
+    "CI95": [
+      0.11805555555555555,
+      0.24305555555555555
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.18055555555555555,
+      0.18055555555555555
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.8194444444444444,
+    "CI95": [
+      0.7569444444444444,
+      0.8819444444444444
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8194444444444444,
+      0.8194444444444444
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.14351851851851855,
+    "CI95": [
+      0.12500000000000003,
+      0.16589506172839508
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.1435185185185185,
+      0.1435185185185185
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.09722222222222222,
+    "CI95": [
+      0.05555555555555555,
+      0.14583333333333334
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.09722222222222222,
+      0.09722222222222222
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.9027777777777778,
+    "CI95": [
+      0.8541666666666666,
+      0.9444444444444444
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9027777777777778,
+      0.9027777777777778
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.13348765432098766,
+    "CI95": [
+      0.11805555555555558,
+      0.15358796296296245
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.13348765432098764,
+      0.13348765432098764
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.18055555555555555,
+    "CI95": [
+      0.11805555555555555,
+      0.24305555555555555
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.18055555555555555,
+      0.18055555555555555
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.8194444444444444,
+    "CI95": [
+      0.7569444444444444,
+      0.8819444444444444
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8194444444444444,
+      0.8194444444444444
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.15586419753086422,
+    "CI95": [
+      0.1358024691358025,
+      0.17978395061728397
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.1558641975308642,
+      0.1558641975308642
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.1111111111111111,
+    "CI95": [
+      0.0625,
+      0.16666666666666666
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.1111111111111111,
+      0.1111111111111111
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.8888888888888888,
+    "CI95": [
+      0.8333333333333334,
+      0.9375
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8888888888888888,
+      0.8888888888888888
+    ],
+    "note": null
+  },
+  {
+    "n": 144,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z0",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 144,
+    "eligible_tasks": 144,
+    "complete_metric_tasks": 144,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.7643097643097642,
+    "CI95": [
+      0.6835016835016835,
+      0.8417508417508418
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7643097643097644,
+      0.7643097643097644
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.7070707070707071,
+    "CI95": [
+      0.6161616161616161,
+      0.797979797979798
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7070707070707071,
+      0.7070707070707071
+    ],
+    "note": null
+  },
+  {
+    "n": 98,
+    "estimate": 0.9365079365079364,
+    "CI95": [
+      0.8934240362811792,
+      0.9716553287981861
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 98,
+    "point_coverage": 0.9966329966329966,
+    "full_population_identification_bounds": [
+      0.9337822671156004,
+      0.9371492704826038
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 0.9966329966329966,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 98,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 98,
+    "point_coverage": 0.9966329966329966,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 98,
+    "estimate": 0.8367346938775511,
+    "CI95": [
+      0.7653061224489796,
+      0.9081632653061225
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 98,
+    "point_coverage": 0.9966329966329966,
+    "full_population_identification_bounds": [
+      0.8282828282828283,
+      0.8383838383838383
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.7564534231200898,
+    "CI95": [
+      0.6745230078563412,
+      0.8350168350168351
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7564534231200898,
+      0.7564534231200898
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.7070707070707071,
+    "CI95": [
+      0.6161616161616161,
+      0.797979797979798
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7070707070707071,
+      0.7070707070707071
+    ],
+    "note": null
+  },
+  {
+    "n": 98,
+    "estimate": 0.9365079365079364,
+    "CI95": [
+      0.8934240362811792,
+      0.9716553287981861
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 98,
+    "point_coverage": 0.9966329966329966,
+    "full_population_identification_bounds": [
+      0.9337822671156004,
+      0.9371492704826038
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 0.9966329966329966,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 98,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 98,
+    "point_coverage": 0.9966329966329966,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 98,
+    "estimate": 0.8367346938775511,
+    "CI95": [
+      0.7653061224489796,
+      0.9081632653061225
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 98,
+    "point_coverage": 0.9966329966329966,
+    "full_population_identification_bounds": [
+      0.8282828282828283,
+      0.8383838383838383
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.6632996632996632,
+    "CI95": [
+      0.5948372615039281,
+      0.7306397306397308
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6632996632996634,
+      0.6632996632996634
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.15151515151515152,
+    "CI95": [
+      0.08080808080808081,
+      0.2222222222222222
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.15151515151515152,
+      0.15151515151515152
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.9023569023569025,
+    "CI95": [
+      0.8619528619528619,
+      0.9382716049382716
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9023569023569024,
+      0.9023569023569024
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.6767676767676768,
+    "CI95": [
+      0.5858585858585859,
+      0.7676767676767676
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6767676767676768,
+      0.6767676767676768
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.6632996632996632,
+    "CI95": [
+      0.5948372615039281,
+      0.7306397306397308
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6632996632996634,
+      0.6632996632996634
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.15151515151515152,
+    "CI95": [
+      0.08080808080808081,
+      0.2222222222222222
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.15151515151515152,
+      0.15151515151515152
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.9023569023569025,
+    "CI95": [
+      0.8619528619528619,
+      0.9382716049382716
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9023569023569024,
+      0.9023569023569024
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.6767676767676768,
+    "CI95": [
+      0.5858585858585859,
+      0.7676767676767676
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6767676767676768,
+      0.6767676767676768
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.866442199775533,
+    "CI95": [
+      0.8372615039281706,
+      0.8922558922558923
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.866442199775533,
+      0.866442199775533
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.20202020202020202,
+    "CI95": [
+      0.13131313131313133,
+      0.2828282828282828
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.20202020202020202,
+      0.20202020202020202
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.9955106621773289,
+    "CI95": [
+      0.9910213243546577,
+      0.9988776655443322
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9955106621773289,
+      0.9955106621773289
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.9595959595959596,
+    "CI95": [
+      0.9191919191919192,
+      0.98989898989899
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9595959595959596,
+      0.9595959595959596
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.9393939393939394,
+    "CI95": [
+      0.9225589225589225,
+      0.9551066217732884
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9393939393939394,
+      0.9393939393939394
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.5252525252525253,
+    "CI95": [
+      0.43434343434343436,
+      0.6262626262626263
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5252525252525253,
+      0.5252525252525253
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.9955106621773289,
+    "CI95": [
+      0.9910213243546577,
+      0.9988776655443322
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9955106621773289,
+      0.9955106621773289
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.9595959595959596,
+    "CI95": [
+      0.9191919191919192,
+      0.98989898989899
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9595959595959596,
+      0.9595959595959596
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.9797979797979798,
+    "CI95": [
+      0.957351290684624,
+      0.9955106621773289
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9797979797979798,
+      0.9797979797979798
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.9292929292929293,
+    "CI95": [
+      0.8787878787878788,
+      0.9696969696969697
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9292929292929293,
+      0.9292929292929293
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.973063973063973,
+    "CI95": [
+      0.947250280583614,
+      0.98989898989899
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.973063973063973,
+      0.973063973063973
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.8686868686868687,
+    "CI95": [
+      0.797979797979798,
+      0.9292929292929293
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8686868686868687,
+      0.8686868686868687
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.9820426487093155,
+    "CI95": [
+      0.9595959595959596,
+      0.9966329966329965
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9820426487093155,
+      0.9820426487093155
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.9292929292929293,
+    "CI95": [
+      0.8787878787878788,
+      0.9696969696969697
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9292929292929293,
+      0.9292929292929293
+    ],
+    "note": null
+  },
+  {
+    "n": 99,
+    "estimate": 0.9696969696969697,
+    "CI95": [
+      0.9438832772166106,
+      0.9876543209876543
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9696969696969697,
+      0.9696969696969697
+    ],
+    "note": null
+  },
+  {
+    "n": 0,
+    "estimate": null,
+    "CI95": null,
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 99,
+    "eligible_tasks": 0,
+    "complete_metric_tasks": 0,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": null,
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": "FSRR undefined for z=8; oracle errors for z=8 are structurally zero regardless of ranking."
+  },
+  {
+    "n": 99,
+    "estimate": 0.8585858585858586,
+    "CI95": [
+      0.7878787878787878,
+      0.9191919191919192
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "z8",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 99,
+    "eligible_tasks": 99,
+    "complete_metric_tasks": 99,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8585858585858586,
+      0.8585858585858586
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.6767106089139987,
+    "CI95": [
+      0.6290018832391714,
+      0.7219083490269932
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6767106089139987,
+      0.6767106089139987
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.519774011299435,
+    "CI95": [
+      0.4463276836158192,
+      0.5932203389830508
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.519774011299435,
+      0.519774011299435
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.5254237288135594,
+    "CI95": [
+      0.4406779661016949,
+      0.615819209039548
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5254237288135594,
+      0.5254237288135594
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.6264367816091952,
+    "CI95": [
+      0.5772669220945083,
+      0.6756066411238825
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.9956057752667923,
+    "full_population_identification_bounds": [
+      0.6258631512868801,
+      0.6302573760200879
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.43103448275862066,
+    "CI95": [
+      0.3563218390804598,
+      0.5057471264367817
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.9956057752667923,
+    "full_population_identification_bounds": [
+      0.423728813559322,
+      0.4406779661016949
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.7241379310344828,
+    "CI95": [
+      0.603448275862069,
+      0.8563218390804598
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.9956057752667923,
+    "full_population_identification_bounds": [
+      0.711864406779661,
+      0.7288135593220338
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.16666666666666666,
+    "CI95": [
+      0.11494252873563218,
+      0.22413793103448276
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.9956057752667923,
+    "full_population_identification_bounds": [
+      0.1638418079096045,
+      0.1694915254237288
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.6792215944758317,
+    "CI95": [
+      0.6321092278719397,
+      0.7237915881983679
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.6792215944758317,
+      0.6792215944758317
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.519774011299435,
+    "CI95": [
+      0.4463276836158192,
+      0.5932203389830508
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.519774011299435,
+      0.519774011299435
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.5254237288135594,
+    "CI95": [
+      0.4406779661016949,
+      0.615819209039548
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5254237288135594,
+      0.5254237288135594
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.6264367816091952,
+    "CI95": [
+      0.5772669220945083,
+      0.6756066411238825
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.9956057752667923,
+    "full_population_identification_bounds": [
+      0.6258631512868801,
+      0.6302573760200879
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.43103448275862066,
+    "CI95": [
+      0.3563218390804598,
+      0.5057471264367817
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.9956057752667923,
+    "full_population_identification_bounds": [
+      0.423728813559322,
+      0.4406779661016949
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.7241379310344828,
+    "CI95": [
+      0.603448275862069,
+      0.8563218390804598
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.9956057752667923,
+    "full_population_identification_bounds": [
+      0.711864406779661,
+      0.7288135593220338
+    ],
+    "note": null
+  },
+  {
+    "n": 174,
+    "estimate": 0.16091954022988506,
+    "CI95": [
+      0.10919540229885058,
+      0.21839080459770116
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 174,
+    "point_coverage": 0.9956057752667923,
+    "full_population_identification_bounds": [
+      0.15819209039548024,
+      0.1638418079096045
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.7671060891399875,
+    "CI95": [
+      0.7212806026365348,
+      0.8110483364720652
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7671060891399875,
+      0.7671060891399875
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.96045197740113,
+    "CI95": [
+      0.9322033898305084,
+      0.9887005649717514
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.96045197740113,
+      0.96045197740113
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.062146892655367235,
+    "CI95": [
+      0.01694915254237288,
+      0.11864406779661017
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.062146892655367235,
+      0.062146892655367235
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.5084745762711864,
+    "CI95": [
+      0.4350282485875706,
+      0.5819209039548022
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5084745762711864,
+      0.5084745762711864
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.6736507936507936,
+    "CI95": [
+      0.6215873015873016,
+      0.7238095238095238
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9981167608286252,
+    "full_population_identification_bounds": [
+      0.6754551161330823,
+      0.677338355304457
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.4857142857142857,
+    "CI95": [
+      0.4114285714285714,
+      0.56
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9981167608286252,
+    "full_population_identification_bounds": [
+      0.480225988700565,
+      0.4915254237288136
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.64,
+    "CI95": [
+      0.5314285714285715,
+      0.76
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9981167608286252,
+    "full_population_identification_bounds": [
+      0.632768361581921,
+      0.6440677966101694
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.37714285714285717,
+    "CI95": [
+      0.3028571428571429,
+      0.4514285714285714
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9981167608286252,
+    "full_population_identification_bounds": [
+      0.3728813559322034,
+      0.384180790960452
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.7696170747018205,
+    "CI95": [
+      0.7244193345888261,
+      0.8129629629629627
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.7696170747018205,
+      0.7696170747018205
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.96045197740113,
+    "CI95": [
+      0.9322033898305084,
+      0.9887005649717514
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.96045197740113,
+      0.96045197740113
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.062146892655367235,
+    "CI95": [
+      0.01694915254237288,
+      0.11864406779661017
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.062146892655367235,
+      0.062146892655367235
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.5084745762711864,
+    "CI95": [
+      0.4350282485875706,
+      0.5819209039548022
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.5084745762711864,
+      0.5084745762711864
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.6736507936507936,
+    "CI95": [
+      0.6215873015873016,
+      0.7238095238095238
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9981167608286252,
+    "full_population_identification_bounds": [
+      0.6754551161330823,
+      0.677338355304457
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.4857142857142857,
+    "CI95": [
+      0.4114285714285714,
+      0.56
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9981167608286252,
+    "full_population_identification_bounds": [
+      0.480225988700565,
+      0.4915254237288136
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.6342857142857142,
+    "CI95": [
+      0.5257142857142857,
+      0.7485714285714286
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9981167608286252,
+    "full_population_identification_bounds": [
+      0.6271186440677966,
+      0.6384180790960452
+    ],
+    "note": null
+  },
+  {
+    "n": 175,
+    "estimate": 0.37714285714285717,
+    "CI95": [
+      0.3028571428571429,
+      0.4514285714285714
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "qwen",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 175,
+    "point_coverage": 0.9981167608286252,
+    "full_population_identification_bounds": [
+      0.3728813559322034,
+      0.384180790960452
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.1795354676710609,
+    "CI95": [
+      0.14563716258631512,
+      0.21531701192718145
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.17953546767106088,
+      0.17953546767106088
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 1.2824858757062148,
+    "CI95": [
+      1.1807909604519775,
+      1.3954802259887005
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.2824858757062148,
+      1.2824858757062148
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.18267419962335218,
+    "CI95": [
+      0.15254237288135594,
+      0.21531701192718145
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.18267419962335218,
+      0.18267419962335218
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 1.2768361581920904,
+    "CI95": [
+      1.1751412429378532,
+      1.3898305084745763
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.2768361581920904,
+      1.2768361581920904
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.14500941619585686,
+    "CI95": [
+      0.11424984306340238,
+      0.17890772128060267
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.14500941619585686,
+      0.14500941619585686
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 1.2824858757062148,
+    "CI95": [
+      1.1807909604519775,
+      1.3954802259887005
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.2824858757062148,
+      1.2824858757062148
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.18267419962335218,
+    "CI95": [
+      0.15254237288135594,
+      0.21531701192718145
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.18267419962335218,
+      0.18267419962335218
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 1.2768361581920904,
+    "CI95": [
+      1.1751412429378532,
+      1.3898305084745763
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      1.2768361581920904,
+      1.2768361581920904
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "original",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.2197112366603892,
+    "CI95": [
+      0.18706842435655996,
+      0.25549278091650973
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.2197112366603892,
+      0.2197112366603892
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.21468926553672316,
+    "CI95": [
+      0.15819209039548024,
+      0.2768361581920904
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.21468926553672316,
+      0.21468926553672316
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.8361581920903954,
+    "CI95": [
+      0.7627118644067796,
+      0.9096045197740112
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8361581920903954,
+      0.8361581920903954
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.22849968612680477,
+    "CI95": [
+      0.194601381042059,
+      0.2649089767733836
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.22849968612680477,
+      0.22849968612680477
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.13559322033898305,
+    "CI95": [
+      0.0847457627118644,
+      0.1864406779661017
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.13559322033898305,
+      0.13559322033898305
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.9378531073446328,
+    "CI95": [
+      0.8700564971751412,
+      1.0112994350282485
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9378531073446328,
+      0.9378531073446328
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.005649717514124294,
+    "CI95": [
+      0.0,
+      0.01694915254237288
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "bare",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.005649717514124294,
+      0.005649717514124294
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.21531701192718145,
+    "CI95": [
+      0.1826741996233522,
+      0.25047080979284364
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.2153170119271814,
+      0.2153170119271814
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.21468926553672316,
+    "CI95": [
+      0.15819209039548024,
+      0.2768361581920904
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.21468926553672316,
+      0.21468926553672316
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.8361581920903954,
+    "CI95": [
+      0.7627118644067796,
+      0.9096045197740112
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.8361581920903954,
+      0.8361581920903954
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.0,
+    "CI95": [
+      0.0,
+      0.0
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "same_engine_immediate",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.0,
+      0.0
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.23917137476459507,
+    "CI95": [
+      0.2052730696798494,
+      0.27558066541117393
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "accuracy",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.23917137476459507,
+      0.23917137476459507
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.14689265536723164,
+    "CI95": [
+      0.096045197740113,
+      0.1977401129943503
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "FSRR",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.14689265536723164,
+      0.14689265536723164
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.9265536723163842,
+    "CI95": [
+      0.8531073446327684,
+      1.0056497175141244
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "oracle_errors",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.9265536723163842,
+      0.9265536723163842
+    ],
+    "note": null
+  },
+  {
+    "n": 177,
+    "estimate": 0.005649717514124294,
+    "CI95": [
+      0.0,
+      0.01694915254237288
+    ],
+    "CI_type": "marginal task-percentile bootstrap, descriptive",
+    "stratum": "nonconstant",
+    "judge": "mistral",
+    "template": "explicit",
+    "readout": "union",
+    "protocol": "corrected_RTS_v2",
+    "metric": "direct_all_nine",
+    "planned_tasks": 177,
+    "eligible_tasks": 177,
+    "complete_metric_tasks": 177,
+    "point_coverage": 1.0,
+    "full_population_identification_bounds": [
+      0.005649717514124294,
+      0.005649717514124294
+    ],
+    "note": null
+  }
+]

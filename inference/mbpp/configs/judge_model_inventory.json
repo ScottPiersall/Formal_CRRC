@@ -1,0 +1,203 @@
+{
+  "qwen": {
+    "model_id": "Qwen/Qwen2.5-14B-Instruct",
+    "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "path": "/REDACTED_LOCAL_PATH",
+    "exists": true,
+    "weights_loaded_this_turn": false,
+    "current_load_validation": "pending_future_authorized_GPU_smoke",
+    "files": {
+      "config.json": {
+        "bytes": 663,
+        "sha256": "0f2085dbbe2ee251bd6a6a0797d84a6ce34436044d629aa3cba793b43d311a9e",
+        "resolved_basename": "172d20a3d7fc27df9ed89628cafdbaf1a773ddc1"
+      },
+      "generation_config.json": {
+        "bytes": 242,
+        "sha256": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+        "resolved_basename": "bf077f03dc569cfb8a90b3ec1ad20365a620bad6"
+      },
+      "model.safetensors.index.json": {
+        "bytes": 47472,
+        "sha256": "46627f7a9e851d9cede6a7a4c49999082148ced9c22d2b9cfaaa5ba8b65dc68f",
+        "resolved_basename": "76830d05f05b79fd413acb4a718b32bb68d96211"
+      },
+      "tokenizer.json": {
+        "bytes": 7031645,
+        "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "resolved_basename": "443909a61d429dff23010e5bddd28ff530edda00"
+      },
+      "tokenizer_config.json": {
+        "bytes": 7305,
+        "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+        "resolved_basename": "07bfe0640cb5a0037f9322287fbfc682806cf672"
+      }
+    },
+    "shards": [
+      {
+        "name": "model-00001-of-00008.safetensors",
+        "exists": true,
+        "bytes": 3885154816,
+        "resolved_basename": "b477be7572f0ab3ae3cbba38d508cc33e70600b2045669c4ad848051c3432094"
+      },
+      {
+        "name": "model-00002-of-00008.safetensors",
+        "exists": true,
+        "bytes": 3995327992,
+        "resolved_basename": "eb356aacae443e30f52712b1e98fadf206976365e2f5ee886321b0bb38c7cea8"
+      },
+      {
+        "name": "model-00003-of-00008.safetensors",
+        "exists": true,
+        "bytes": 3995328080,
+        "resolved_basename": "cee9dbdf738ce61adb21c70ad5c5585747caaab6457c9ffc3bfa20d73127c2c6"
+      },
+      {
+        "name": "model-00004-of-00008.safetensors",
+        "exists": true,
+        "bytes": 3995338432,
+        "resolved_basename": "b1201a6edcac8ef96a37040524fe37a5a84e446513ed40491e764a37302385fa"
+      },
+      {
+        "name": "model-00005-of-00008.safetensors",
+        "exists": true,
+        "bytes": 3979624824,
+        "resolved_basename": "fbbda3cdee31895d0c57d617449af5579d219df34f3d63f7a23acbfe7fb0a647"
+      },
+      {
+        "name": "model-00006-of-00008.safetensors",
+        "exists": true,
+        "bytes": 3995328080,
+        "resolved_basename": "f7ac652aa101717c97cfeccf5109985cca5b04529b57d3f4d2ec7a802266296b"
+      },
+      {
+        "name": "model-00007-of-00008.safetensors",
+        "exists": true,
+        "bytes": 3995328080,
+        "resolved_basename": "e9115e615b575acb6e8b3a06524b32cbf7f680f07517125e4334f62c3f4acb0d"
+      },
+      {
+        "name": "model-00008-of-00008.safetensors",
+        "exists": true,
+        "bytes": 1698703696,
+        "resolved_basename": "a77f603d8368749c19d3ac9cf2a300e476edcc794ea41af8e473ee12935eadb8"
+      }
+    ],
+    "all_indexed_shards_exist": true,
+    "config": {
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "attention_dropout": 0.0,
+      "bos_token_id": 151643,
+      "eos_token_id": 151645,
+      "hidden_act": "silu",
+      "hidden_size": 5120,
+      "initializer_range": 0.02,
+      "intermediate_size": 13824,
+      "max_position_embeddings": 32768,
+      "max_window_layers": 70,
+      "model_type": "qwen2",
+      "num_attention_heads": 40,
+      "num_hidden_layers": 48,
+      "num_key_value_heads": 8,
+      "rms_norm_eps": 1e-06,
+      "rope_theta": 1000000.0,
+      "sliding_window": 131072,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.43.1",
+      "use_cache": true,
+      "use_sliding_window": false,
+      "vocab_size": 152064
+    },
+    "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+  },
+  "mistral": {
+    "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "path": "/REDACTED_LOCAL_PATH",
+    "exists": true,
+    "weights_loaded_this_turn": false,
+    "current_load_validation": "pending_future_authorized_GPU_smoke",
+    "files": {
+      "config.json": {
+        "bytes": 601,
+        "sha256": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99",
+        "resolved_basename": "9f913dc05d66cfb23c16e3c93b3cc4899813dfa6"
+      },
+      "generation_config.json": {
+        "bytes": 116,
+        "sha256": "b4669f1b8f4185324bd9b12a69e85a1ad2289bc48111ef739cfaaea3bba6b0a9",
+        "resolved_basename": "b6bea2642bc3fe80f392111d52af91d1563a8de2"
+      },
+      "model.safetensors.index.json": {
+        "bytes": 23950,
+        "sha256": "e489ba553b87cde188d921b1a8283c2e0b9d33d635b88147d96ff0fcd6250016",
+        "resolved_basename": "050e5515d49376fc01e4837d031902c63af98111"
+      },
+      "tokenizer.json": {
+        "bytes": 1961548,
+        "sha256": "e553af6fff7d7ad76e830608b218c5c0b0822998d5a1a96099a74cd3c1cb1a49",
+        "resolved_basename": "8d7d23136b474a3df1182ed829db19984e295ee7"
+      },
+      "tokenizer_config.json": {
+        "bytes": 140874,
+        "sha256": "0533dec9cfe319163801b6618d0f3ec9cfa126b6288e3df5deca6e32acb09cd2",
+        "resolved_basename": "940a9c375c745ccbf0bebc5bedcec924d71827aa"
+      },
+      "special_tokens_map.json": {
+        "bytes": 414,
+        "sha256": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+        "resolved_basename": "451134b2ddc2e78555d1e857518c54b4bdc2e87d"
+      }
+    },
+    "shards": [
+      {
+        "name": "model-00001-of-00003.safetensors",
+        "exists": true,
+        "bytes": 4949453792,
+        "resolved_basename": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19"
+      },
+      {
+        "name": "model-00002-of-00003.safetensors",
+        "exists": true,
+        "bytes": 4999819336,
+        "resolved_basename": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0"
+      },
+      {
+        "name": "model-00003-of-00003.safetensors",
+        "exists": true,
+        "bytes": 4546807800,
+        "resolved_basename": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca"
+      }
+    ],
+    "all_indexed_shards_exist": true,
+    "config": {
+      "architectures": [
+        "MistralForCausalLM"
+      ],
+      "attention_dropout": 0.0,
+      "bos_token_id": 1,
+      "eos_token_id": 2,
+      "hidden_act": "silu",
+      "hidden_size": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 14336,
+      "max_position_embeddings": 32768,
+      "model_type": "mistral",
+      "num_attention_heads": 32,
+      "num_hidden_layers": 32,
+      "num_key_value_heads": 8,
+      "rms_norm_eps": 1e-05,
+      "rope_theta": 1000000.0,
+      "sliding_window": null,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.42.0.dev0",
+      "use_cache": true,
+      "vocab_size": 32768
+    },
+    "chat_template_sha256": "e16746b40344d6c5b5265988e0328a0bf7277be86f1c335156eae07e29c82826"
+  }
+}

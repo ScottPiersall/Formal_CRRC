@@ -1,0 +1,5 @@
+{
+  "basis": "Exact wrapper recovered and checked against all 1494 historical native rendered prompts; native AutoTokenizer roundtrip remains a required remote preflight.",
+  "prefix": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\n",
+  "suffix": "<|im_end|>\n<|im_start|>assistant\n"
+}
